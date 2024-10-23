@@ -4,14 +4,14 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Orienteering Cloud Data Hub',
-  tagline: 'Track runners status in real-time',
+  tagline: 'Handle all orienteering event data in one place',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
   url: 'https://orienteerfeed.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/orienteer-feed-docs/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
