@@ -38,7 +38,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/martinkrivda/orienteerfeed',
+            'https://github.com/lukaskett/orienteer-feed-docs',
         },
         // blog: {
         //   showReadingTime: true,
@@ -92,7 +92,7 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
+              label: 'Tutorials',
               to: '/docs/intro',
             },
           ],
@@ -102,7 +102,7 @@ const config: Config = {
           items: [
             {
               label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              href: 'https://discordapp.com/invite/orienteer-feed',
             },
           ],
         },
