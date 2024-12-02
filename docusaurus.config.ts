@@ -27,6 +27,7 @@ const config: Config = {
   i18n: {
     defaultLocale: 'en',
     locales: ['en', 'cs'],
+    // locales: ['en', 'cs', 'sv'],
   },
 
   presets: [
@@ -96,6 +97,16 @@ const config: Config = {
           href: 'https://github.com/martinkrivda/orienteerfeed',
           label: 'GitHub',
           position: 'right',
+        },
+        {
+          type:'localeDropdown',
+          position: 'right',
+          dropdownItemsAfter: [
+            {
+              to: 'https://orienteerfeed.com/help-us-translate',
+              label: 'Help us translate',
+            },
+          ],
         },
       ],
     },

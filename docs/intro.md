@@ -11,7 +11,7 @@ Store all these event data:
 - Changes from from the start captured by [O-Checklist](https://stigning.se/checklist/help_en.html) mobile app
 - New entries
 
-The platform provides specialized app `MRB` for the results visualization as well.
+The platform provides specialized app [MRB](https://api.orienteerfeed.com/mrb/) for the results visualization as well.
 
 ## Integration
 O-Checklist app can use OrienteerFeed as data source.
