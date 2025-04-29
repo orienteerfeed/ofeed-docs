@@ -1,3 +1,8 @@
+# Join our Discord server
+Become part of our community by clicking the link! We're excited to have you with us. Feel free to ask for help or share your experiences.
+
+[![](https://dcbadge.limes.pink/api/server/https://discord.gg/QMvnurgKzU)](https://discord.gg/QMvnurgKzU)
+
 # Website
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
