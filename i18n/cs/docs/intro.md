@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 ---
-# Orienteering Cloud Data Hub
+# OFeed
 ## Úvod
 Moderní platforma zaměřená na IOF XML pro správu všech dat o orientačních závodech na jednom místě. Vyvíjeno jako open-source projekt a hostováno na doméně [orienteerfeed.com](https://orienteerfeed.com).
 

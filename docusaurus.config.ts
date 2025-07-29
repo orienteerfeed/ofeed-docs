@@ -3,20 +3,20 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'Orienteering Cloud Data Hub',
+  title: 'OFeed documentation',
   tagline: 'Handle all orienteering event data in one place',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/ico/2025-04-24_orienteerfeed_favicon_light_transparent_32x32.png',
 
   // Set the production url of your site here
-  url: 'https://orienteerfeed.com',
+  url: 'https://docs.orienteerfeed.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/orienteer-feed-docs/',
+  baseUrl: '/ofeed-docs/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'martinkrivda', // Usually your GitHub org/user name.
-  projectName: 'orienteerfeed', // Usually your repo name.
+  organizationName: 'orienteerfeed', // Usually your GitHub org/user name.
+  projectName: 'ofeed-docs', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -26,7 +26,7 @@ const config: Config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'cs'],
+    locales: ['cs', 'en'],
     // locales: ['en', 'cs', 'sv'],
   },
 
@@ -39,7 +39,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/lukaskett/orienteer-feed-docs',
+            'https://github.com/orienteerfeed/ofeed-docs',
         },
         // blog: {
         //   showReadingTime: true,
@@ -69,8 +69,8 @@ const config: Config = {
       {
         redirects: [
           {
-            from: '/',   // Redirect from the homepage
-            to: '/docs/intro', // To the docs intro page
+            from: '/ofeed-docs/',   // Redirect from the homepage
+            to: '/ofeed-docs/docs/intro', // To the docs intro page
           },
         ],
       },
@@ -81,10 +81,10 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'Orienteering Cloud Data Hub',
+      title: 'OFeed',
       logo: {
         alt: 'OrienteerFeed Logo',
-        src: 'img/o_feed.svg',
+        src: 'img/svg/2025-04-24_orienteerfeed_logo_24x24px_logo_favicon.svg',
       },
       items: [
         // {
@@ -132,7 +132,7 @@ const config: Config = {
       //     ],
       //   },
       // ],
-      copyright: `Copyright © ${new Date().getFullYear()} Orienteering Cloud Data Hub. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Orienteerfeed.`,
     },
     prism: {
       theme: prismThemes.github,

@@ -28,3 +28,27 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+.mrb-pink {
+  color:white;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: rgba(184, 51, 106);
+}
+
+.mrb-blue {
+  color:white;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: rgba(0, 169, 165);
+}
+
+.mrb-grey {
+  color:white;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: rgba(84, 78, 97);
+}

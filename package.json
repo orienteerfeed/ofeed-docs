@@ -1,6 +1,6 @@
 {
-  "name": "orienteer-feed-docs",
-  "version": "0.0.0",
+  "name": "ofeed-docs",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
@@ -15,9 +15,9 @@
     "typecheck": "tsc"
   },
   "dependencies": {
-    "@docusaurus/core": "3.5.2",
-    "@docusaurus/plugin-client-redirects": "^3.5.2",
-    "@docusaurus/preset-classic": "3.5.2",
+    "@docusaurus/core": "^3.8.1",
+    "@docusaurus/plugin-client-redirects": "^3.8.1",
+    "@docusaurus/preset-classic": "^3.8.1",
     "@mdx-js/react": "^3.0.0",
     "clsx": "^2.0.0",
     "prism-react-renderer": "^2.3.0",
@@ -25,9 +25,9 @@
     "react-dom": "^18.0.0"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "3.5.2",
-    "@docusaurus/tsconfig": "3.5.2",
-    "@docusaurus/types": "3.5.2",
+    "@docusaurus/module-type-aliases": "^3.8.1",
+    "@docusaurus/tsconfig": "^3.8.1",
+    "@docusaurus/types": "^3.8.1",
     "typescript": "~5.5.2"
   },
   "browserslist": {

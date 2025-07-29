@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 ---
-# Orienteering Cloud Data Hub
+# OFeed
 ## Om
 En modern IOF XML-orienterad plattform för att hantera alla data från orienteringsevenemang på ett ställe. Utvecklad som ett open-source-projekt och värd på domänen [orienteerfeed.com](https://orienteerfeed.com).
 

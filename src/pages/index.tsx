@@ -10,7 +10,7 @@ export default function Home(): JSX.Element {
 
   useEffect(() => {
     const currentPath = location.pathname;
-    const basePath = '/orienteer-feed-docs/docs/intro/'; // Base path without any locale
+    const basePath = '/ofeed-docs/intro/'; // Base path without any locale
 
     // Check if the current path includes a locale prefix (e.g., /en, /sv)
     const localePrefix = currentPath.split('/')[2]; // Get the third part of the path (locale)
@@ -20,7 +20,7 @@ export default function Home(): JSX.Element {
     const expectedPath =
       currentLocale === defaultLocale
         ? `${basePath}`//Default locale, no locale prefix
-        : `/orienteer-feed-docs/${currentLocale}/docs/intro`; // Locale-specific path
+        : `/ofeed-docs/${currentLocale}/intro`; // Locale-specific path
 
     // If the current path does not match the expected path, redirect
     if (hasLocale && localePrefix !== currentLocale) {

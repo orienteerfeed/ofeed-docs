@@ -1,3 +1,7 @@
+<h1 align="center">
+  <a href="https://orienteerfeed.com"><img src="http://localhost:3000/ofeed-docs/img/svg/2025-04-11_orienteerfeed_512x512px_light.svg" width=400 alt="OFeed"></a>
+</h1>
+
 # Join our Discord server
 Become part of our community by clicking the link! We're excited to have you with us. Feel free to ask for help or share your experiences.
 
@@ -16,7 +20,7 @@ $ yarn
 ### Local Development
 
 ```
-$ yarn start
+$ npm start
 ```
 
 This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
