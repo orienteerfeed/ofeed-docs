@@ -1,5 +1,5 @@
 <h1 align="center">
-  <a href="https://orienteerfeed.com"><img src="http://localhost:3000/ofeed-docs/img/svg/2025-04-11_orienteerfeed_512x512px_light.svg" width=400 alt="OFeed"></a>
+  <a href="https://orienteerfeed.com"><img src="/static/img/svg/ofeed-docs/img/svg/2025-04-11_orienteerfeed_512x512px_light.svg" width=400 alt="OFeed"></a>
 </h1>
 
 # Join our Discord server
