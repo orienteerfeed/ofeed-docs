@@ -4,6 +4,9 @@
   </a>
 </h1>
 
+# About
+Official documentation for the OFeed platform, which includes an introduction to basic concepts and tutorials on the main features.
+
 # Join our Discord server
 Become part of our community by clicking the link! We're excited to have you with us. Feel free to ask for help or share your experiences.
 
@@ -13,13 +16,13 @@ Become part of our community by clicking the link! We're excited to have you wit
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
-### Installation
+## Installation
 
 ```
 $ yarn
 ```
 
-### Local Development
+## Local Development
 
 ```
 $ npm start
@@ -27,7 +30,7 @@ $ npm start
 
 This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
-### Build
+## Build
 
 ```
 $ yarn build
@@ -35,7 +38,7 @@ $ yarn build
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
-### Deployment
+## Deployment
 
 Using SSH:
 
