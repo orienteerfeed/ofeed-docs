@@ -70,7 +70,7 @@ const config: Config = {
         redirects: [
           {
             from: '/ofeed-docs/',   // Redirect from the homepage
-            to: '/ofeed-docs/docs/intro', // To the docs intro page
+            to: '/docs/intro', // To the docs intro page
           },
         ],
       },
