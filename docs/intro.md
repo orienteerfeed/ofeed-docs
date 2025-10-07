@@ -18,8 +18,8 @@ The OFeed platform has specialized app [MRB](/docs/tutorials/visualize-data.md#2
 ## Progresive web application (PWA)
 OFeed supports PWA and the site can be installed via pop up window. The installed app offers a more pleasant browsing experience that can be launched directly from you home screen.
 
-![Pop up install](/img/ofeed_pwa_install_50proc.jpg)
-![Pop up install](/img/ofeed_pwa_install_confirm_50proc.jpg)
+![Pop up install](/img/ofeed_pwa_install.jpg)
+![Pop up install](/img/ofeed_pwa_install_confirm.jpg)
 
 ## Community
 We have launched a Discord server ([invite](https://discord.gg/QMvnurgKzU)) that is open to anyone who wants to share their experiences or is looking for support in solving problems with using the OFeed platform. Join us and help us make OFeed one of the best tools for working with orienteering data during the event.
