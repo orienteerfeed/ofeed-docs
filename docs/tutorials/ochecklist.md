@@ -55,13 +55,16 @@ Number of imported participants is showed
 You are synchronized with the OFeed database in real-time.
 
 When an synchronisation error occurs the OFeed icon has red background
-![Error status](/img/tutorials/ochecklist/ochecklist_09_ofeed_error_status.jpg)
 
-Normally it should be green
-![OK status](/img/tutorials/ochecklist/ochecklist_10_ofeed_ok_status.jpg)
+![Error status](/img/tutorials/ochecklist/ochecklist_09_ofeed_error_status_50proc.jpg)
+
+Normally (everything goes as expected) it should be green
+
+![OK status](/img/tutorials/ochecklist/ochecklist_10_ofeed_ok_status_50proc.jpg)
 
 You can open log by clicking the Ofeed icon in upper right corner
-![OFeed log](/img/tutorials/ochecklist/ochecklist_12_ofeed_upload_log.jpg)
+
+![OFeed log](/img/tutorials/ochecklist/ochecklist_12_ofeed_upload_log_50proc.jpg)
 
 ## Know issues
 Shifting start window - restart the app

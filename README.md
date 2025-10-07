@@ -1,6 +1,6 @@
 <h1 align="center">
   <a href="https://orienteerfeed.com">
-  <img src="https://raw.githubusercontent.com/orienteerfeed/ofeed-docs/main/static/img/svg/2025-04-11_orienteerfeed_512x512px_light.svg" width="400" alt="OFeed">
+  <img src="https://raw.githubusercontent.com/orienteerfeed/ofeed-docs/main/static/img/svg/2025-08-18_orienteerfeed_logo_one-line_light.svg" width="400" alt="OFeed">
   </a>
 </h1>
 
