@@ -15,11 +15,11 @@ Become part of our community by clicking the link! We're excited to have you wit
 # List of events that used OFeed
 - 18.10.2025 [Oblastní žebříček (KAM)](https://orienteerfeed.com/event/cmg4t3f0i0007my3m5hh50wl2) - MRB + OChecklist integration
 - 11.10.2025 [Východočeský pohár (CHC)](https://orienteerfeed.com/event/cmgkvtqvt000rmy3mh3j4mjer) - MRB + OChecklist integration
-- 29.6.2025 [Veteraniáda ČR na krátké trati (SHK)](https://orienteerfeed.com/event/cmcg4c97z0001qz3k2mvgg20t) - just MRB
-- 28.6.2025 [Veteraniáda ČR na klasické trati, oblastní žebříček (SHK)](https://orienteerfeed.com/event/cmcg25zom000fqz3ow8sfy0o5) - just MRB
-- 18.5.2025 [Oblastní žebříček (KAM)](https://orienteerfeed.com/event/cmanymbnb0007qq3e8zg7lny0) - MRB + OChecklist integration
-- 18.5.2025 [Grant Thornton Mistrovství ČR sprintových štafet (KAM)](https://orienteerfeed.com/event/cmanykesl0004qq3eqbouls6q) - just MRB
-- 17.5.2025 [Grant Thornton Mistrovství ČR ve sprintu (KAM)](https://orienteerfeed.com/event/cmanygkd60001qq3e5y5hqndm) - MRB + OChecklist integration
+- 29.06.2025 [Veteraniáda ČR na krátké trati (SHK)](https://orienteerfeed.com/event/cmcg4c97z0001qz3k2mvgg20t) - just MRB
+- 28.06.2025 [Veteraniáda ČR na klasické trati, oblastní žebříček (SHK)](https://orienteerfeed.com/event/cmcg25zom000fqz3ow8sfy0o5) - just MRB
+- 18.05.2025 [Oblastní žebříček (KAM)](https://orienteerfeed.com/event/cmanymbnb0007qq3e8zg7lny0) - MRB + OChecklist integration
+- 18.05.2025 [Grant Thornton Mistrovství ČR sprintových štafet (KAM)](https://orienteerfeed.com/event/cmanykesl0004qq3eqbouls6q) - just MRB
+- 17.05.2025 [Grant Thornton Mistrovství ČR ve sprintu (KAM)](https://orienteerfeed.com/event/cmanygkd60001qq3e5y5hqndm) - MRB + OChecklist integration
 
 # Installation
 
