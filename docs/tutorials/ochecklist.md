@@ -50,11 +50,11 @@ Number of imported participants is showed
 9. Update competitor's status and details (card number and note) via connected sportident unit or manually
 
 ## Changes synchronisation
-- Changes made at the start are uploaded to the OFeed platform in regular intervals.
-- Changes made at registration office, online form etc are detected and downloaded to the OChecklist app.
-You are synchronized with the OFeed database in real-time.
+- Changes made at the start are uploaded to the `OFeed` platform in regular intervals.
+- Changes made at registration office, online form etc. are detected and downloaded to the OChecklist app.
+You are synchronized with the `OFeed` database in real-time.
 
-When an synchronisation error occurs the OFeed icon has red background
+When an synchronisation error occurs the `OFeed` icon has red background
 
 ![Error status](/img/tutorials/ochecklist/ochecklist_09_ofeed_error_status_50proc.jpg)
 
@@ -62,13 +62,9 @@ Normally (everything goes as expected) it should be green
 
 ![OK status](/img/tutorials/ochecklist/ochecklist_10_ofeed_ok_status_50proc.jpg)
 
-You can open log by clicking the Ofeed icon in upper right corner
+You can open log by clicking the `OFeed` icon in upper right corner
 
 ![OFeed log](/img/tutorials/ochecklist/ochecklist_12_ofeed_upload_log_50proc.jpg)
 
-## Know issues
-Shifting start window - restart the app
-Non highlisgted start window - restart the app
-
 # Visualize changes
-OFeed app provides detailed report inside the event administartion (private, so have to be logged in). You can easily filter data as you want and need.
+`OFeed` app provides detailed report inside the event administartion (private, so have to be logged in). You can easily filter data as you want and need.

@@ -9,7 +9,15 @@ OFeed offers two ways of visualizing the uploaded data:
 
 ## 1. Basic tool
 You can check the data in the `event` details. You can analyze both simple results and splits times as well.
-![Visualize Data](/img/tutorials/visualize-data-ofeed.png)
+![Basic tool](/img/tutorials/visualize-data-ofeed.png)
+
+:::tip
+The view supports automatic `speaker` (speaker icon) that comments when a new winner reads out.
+:::
+
+:::tip
+Czech ranking points are calculated on the fly.
+:::
 
 ## 2. MRB
 Dedicated web app called `MyResultBoard` (MRB) that shows startlist and results in one setup. The headers of the classes are colored:
@@ -37,10 +45,24 @@ The recommanded browsers are Google Chrome and Firefox. Other can face an issue 
 
 ### Setup
 Using `Settings` button in the upper right corner gives you advanced options. You can adjust classes that are visualized, number of columns used (based on your screen size and orientation), order of the classes, scrolling style, table content.
-![Visualize Data](/img/tutorials/visualize-data-mrb-settings.png)
+![MRB setup](/img/tutorials/visualize-data-mrb-settings.png)
+
+#### Offline mode
+`OFeed` can run locally in docker but that is suitable just for `MRB` and `OChecklist` can't be connected as it's not available on the internet.
 
 ### Supported event types
 The app supports:
 - invidivual race (both individual and mass start)
 - relays - both sprint relay (4 legs) and classic relay (3 legs)
-![Visualize Data](/img/tutorials/visualize-data-mrb-sprint-relay.png)
+![Visualize data sprint relay](/img/tutorials/visualize-data-mrb-sprint-relay.png)
+
+### Showcase
+- TV screens
+
+![Showcase CHC](/img/tutorials/mrb/mrb_showcase_chc.jpeg)
+![Showcase KAM](/img/tutorials/mrb/mrb_showcase_kam.jpg)
+
+- PC in portrait position
+
+![Showcase SHK women](/img/tutorials/mrb/mrb_showcase_shk_women.jpg)
+![Showcase SHK men](/img/tutorials/mrb/mrb_showcase_shk_men.jpg)

@@ -5,21 +5,26 @@
 </h1>
 
 # About
-Official documentation for the OFeed platform, which includes an introduction to basic concepts and tutorials on the main features.
+Official documentation for the `OFeed` platform, which includes an introduction to basic concepts and tutorials on the main features.
 
 # Join our Discord server
 Become part of our community by clicking the link! We're excited to have you with us. Feel free to ask for help or share your experiences.
 
 [![](https://dcbadge.limes.pink/api/server/https://discord.gg/QMvnurgKzU)](https://discord.gg/QMvnurgKzU)
 
-# Website
+# List of events that used OFeed
+- 18.10.2025 Oblastní žebříček (KAM) - MRB + OChecklist integration
+- 11.10.2025 Východočeský pohár (CHC) - MRB + OChecklist integration
+- 29.6.2025 Veteraniáda ČR na krátké trati (SHK) - just MRB
+- 28.6.2025 Veteraniáda ČR na klasické trati, oblastní žebříček (SHK) - just MRB
+- 18.5.2025 Oblastní žebříček (KAM) - MRB + OChecklist integration
+- 18.5.2025 Grant Thornton Mistrovství ČR sprintových štafet (KAM) - just MRB
+- 17.5.2025 Grant Thornton Mistrovství ČR ve sprintu (KAM) - MRB + OChecklist integration
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
-
-## Installation
+# Installation
 
 ```
-$ yarn
+$ npm install
 ```
 
 ## Local Development
@@ -33,7 +38,7 @@ This command starts a local development server and opens up a browser window. Mo
 ## Build
 
 ```
-$ yarn build
+$ npm run build
 ```
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
