@@ -62,7 +62,7 @@ The app supports:
 ![Showcase CHC](/img/tutorials/mrb/mrb_showcase_chc.jpeg)
 ![Showcase KAM](/img/tutorials/mrb/mrb_showcase_kam.jpg)
 
-- PC in portrait position
+- PC monitors in portrait orientation
 
 ![Showcase SHK women](/img/tutorials/mrb/mrb_showcase_shk_women.jpg)
 ![Showcase SHK men](/img/tutorials/mrb/mrb_showcase_shk_men.jpg)
