@@ -3,4 +3,4 @@ sidebar_position: 2
 ---
 
 # GraphQL
-The same operations as for REST should be available.
+Jsou dostupné totožé oprace jako pro REST. Výhodou je možnost specifikovat požadovaná data v odpovědi což snižuje množství přenesených dat.

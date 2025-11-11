@@ -13,7 +13,7 @@ and filling the form.
 
 
 ## Generate event password
-The password is used for event details update. As well as **event id** is **necessary** for setting up the connection in e.g. `OChecklist` or `Quickevent service`.
+The password is used for event details update. As well as **event id** is **necessary** for setting up the connection in e.g. `OChecklist` or `QuickEvent service`.
 
 ![Event form](/img/tutorials/client/settings_password.png)
 

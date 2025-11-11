@@ -10,15 +10,15 @@ Modern iof xml oriented platform for managing all orienteering event data in one
 Store all event data:
 - Startlists
 - Results
-- Changes from from the start captured by [O-Checklist](https://stigning.se/checklist/help_en.html) mobile app
+- Changes from the start captured by [O-Checklist](https://stigning.se/checklist/help_en.html) mobile app
 - New entries
+
+The platform has specialized app [MRB](/docs/tutorials/visualize-data.md#2-mrb) for the modern and interactive results visualization as well. For more information, click on the link.
 
 ### Main use cases
 - **real-time** data at the start in OChecklist app so that even late entries and card changes are handled before the competitor enters the first corridor
 - changed cards numbers at the start can be processed in a minute and radiocontrols are working for all competitors. No more unkown card numbers
 - competitors that didn't start can be processed in short period of time. When late start appears the `DNS` status is changed back to `Active`.
-
-The OFeed platform has specialized app [MRB](/docs/tutorials/visualize-data.md#2-mrb) for the modern and interactive results visualization as well. For more information, click on the link.
 
 ### Limitations
 Real-time data synchronization requires mobile network availability for both the event center and the start.

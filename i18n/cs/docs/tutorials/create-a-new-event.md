@@ -2,21 +2,21 @@
 sidebar_position: 2
 ---
 
-# Create a new event
-The first step is to create a new event that will store all your data. You have to be logged in and then you can create a new event by click on `+ Create event` button
+# Vytvořit nový závod
+Prvním krokem k využívání OFeedu je vytvoření nového závodu. Je potřeba být přihlášený a následně kliknout na `+ Přidat závod`.
 
 ![Create button](/img/tutorials/client/create_event.png)
 
-and filling the form.
+a vyplnit formulář
 
 ![Event form](/img/tutorials/client/create_event_form.png)
 
 
-## Generate event password
-The password is used for event details update. As well as **event id** is **necessary** for setting up the connection in e.g. `OChecklist` or `Quickevent service`.
+## Generování hesla
+Heslo slouží pro zabazpečení aktualizování dat. Stejně jako **id akce** je **nezbytné** pro nastavení připojení napříkladi do `OCehcklistu` nebo `Služby v QuickEventu`. 
 
 ![Event form](/img/tutorials/client/settings_password.png)
 
-:::info[Warning]
-The password is valid for 7 days. Check the countdown and regenerate the password if needed.
+:::info[Upozornění]
+Heslo je po vygenerování platné 7 dní. Odpočet ukazuje kolik zbývá a heslo není problém v případě potřeby přegenerovat.
 :::

@@ -2,12 +2,12 @@
 sidebar_position: 4
 ---
 
-# Visualize data
-OFeed offers two ways of visualizing the uploaded data:
-- `Basic view` - more for mobile devices and personal usage
-- `MRB` - result presentation system suitable for presenting the startlists/results in the event center on the screens
+# Vizualizace dat
+K dipozici jsou dva způsoby jak prohlížet nahraná data:
+- `Základní pohled` - pro jednotlivce na mobilních zařízeních
+- `MRB` - prezentační systém, které v průběhu závodu přechází ze startovky na výsledky. Určený k zobrazení na monitorech/televizích v centru závodu.
 
-## 1. Basic tool
+## 1. Zíkladní pohled
 You can check the data in the `event` details. You can analyze both simple results and splits times as well.
 ![Basic tool](/img/tutorials/visualize-data-ofeed.png)
 
@@ -20,49 +20,49 @@ Czech ranking points are calculated on the fly.
 :::
 
 ## 2. MRB
-Dedicated web app called `MyResultBoard` (MRB) that shows startlist and results in one setup. The headers of the classes are colored:
-- <span class="mrb-blue">Men</span>
-- <span class="mrb-pink">Women</span>
-- <span class="mrb-grey">Other</span> (e.g. `T`, `Open`)
+Webová aplikace `MyResultBoard` (MRB) určená k zobrazování startovek a výsledků v jednom nastavení. Hlavičky názvů kategorií jsou obarveny:
+- <span class="mrb-blue">Muži</span>
+- <span class="mrb-pink">Ženy</span>
+- <span class="mrb-grey">Ostatní</span> (e.g. `T`, `Open`)
 
-If you turn on showing the Emoji in the table (default option), you can see:
-- 🙈 - disqualified
-- 🏃 - running
-- 🥺 - did not start
-- 🏴 - disqualified by the organiser
-- 🦄 - not competing
-- 🛏️ - not started yet
-- 🥇🥈🥉 - for top three positions
+Pokud zapneš zobrazení Emoji v tabulce (výchozí nastavení), tak se může ukazovat:
+- 🙈 - diskvalifikován
+- 🏃 - běží
+- 🥺 - nevystartoval
+- 🏴 - diskvalifikace pořadatelem
+- 🦄 - běží mimo soutěž
+- 🛏️ - ještě nevystartoval
+- 🥇🥈🥉 - medaile pro první tři místa
 
 ![Visualize Data](/img/tutorials/visualize-data-mrb.png)
 
-### How it works
-Once you upload data to the platform everything is automatically prepared for you. Just visit https://api.orienteerfeed.com/mrb/ and select your event that is listed.
+### Jak funguje
+Jakmile nahraješ startovku nebo výsledky, tak se automaticky založí i závod v MRB. Stačí jít na adresu https://api.orienteerfeed.com/mrb/ a vybrat tvůj závod.
 
-Launch `MRB` in the morning, start regular uploading of the startlists and the results. The startlists are transformed to the results smoothly as the event goes on. No additional settings is needed.
+MRB stačí spustit ráno a zapnout pravidelné nahrávání startovek a výsledků. Startovky se v průběhu závodu změní ve výsledky. Není potřeba nastavovat nic dalšího.
 
-The recommanded browsers are Google Chrome and Firefox. Other can face an issue with e.g. displaying the Emoji.
+Doporučenými prohlížeči pro správné zobrazení jsou Google Chrome a Firefox. U ostatních může být problém, například se zobrazením Emoji (jde v nastavení vypnout).
 
-### Setup
-Using `Settings` button in the upper right corner gives you advanced options. You can adjust classes that are visualized, number of columns used (based on your screen size and orientation), order of the classes, scrolling style, table content.
+### Nastavení
+Pomocí tlačítka `Settings` v pravém horním rohu jde otevřít okno s detailním nastavením zobrazení. Lze vybrat jaké kategorie se mají ukazovat, v kolika sloupcích mají být (záleží na využitém hardwaru), pořadí kategorií, způsob posouvání či zobrazovaný obsah. Nejlepší vše vyzkoušet a vybrat vyhovující nastavení.
 ![MRB setup](/img/tutorials/visualize-data-mrb-settings.png)
 
-#### Offline mode
-`OFeed` can run locally in docker but that is suitable just for `MRB` and `OChecklist` can't be connected as it's not available on the internet.
+#### Offline režim
+`OFeed` je možné spustit i lokálně, což umožní využívat pouze `MRB`. `OChecklist` nebude možné na lokální instanci napojit pokud nebude dostupná v internetu.
 
-### Supported event types
-The app supports:
-- invidivual race (both individual and mass start)
-- relays - both sprint relay (4 legs) and classic relay (3 legs)
+### Podporovaná typy závodu
+Aplikace podporuje:
+- individuální závody (intervalový i hromadný start)
+- štafety - sprintové (4 úseky) i klasické (3 úseky)
 ![Visualize data sprint relay](/img/tutorials/visualize-data-mrb-sprint-relay.png)
 
-### Showcase
-- TV screens
+### Ukázky
+- Televizní obrazovky
 
 ![Showcase CHC](/img/tutorials/mrb/mrb_showcase_chc.jpeg)
 ![Showcase KAM](/img/tutorials/mrb/mrb_showcase_kam.jpg)
 
-- PC monitors in portrait orientation
+- Počítačové monitory ve svislé orientaci
 
 ![Showcase SHK women](/img/tutorials/mrb/mrb_showcase_shk_women.jpg)
 ![Showcase SHK men](/img/tutorials/mrb/mrb_showcase_shk_men.jpg)

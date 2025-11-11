@@ -1,8 +1,8 @@
 {
-  "label": "Tutorials",
+  "label": "Návody",
   "position": 2,
   "link": {
     "type": "generated-index",
-    "description": "First steps to discover the platform"
+    "description": "Detailní návody jak z platformy vytěžit maximum."
   }
 }

@@ -3,24 +3,25 @@ sidebar_position: 1
 ---
 
 # REST
-Swagger with detailed endpoints decription is running [here](https://api.orienteerfeed.com/api-docs).
-## Authorization
-Authorization method is used basic eventId:eventPassword encoded as Base64 string as you can see in `PUT` and `POST` request headers.
+Swagger s detailnějším popisem je dostupný [zde](https://api.orienteerfeed.com/api-docs).
 
-## Import data
-- https://api.orienteerfeed.com/rest/v1/events/{eventId}/competitors
-- can be called regularly (e.g. every 5 minutes) but you have to manage complete data and find new/updated records that's the same as you going to do with updating startlist from xml I guess
+## Autorizace
+Využivá se Basic eventId:eventPassword enkódované jako Base64 řetězec jak je vidět v `PUT` a `POST` hlavičce dotazu.
 
-## Update data
-The update is separated into two groups:
-- #### 1. change status
-  - simple endpoint made just for competitor's status handling
+## Nahrání dat
+- https://api.orienteerfeed.com/rest/v1/upload/iof
+- je možné volat pravidelně (například po 5ti minutách) a zpracovává se celé xml což může něco málo trvat a není to optimální.
+
+## Aktualizace dat
+Aktualizace dat je rozdělěná na dvě skupiny:
+- #### 1. změna statusu
+  - jednoduchý endpoint pouze pro změnu statusu (Běží/Neběží)
   - url: https://api.orienteerfeed.com/rest/v1/events/{eventId}/competitors/{competitorId}/status-change
 
-- #### 2. change competitor's details
-  - update other competitor's data e.g. new card number
+- #### 2. změna údajů závodníka
+  - upravuje ostatní údaje o závodníkovi jako např. číslo čipu
   - url: https://api.orienteerfeed.com/rest/v1/events/{eventId}/competitors/{competitorId}
 
-## Get a list of changes
-You can get a list of changes for the specified `origin` (e.g. START). Authorized endpoint.
-https://api.orienteerfeed.com/rest/v1/events/{eventId}/changelog
+## Získání přehledu změn
+Snadno lze získat přehled všech změn, které v průběhu závodu nastaly. Ideální je využít `origin` parametr (např. START) o omezit jen na konkrétní místo původu. Jde o autorizovaný endpoint ačkoliv je to GET požadavek.
+https://api.orienteerfeed.com/rest/v1/events/{eventId}/changelog?origin=START

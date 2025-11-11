@@ -2,8 +2,8 @@
 sidebar_position: 5
 ---
 
-# Connect to O-Checklist
-Beta version with integrated OFeed platform can be downloaded [here](https://stigning.se/). Will be officially published soon.
+# Connect to OChecklist
+OFeed is supported in offical release of the app since version 5.
 
 ## How to connect
 1. Create a new account at https://orienteerfeed.com/signup

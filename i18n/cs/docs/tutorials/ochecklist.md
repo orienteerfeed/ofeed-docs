@@ -2,69 +2,69 @@
 sidebar_position: 5
 ---
 
-# Connect to O-Checklist
-Beta version with integrated OFeed platform can be downloaded [here](https://stigning.se/). Will be officially published soon.
+# Připojení do OChecklistu
+OChecklist oficiálně podporuje OFeed od zveřejnění verze 5.
 
-## How to connect
-1. Create a new account at https://orienteerfeed.com/signup
+## Jak propojit
+1. Vytvoř si účet na https://orienteerfeed.com/signup
 
-2. Create a new event and generate a new password
+2. Založ nový závod a vygeneruj nové heslo
 
-3. Upload data (manually upload iof xml file or use dedicated service based on used organising software)
+3. Nahraj data (manuálně nahraj iof xml nebo využij intagrující službu v závislosti na používaném pořádacím programuu)
 
-4. Connect the device with OChecklist app to the internet
+4. Připoj zařízení s OChecklistem k internetu
 
-5. Scan QR code outside or inside the O-Checklist mobile app, both options work
-   - You can easily share the qr code with start crew by clicking `Share` button and selecting prefered communication app (Messenger, WhatsApp, ..)
+5. Načti QR kód foťákem nebo přímo v aplikaci, obojí funguje
+   - Kliknutím na tlačítko `Sdílet` můžeš snadno odeslat QR kód například startérům pomocí oblíbené komunikační aplikace (Messenger, WhatsApp, ..)
 
 ![Scan QR code](/img/tutorials/ochecklist/ochecklist_03_scan_qr_code_50proc.jpg)
 
-   - You can use manual settings as well in `Settings` under `Server connection` click on OFeed icon
+   - Připojení je možné nastavit v aplikaci i ručně v `Nastavení` v sekci `Připojení k serveru` kliknutím na ikonu OFeedu
 
 ![Settings](/img/tutorials/ochecklist/ochecklist_01_settings_upd_50proc.jpg)
 
-and fill in the credentials provided in your event settings. Or click on `Scan` and scan QR code.
+a vyplněním potřebných údajů. Nebo kliknutím na `Skenovat` a naskenováním QR kódu.
 
 ![OFeed settings](/img/tutorials/ochecklist/ochecklist_02_ofeed_settings_upd_50proc.jpg)
 
-On the home screen (with deleted data) you can start scanning QR code as well
+Na úvodní obrazovce aplikace (pokud máš smazaná všechna data) je možné rovnou spustit skenování QR kódu
 
 ![Home screen](/img/tutorials/ochecklist/ochecklist_04_init_screen_upd_50proc.jpg)
 
-6. Loaded categories - check event name, date and organiser
+6. Načtené kategorie - ověř správný název závodu, datum a organizátora
 
 ![All categrie available](/img/tutorials/ochecklist/ochecklist_05_categories_available_50proc.jpg)
 
-7. Select required categories - tick/untick categories by start name, e.g.`Start 1`
+7. Vyber kategorie co chceš načíst - výběr je možný i pro celou skupinu kategorií pro konkrétní start, např. `Start 1`
 
 ![Selected categories](/img/tutorials/ochecklist/ochecklist_06_categories_selected_upd_50proc.jpg)
 
-8. Confirm data download by clicking `Import` button. The tick next to the class name indicates that data of the class were successfully downloaded
+8. Výběr potvrď kliknutím na `Import`. Ikony fajfky ukazuje jestli byla data kategorie úspěšně načtena
 
 ![Data imported](/img/tutorials/ochecklist/ochecklist_07_data_imported_upd_50proc.jpg)
 
-Number of imported participants is showed
+Zobrazí se počet závodníků, kteří byli načteni
 
 ![Import confirmation](/img/tutorials/ochecklist/ochecklist_08_import_confirmation_50proc.jpg)
 
-9. Update competitor's status and details (card number and note) via connected sportident unit or manually
+9. Upravuj data závodníků (status, čip, poznámka) pomocí připojené SPORTident krabičky či manuálně
 
-## Changes synchronisation
-- Changes made at the start are uploaded to the `OFeed` platform in regular intervals.
-- Changes made at registration office, online form etc. are detected and downloaded to the OChecklist app.
-You are synchronized with the `OFeed` database in real-time.
+## Synchronizace změn
+- Změny provedené na startu jsou automaticky nahrávány na server `OFeedu` v pravidelných intervalech (lze nastavit).
+- Změny provedené na prezentaci, online apod jsou automaticky detekovány a staženy do OChecklistu
+V případě připojení na `OFeed` máš k dispozici vždy všechna aktuální data.
 
-When an synchronisation error occurs the `OFeed` icon has red background
+Pokud dojde k chybě při nahrávání, tak se `OFeed` ikona zbarví červeně
 
 ![Error status](/img/tutorials/ochecklist/ochecklist_09_ofeed_error_status_50proc.jpg)
 
-Normally (everything goes as expected) it should be green
+Při správním fungování je ikona zelená
 
 ![OK status](/img/tutorials/ochecklist/ochecklist_10_ofeed_ok_status_50proc.jpg)
 
-You can open log by clicking the `OFeed` icon in upper right corner
+Můžeš si zobrazit log z nahrávání kliknutím na `OFeed` ikonu v pravém horním rohu
 
 ![OFeed log](/img/tutorials/ochecklist/ochecklist_12_ofeed_upload_log_50proc.jpg)
 
-# Visualize changes
-`OFeed` app provides detailed report inside the event administartion (private, so have to be logged in). You can easily filter data as you want and need.
+# Vizualizace changeszměn
+`OFeed` nabízí detailní report v administraci závodu (musíš být přihlášený), ve kterém je možné snadno filtrovat změny co tě zajímají.
