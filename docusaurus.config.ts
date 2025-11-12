@@ -11,7 +11,7 @@ const config: Config = {
   url: 'https://docs.orienteerfeed.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/ofeed-docs/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -75,8 +75,8 @@ const config: Config = {
       {
         redirects: [
           {
-            from: '/ofeed-docs/',   // Redirect from the homepage
             to: '/docs/intro', // To the docs intro page
+            from: '/',   // Redirect from the homepage
           },
         ],
       },
@@ -100,7 +100,7 @@ const config: Config = {
         //   label: 'Tutorial',
         // },
         {
-          href: 'https://github.com/martinkrivda/orienteerfeed',
+          href: 'https://github.com/orienteerfeed/ofeed',
           label: 'GitHub',
           position: 'right',
         },
@@ -118,7 +118,7 @@ const config: Config = {
     },
     footer: {
       style: 'dark',
-      // links: [
+      links: [
       //   {
       //     title: 'Docs',
       //     items: [
@@ -128,16 +128,16 @@ const config: Config = {
       //       },
       //     ],
       //   },
-      //   {
-      //     title: 'Community',
-      //     items: [
-      //       {
-      //         label: 'Discord',
-      //         href: 'https://discordapp.com/invite/orienteer-feed',
-      //       },
-      //     ],
-      //   },
-      // ],
+        {
+          title: 'Community',
+          items: [
+            {
+              label: 'Discord',
+              href: 'https://discord.gg/QMvnurgKzU',
+            },
+          ],
+        },
+      ],
       copyright: `Copyright © ${new Date().getFullYear()} Orienteerfeed.`,
     },
     prism: {
