@@ -12,4 +12,4 @@ Fill in the form
 
 ![Visualize Data](/img/tutorials/create-an-account-form.png)
 
-and check your mailbox with confirmation message. Then you can login in and [Create a new event](/docs/tutorials/create-a-new-event.md) as you want.
+and check your mailbox with confirmation message. Then you can login in and [Create a new event](/docs/tutorials/create-a-new-event) as you want.

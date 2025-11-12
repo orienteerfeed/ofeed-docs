@@ -10,10 +10,10 @@ Modern iof xml oriented platform for managing all orienteering event data in one
 Store all event data:
 - Startlists
 - Results
-- Changes from the start captured by [O-Checklist](https://stigning.se/checklist/help_en.html) mobile app
+- Changes from the start captured by [OChecklist](https://stigning.se/checklist/help_en.html) mobile app
 - New entries
 
-The platform has specialized app [MRB](/docs/tutorials/visualize-data.md#2-mrb) for the modern and interactive results visualization as well. For more information, click on the link.
+The platform has specialized app [MRB](/docs/tutorials/visualize-data#2-mrb) for the modern and interactive results visualization as well. For more information, click on the link.
 
 ### Main use cases
 - **real-time** data at the start in OChecklist app so that even late entries and card changes are handled before the competitor enters the first corridor
@@ -30,7 +30,7 @@ We have launched a Discord server ([invite](https://discord.gg/QMvnurgKzU)) that
 Data from the platform can be simply integrated into your app via dedicated API endpoints in both directions.
 
 ### OChecklist
-OFeed is fully integrated into OChecklist mobile app and can be used as a [data source](/docs/tutorials/ochecklist.md). Data is loaded at the beginning and updated regularly as you update it in your organising software. The start crew has access to up-to-date information throughout the event. Changes from the start are transferred to the OFeed platform and are available for further processing.
+OFeed is fully integrated into OChecklist mobile app and can be used as a [data source](/docs/tutorials/ochecklist). Data is loaded at the beginning and updated regularly as you update it in your organising software. The start crew has access to up-to-date information throughout the event. Changes from the start are transferred to the OFeed platform and are available for further processing.
 
 ### SI-Droid Event
 Mobile app called `SI-Droid OFeed Connector` that is published as open-source [project](https://github.com/orienteerfeed/ofeed-sidroid-connector) and handles xml upload to the OFeed platform using `Results Service` running in `SI-Droid Event`. So the readout proccess of your event can be managed on your mobile device without difficulty.

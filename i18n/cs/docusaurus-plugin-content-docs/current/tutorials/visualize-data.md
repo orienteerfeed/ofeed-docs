@@ -5,25 +5,25 @@ sidebar_position: 4
 # Vizualizace dat
 K dipozici jsou dva způsoby jak prohlížet nahraná data:
 - `Základní pohled` - pro jednotlivce na mobilních zařízeních
-- `MRB` - prezentační systém, které v průběhu závodu přechází ze startovky na výsledky. Určený k zobrazení na monitorech/televizích v centru závodu.
+- `MRB` - prezentační systém, který v průběhu závodu přechází ze startovky na výsledky. Určený k zobrazení na monitorech/televizích v centru závodu.
 
-## 1. Zíkladní pohled
-You can check the data in the `event` details. You can analyze both simple results and splits times as well.
+## 1. Základní pohled
+Data můžeš prohlížet v detailu `závodu`. K dispozici jsou na jednotlivých záložkách výsledky i mezičasy.
 ![Basic tool](/img/tutorials/visualize-data-ofeed.png)
 
 :::tip
-The view supports automatic `speaker` (speaker icon) that comments when a new winner reads out.
+Základní pohled nabízí automatického `spíkra` (ikona reproduktoru), který komentuje pokud si vyčte nově vedoucí závodník či závodnice.
 :::
 
 :::tip
-Czech ranking points are calculated on the fly.
+Počet získaných bodů do rankingu se počítá průběžně.
 :::
 
 ## 2. MRB
 Webová aplikace `MyResultBoard` (MRB) určená k zobrazování startovek a výsledků v jednom nastavení. Hlavičky názvů kategorií jsou obarveny:
 - <span class="mrb-blue">Muži</span>
 - <span class="mrb-pink">Ženy</span>
-- <span class="mrb-grey">Ostatní</span> (e.g. `T`, `Open`)
+- <span class="mrb-grey">Ostatní</span> (např. `T`, `Z2`)
 
 Pokud zapneš zobrazení Emoji v tabulce (výchozí nastavení), tak se může ukazovat:
 - 🙈 - diskvalifikován
@@ -48,9 +48,9 @@ Pomocí tlačítka `Settings` v pravém horním rohu jde otevřít okno s detail
 ![MRB setup](/img/tutorials/visualize-data-mrb-settings.png)
 
 #### Offline režim
-`OFeed` je možné spustit i lokálně, což umožní využívat pouze `MRB`. `OChecklist` nebude možné na lokální instanci napojit pokud nebude dostupná v internetu.
+`OFeed` je možné spustit i lokálně, což umožní využívat pouze `MRB`. `OChecklist` nepůjde na lokální instanci napojit pokud nebude dostupná v internetu.
 
-### Podporovaná typy závodu
+### Podporované typy závodu
 Aplikace podporuje:
 - individuální závody (intervalový i hromadný start)
 - štafety - sprintové (4 úseky) i klasické (3 úseky)

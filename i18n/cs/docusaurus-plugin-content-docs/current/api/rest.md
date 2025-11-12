@@ -6,11 +6,11 @@ sidebar_position: 1
 Swagger s detailnějším popisem je dostupný [zde](https://api.orienteerfeed.com/api-docs).
 
 ## Autorizace
-Využivá se Basic eventId:eventPassword enkódované jako Base64 řetězec jak je vidět v `PUT` a `POST` hlavičce dotazu.
+Využivá se Basic eventId:eventPassword enkódované jako Base64 řetězec, jak je vidět u `PUT` a `POST` dotazu v authorization hlavičce.
 
 ## Nahrání dat
 - https://api.orienteerfeed.com/rest/v1/upload/iof
-- je možné volat pravidelně (například po 5ti minutách) a zpracovává se celé xml což může něco málo trvat a není to optimální.
+- je možné volat pravidelně (například po 5ti minutách) a zpracovává se celé xml, což může něco málo trvat a není to optimální.
 
 ## Aktualizace dat
 Aktualizace dat je rozdělěná na dvě skupiny:

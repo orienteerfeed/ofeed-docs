@@ -11,4 +11,4 @@ Vyplň formulář
 
 ![Visualize Data](/img/tutorials/create-an-account-form.png)
 
-a po potvrzení ti do emailu dorazí potvrzování email o úspěšně registraci. Pak se stačí přihlásit a můžeš rovnou založit svůj první [nový závod](/docs/tutorials/create-a-new-event.md).
+a po potvrzení ti do emailu dorazí potvrzování email o úspěšně registraci. Pak se stačí přihlásit a můžeš rovnou založit svůj první [nový závod](/docs/tutorials/create-a-new-event).

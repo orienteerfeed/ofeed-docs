@@ -8,13 +8,13 @@ OChecklist oficiálně podporuje OFeed od zveřejnění verze 5.
 ## Jak propojit
 1. Vytvoř si účet na https://orienteerfeed.com/signup
 
-2. Založ nový závod a vygeneruj nové heslo
+2. Založ nový závod a vygeneruj heslo
 
-3. Nahraj data (manuálně nahraj iof xml nebo využij intagrující službu v závislosti na používaném pořádacím programuu)
+3. Nahraj data (manuálně nahraj iof xml nebo využij integrující službu v závislosti na používaném pořádacím programu)
 
 4. Připoj zařízení s OChecklistem k internetu
 
-5. Načti QR kód foťákem nebo přímo v aplikaci, obojí funguje
+5. Načti QR kód v `Nastavení` foťákem nebo přímo v aplikaci, obojí funguje
    - Kliknutím na tlačítko `Sdílet` můžeš snadno odeslat QR kód například startérům pomocí oblíbené komunikační aplikace (Messenger, WhatsApp, ..)
 
 ![Scan QR code](/img/tutorials/ochecklist/ochecklist_03_scan_qr_code_50proc.jpg)
@@ -39,7 +39,7 @@ Na úvodní obrazovce aplikace (pokud máš smazaná všechna data) je možné r
 
 ![Selected categories](/img/tutorials/ochecklist/ochecklist_06_categories_selected_upd_50proc.jpg)
 
-8. Výběr potvrď kliknutím na `Import`. Ikony fajfky ukazuje jestli byla data kategorie úspěšně načtena
+8. Výběr potvrď kliknutím na `Download`. Ikona fajfky ukazuje jestli byla data kategorie úspěšně načtena. Potvrď kliknutím na `Import`
 
 ![Data imported](/img/tutorials/ochecklist/ochecklist_07_data_imported_upd_50proc.jpg)
 
@@ -52,9 +52,13 @@ Zobrazí se počet závodníků, kteří byli načteni
 ## Synchronizace změn
 - Změny provedené na startu jsou automaticky nahrávány na server `OFeedu` v pravidelných intervalech (lze nastavit).
 - Změny provedené na prezentaci, online apod jsou automaticky detekovány a staženy do OChecklistu
+
 V případě připojení na `OFeed` máš k dispozici vždy všechna aktuální data.
 
+
+:::info
 Pokud dojde k chybě při nahrávání, tak se `OFeed` ikona zbarví červeně
+:::
 
 ![Error status](/img/tutorials/ochecklist/ochecklist_09_ofeed_error_status_50proc.jpg)
 
@@ -66,5 +70,5 @@ Můžeš si zobrazit log z nahrávání kliknutím na `OFeed` ikonu v pravém ho
 
 ![OFeed log](/img/tutorials/ochecklist/ochecklist_12_ofeed_upload_log_50proc.jpg)
 
-# Vizualizace changeszměn
+# Vizualizace změn
 `OFeed` nabízí detailní report v administraci závodu (musíš být přihlášený), ve kterém je možné snadno filtrovat změny co tě zajímají.

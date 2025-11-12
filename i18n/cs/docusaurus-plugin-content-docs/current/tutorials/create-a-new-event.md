@@ -13,10 +13,10 @@ a vyplnit formulář
 
 
 ## Generování hesla
-Heslo slouží pro zabazpečení aktualizování dat. Stejně jako **id akce** je **nezbytné** pro nastavení připojení napříkladi do `OCehcklistu` nebo `Služby v QuickEventu`. 
+Heslo slouží pro zabezpečení aktualizování dat. Stejně jako **id akce** je **nezbytné** pro nastavení připojení například i do `OChecklistu` nebo `Služby v QuickEventu`. 
 
 ![Event form](/img/tutorials/client/settings_password.png)
 
 :::info[Upozornění]
-Heslo je po vygenerování platné 7 dní. Odpočet ukazuje kolik zbývá a heslo není problém v případě potřeby přegenerovat.
+Heslo je po vygenerování platné 7 dní. Odpočet ukazuje kolik času zbývá a heslo není problém v případě potřeby přegenerovat.
 :::
