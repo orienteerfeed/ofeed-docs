@@ -9,7 +9,7 @@ OFeed offers two ways of visualizing the uploaded data:
 
 ## 1. Basic tool
 You can check the data in the `event` details. You can analyze both simple results and splits times as well.
-![Basic tool](/img/tutorials/visualize-data-ofeed.png)
+![Basic tool](/img/tutorials/client/visualize-data-ofeed.png)
 
 :::tip
 The view supports automatic `speaker` (speaker icon) that comments when a new winner reads out.
@@ -34,7 +34,7 @@ If you turn on showing the Emoji in the table (default option), you can see:
 - 🛏️ - not started yet
 - 🥇🥈🥉 - for top three positions
 
-![Visualize Data](/img/tutorials/visualize-data-mrb.png)
+![Visualize Data](/img/tutorials/mrb/visualize-data-mrb.png)
 
 ### How it works
 Once you upload data to the platform everything is automatically prepared for you. Just visit https://api.orienteerfeed.com/mrb/ and select your event that is listed.
@@ -45,7 +45,7 @@ The recommanded browsers are Google Chrome and Firefox. Other can face an issue 
 
 ### Setup
 Using `Settings` button in the upper right corner gives you advanced options. You can adjust classes that are visualized, number of columns used (based on your screen size and orientation), order of the classes, scrolling style, table content.
-![MRB setup](/img/tutorials/visualize-data-mrb-settings.png)
+![MRB setup](/img/tutorials/mrb/visualize-data-mrb-settings.png)
 
 #### Offline mode
 `OFeed` can run locally in docker but that is suitable just for `MRB` and `OChecklist` can't be connected as it's not available on the internet.
@@ -54,7 +54,7 @@ Using `Settings` button in the upper right corner gives you advanced options. Yo
 The app supports:
 - invidivual race (both individual and mass start)
 - relays - both sprint relay (4 legs) and classic relay (3 legs)
-![Visualize data sprint relay](/img/tutorials/visualize-data-mrb-sprint-relay.png)
+![Visualize data sprint relay](/img/tutorials/mrb/visualize-data-mrb-sprint-relay.png)
 
 ### Showcase
 - TV screens

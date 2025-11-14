@@ -19,7 +19,6 @@ const config: Config = {
   projectName: 'ofeed-docs', // Usually your repo name.
 
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -55,7 +54,7 @@ const config: Config = {
         //   },
         //   // Please change this to your repo.
         //   // Remove this to remove the "edit this page" links.
-        //   editUrl:
+        //   editUrl: {
         //     'https://github.com/martinkrivda/orienteerfeed',
         //   // Useful options to enforce blogging best practices
         //   onInlineTags: 'warn',
@@ -77,6 +76,64 @@ const config: Config = {
           {
             to: '/docs/intro', // To the docs intro page
             from: '/',   // Redirect from the homepage
+          },
+        ],
+      }
+    ],
+      ['@docusaurus/plugin-pwa',
+      {
+        debug: true,
+        offlineModeActivationStrategies: [
+          'appInstalled',
+          'standalone',
+          'queryString',
+        ],
+        pwaHead: [
+          {
+            tagName: 'link',
+            rel: 'icon',
+            href: '/img/ico/2025-04-11_orienteerfeed_logo_48x48px_logo_favicon.png',
+          },
+          {
+            tagName: 'link',
+            rel: 'manifest',
+            href: '/manifest.json',
+          },
+          {
+            tagName: 'meta',
+            name: 'theme-color',
+            content: 'rgb(37, 194, 160)',
+          },
+          {
+            tagName: 'meta',
+            name: 'apple-mobile-web-app-capable',
+            content: 'yes',
+          },
+          {
+            tagName: 'meta',
+            name: 'apple-mobile-web-app-status-bar-style',
+            content: '#000',
+          },
+          {
+            tagName: 'link',
+            rel: 'apple-touch-icon',
+            href: '/img/ico/2025-04-11_orienteerfeed_logo_48x48px_logo_favicon.png',
+          },
+          {
+            tagName: 'link',
+            rel: 'mask-icon',
+            href: '/img/svg/2025-04-11_orienteerfeed_48x48px_dark.svg',
+            color: 'rgb(37, 194, 160)',
+          },
+          {
+            tagName: 'meta',
+            name: 'msapplication-TileImage',
+            content: '/img/ico/2025-04-11_orienteerfeed_logo_48x48px_logo_favicon.png',
+          },
+          {
+            tagName: 'meta',
+            name: 'msapplication-TileColor',
+            content: '#000',
           },
         ],
       },

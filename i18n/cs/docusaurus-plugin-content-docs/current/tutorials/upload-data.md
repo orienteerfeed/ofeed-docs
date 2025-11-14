@@ -7,13 +7,13 @@ Je možné nahrát jak manuálně výběrem souboru, tak automaticky přes API. 
 
 ## Manuální
 V `Nastavení` závodu (musíš být přihlášený) můžeš přetažením nebo výběrem nahrát xml se startovkou či výsledky.
-![Drag and drop](/img/tutorials/upload-data-manual-d&d.png)
+![Drag and drop](/img/tutorials/client/upload-data-manual-dd.png)
 
 ## Služba v QuickEventu
 ### Upload setup
 QuickEvent od verze 3 má přímo službu, která se o veškeré nahrávání postará. Stačí nastavit a spustit.
 
-![QE service](/img/tutorials/upload-data-qe-service.png)
+![QE service](/img/tutorials/quickevent/upload-data-qe-service.png)
 
 Je potřeba vyplnit:
 - **Url** - `https://api.orinteerfeed.com`

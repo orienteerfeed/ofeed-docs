@@ -1,6 +1,8 @@
 {
-  "label": "Tutorials",
   "position": 2,
+  "label": "Tutorials",
+  "collapsible": true,
+  "collapsed": false,
   "link": {
     "type": "generated-index",
     "description": "First steps to discover the platform"

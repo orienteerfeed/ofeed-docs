@@ -1,0 +1,22 @@
+{
+  "version.label": {
+    "message": "Nejnovější",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Tutorials": {
+    "message": "Návody",
+    "description": "The label for category 'Tutorials' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Tutorials.link.generated-index.description": {
+    "message": "Detailní návody jak z platformy vytěžit maximum",
+    "description": "The generated-index page description for category 'Tutorials' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.API": {
+    "message": "API",
+    "description": "The label for category 'API' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.API.link.generated-index.description": {
+    "message": "Jak na integraci s platformou",
+    "description": "The generated-index page description for category 'API' in sidebar 'tutorialSidebar'"
+  }
+}

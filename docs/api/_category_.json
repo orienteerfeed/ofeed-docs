@@ -1,8 +1,10 @@
 {
-  "label": "API",
   "position": 3,
+  "label": "API",
+  "collapsible": true,
+  "collapsed": true,
   "link": {
     "type": "generated-index",
-    "description": "OFeed platform integration"
+    "description": "How to integrate with OFeed platform"
   }
 }

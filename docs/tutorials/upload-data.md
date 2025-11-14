@@ -7,12 +7,12 @@ You can use both manual and api for upload. Manual is more suitable for initial 
 
 ## Manual
 In the event `Settings` (you have to be logged in) you can drag&drop xml with startlist or results.
-![Drag and drop](/img/tutorials/upload-data-manual-d&d.png)
+![Drag and drop](/img/tutorials/client/upload-data-manual-dd.png)
 
 ## QE service
 ### Upload setup
 QuickEvent 3 has dedicated service that handles regular upload to the platform. The service is still in progress but can handle regular upload of the startlist and results.
-![QE service](/img/tutorials/upload-data-qe-service.png)
+![QE service](/img/tutorials/quickevent/upload-data-qe-service.png)
 
 Fill in the fields:
 - **Url** - `https://api.orinteerfeed.com`

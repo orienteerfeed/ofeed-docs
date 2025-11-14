@@ -1,0 +1,60 @@
+{
+  "short_name": "OFeed",
+  "name": "OFeed platform",
+  "icons": [
+    {
+      "src": "/img/svg/2025-04-11_orienteerfeed_512x512px_logo.svg",
+      "type": "image/svg+xml",
+      "sizes": "512x512"
+    },
+    {
+      "src": "/img/ico/2025-04-24_orienteerfeed_logo_light_192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "id": "/?source=pwa",
+  "start_url": "/?source=pwa",
+  "background_color": "#3367D6",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#3367D6",
+  "shortcuts": [
+    {
+      "name": "OFeed docs",
+      "short_name": "Docs",
+      "description": "Check official OFeed documentation",
+      "url": "https://docs.orienteerfeed.com/?source=pwa",
+      "icons": [{ "src": "/images/today.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "OFeed demo event",
+      "short_name": "Demo",
+      "description": "Open OFeed demo event to test the platform",
+      "url": "/demo?source=pwa",
+      "icons": [{ "src": "/images/tomorrow.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Github issue",
+      "short_name": "Issue",
+      "description": "Create new Github issue",
+      "url": "https://github.com/orienteerfeed/ofeed/issues?source=pwa",
+      "icons": [{ "src": "/images/tomorrow.png", "sizes": "192x192" }]
+    }
+  ],
+  "description": "Live orienteering results and event hub",
+  "screenshots": [
+    {
+      "src": "/images/screenshot1.png",
+      "type": "image/png",
+      "sizes": "540x720",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/images/screenshot2.jpg",
+      "type": "image/jpg",
+      "sizes": "720x540",
+      "form_factor": "wide"
+    }
+  ]
+}

@@ -9,7 +9,7 @@ K dipozici jsou dva způsoby jak prohlížet nahraná data:
 
 ## 1. Základní pohled
 Data můžeš prohlížet v detailu `závodu`. K dispozici jsou na jednotlivých záložkách výsledky i mezičasy.
-![Basic tool](/img/tutorials/visualize-data-ofeed.png)
+![Basic tool](/img/tutorials/client/visualize-data-ofeed.png)
 
 :::tip
 Základní pohled nabízí automatického `spíkra` (ikona reproduktoru), který komentuje pokud si vyčte nově vedoucí závodník či závodnice.
@@ -34,7 +34,7 @@ Pokud zapneš zobrazení Emoji v tabulce (výchozí nastavení), tak se může u
 - 🛏️ - ještě nevystartoval
 - 🥇🥈🥉 - medaile pro první tři místa
 
-![Visualize Data](/img/tutorials/visualize-data-mrb.png)
+![Visualize Data](/img/tutorials/mrb/visualize-data-mrb.png)
 
 ### Jak funguje
 Jakmile nahraješ startovku nebo výsledky, tak se automaticky založí i závod v MRB. Stačí jít na adresu https://api.orienteerfeed.com/mrb/ a vybrat tvůj závod.
@@ -45,7 +45,7 @@ Doporučenými prohlížeči pro správné zobrazení jsou Google Chrome a Firef
 
 ### Nastavení
 Pomocí tlačítka `Settings` v pravém horním rohu jde otevřít okno s detailním nastavením zobrazení. Lze vybrat jaké kategorie se mají ukazovat, v kolika sloupcích mají být (záleží na využitém hardwaru), pořadí kategorií, způsob posouvání či zobrazovaný obsah. Nejlepší vše vyzkoušet a vybrat vyhovující nastavení.
-![MRB setup](/img/tutorials/visualize-data-mrb-settings.png)
+![MRB setup](/img/tutorials/mrb/visualize-data-mrb-settings.png)
 
 #### Offline režim
 `OFeed` je možné spustit i lokálně, což umožní využívat pouze `MRB`. `OChecklist` nepůjde na lokální instanci napojit pokud nebude dostupná v internetu.
@@ -54,7 +54,7 @@ Pomocí tlačítka `Settings` v pravém horním rohu jde otevřít okno s detail
 Aplikace podporuje:
 - individuální závody (intervalový i hromadný start)
 - štafety - sprintové (4 úseky) i klasické (3 úseky)
-![Visualize data sprint relay](/img/tutorials/visualize-data-mrb-sprint-relay.png)
+![Visualize data sprint relay](/img/tutorials/mrb/visualize-data-mrb-sprint-relay.png)
 
 ### Ukázky
 - Televizní obrazovky
