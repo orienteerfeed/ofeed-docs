@@ -5,7 +5,7 @@
 </h1>
 
 # About
-Official documentation for the `OFeed` platform, which includes an introduction to basic concepts and tutorials on the main features.
+Official documentation for the `OFeed` platform, which includes an introduction to basic concepts and tutorials of the main features.
 
 # Join our Discord server
 Become part of our community by clicking the link! We're excited to have you with us. Feel free to ask for help or share your experiences.
