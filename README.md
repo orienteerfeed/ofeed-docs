@@ -8,6 +8,22 @@
   </a>
 </h1>
 
+<style>
+  /* Hide the light version by default */
+  .light-mode { display: none; }
+  
+  /* Use media query to detect dark mode */
+  @media (prefers-color-scheme: light) {
+    .light-mode { display: inline; }
+    .dark-mode { display: none; }
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    .light-mode { display: none; }
+    .dark-mode { display: inline; }
+  }
+</style>
+
 # About
 
 Official documentation for the `OFeed` platform, which includes an introduction to basic concepts and tutorials of the main features.
