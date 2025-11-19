@@ -144,8 +144,10 @@ const config: Config = {
     navbar: {
       title: "OFeed",
       logo: {
-        alt: "OrienteerFeed Logo",
-        src: "img/svg/2025-04-24_orienteerfeed_logo_24x24px_logo_favicon.svg",
+        alt: "OFeed Logo",
+        src: "img/svg/2025-04-24_orienteerfeed_logo_24x24px_logo_favicon_dark.svg",
+        srcDark:
+          "img/svg/2025-04-24_orienteerfeed_logo_24x24px_logo_favicon_light.svg",
       },
       items: [
         // {
@@ -206,7 +208,7 @@ const config: Config = {
       {
         name: "og:image",
         content:
-          "https://docs.orienteerfeed.com/cs/img/svg/2025-04-24_orienteerfeed_logo_24x24px_logo_favicon.svg",
+          "https://docs.orienteerfeed.com/cs/img/svg/2025-04-24_orienteerfeed_logo_24x24px_logo_favicon_dark.svg",
       },
       { name: "twitter:card", content: "summary_large_image" },
     ],
