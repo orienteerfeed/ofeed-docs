@@ -30,7 +30,7 @@ blog/**                 linguist-documentation
 *.scss  text
 *.md    text
 *.mdx   text
-*.svg   text           # Keep SVG diffable
+*.svg   text
 
 # Binary assets – no text diffs
 *.png   binary
