@@ -1,10 +1,10 @@
 <h1 align="center">
   <a href="https://orienteerfeed.com">
   <!-- Dark theme -->
-  <img src="https://raw.githubusercontent.com/orienteerfeed/ofeed-docs/main/static/img/svg/2025-08-18_orienteerfeed_logo_one-line_light.svg" width="400" alt="OFeed" data-color-mode="dark">
+  <img src="https://raw.githubusercontent.com/orienteerfeed/ofeed-docs/main/static/img/svg/2025-08-18_orienteerfeed_logo_one-line_light.svg#gh-dark-mode-only" width="400" alt="OFeed">
 
   <!-- Light theme -->
-  <img src="https://raw.githubusercontent.com/orienteerfeed/ofeed-docs/main/static/img/svg/2025-08-18_orienteerfeed_logo_one-line_dark.svg" width="400" alt="OFeed" data-color-mode="light">
+  <img src="https://raw.githubusercontent.com/orienteerfeed/ofeed-docs/main/static/img/svg/2025-08-18_orienteerfeed_logo_one-line_dark.svg#gh-light-mode-only" width="400" alt="OFeed">
   </a>
 </h1>
 
