@@ -1,0 +1,72 @@
+name: Build & Deploy Docs (GH Pages)
+
+on:
+  push:
+    branches: [main] # Trigger on pushes to main branch only
+  workflow_dispatch: # Allow manual triggering from GitHub UI
+
+# Required permissions for GitHub Pages deployment
+permissions:
+  contents: read # Read repository contents
+  pages: write # Write to GitHub Pages
+  id-token: write # Required for OIDC authentication
+
+# Concurrency control for Pages deployment
+concurrency:
+  group: "pages" # Single deployment group for Pages
+  cancel-in-progress: false # Don't cancel ongoing deployments
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Read Node.js version from .nvmrc
+        id: nvm
+        run: echo "version=$(cat .nvmrc)" >> "$GITHUB_OUTPUT"
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ steps.nvm.outputs.version }}
+          cache: pnpm # Cache pnpm dependencies for faster builds
+
+      - name: Setup pnpm (10.x)
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10
+          run_install: false
+
+      - name: Verify pnpm >= 10.20.0
+        run: |
+          PNPMV="$(pnpm -v)"
+          echo "pnpm version: $PNPMV"
+          # Check if pnpm version meets minimum requirement (10.20.0+)
+          node -e "const v=process.argv[1].split('.').map(Number); const ok=(v[0]===10 && (v[1]>20 || (v[1]===20 && v[2]>=0))); if(!ok){console.error('pnpm >= 10.20.0 required'); process.exit(1)}" "$PNPMV"
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile # Use locked versions for reproducibility
+
+      - name: Build Docusaurus
+        run: pnpm build # Build the Docusaurus site
+
+      - name: Setup GitHub Pages
+        uses: actions/configure-pages@v5 # Configure Pages settings
+
+      - name: Upload build artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: build # Upload the built Docusaurus site as Pages artifact
+
+  deploy:
+    needs: build # Only run after successful build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages # Deployment environment name
+      url: ${{ steps.deployment.outputs.page_url }} # Published URL
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4 # Deploy the uploaded artifact to GitHub Pages

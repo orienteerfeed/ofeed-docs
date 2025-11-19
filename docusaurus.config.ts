@@ -1,68 +1,72 @@
-import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config} from '@docusaurus/types';
-import type * as Preset from '@docusaurus/preset-classic';
+import { themes as prismThemes } from "prism-react-renderer";
+import type { Config } from "@docusaurus/types";
+import type * as Preset from "@docusaurus/preset-classic";
+
+// This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'OFeed documentation',
-  tagline: 'Handle all orienteering event data in one place',
-  favicon: 'img/ico/2025-04-24_orienteerfeed_favicon_light_transparent_32x32.png',
+  title: "OFeed documentation",
+  tagline: "Handle all orienteering event data in one place",
+  favicon:
+    "img/ico/2025-04-24_orienteerfeed_favicon_light_transparent_32x32.png",
+
+  // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
+  future: {
+    v4: true, // Improve compatibility with the upcoming Docusaurus v4
+  },
 
   // Set the production url of your site here
-  url: 'https://docs.orienteerfeed.com',
+  url: "https://docs.orienteerfeed.com",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: "/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'orienteerfeed', // Usually your GitHub org/user name.
-  projectName: 'ofeed-docs', // Usually your repo name.
+  organizationName: "orienteerfeed", // Usually your GitHub org/user name.
+  projectName: "ofeed-docs", // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: "throw",
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en', 'cs'],
+    defaultLocale: "en",
+    locales: ["en", "cs"],
     localeConfigs: {
-      cs: {
-        label: 'Čeština',
-        direction: 'ltr',
-        translate: true,
-      },
-  },
+      cs: { label: "Čeština", direction: "ltr", translate: true },
+    },
   },
 
   presets: [
     [
-      'classic',
+      "classic",
       {
         docs: {
-          sidebarPath: './sidebars.ts',
+          routeBasePath: "/",
+          sidebarPath: "./sidebars.ts",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/orienteerfeed/ofeed-docs',
+          editUrl: "https://github.com/orienteerfeed/ofeed-docs",
         },
         // blog: {
         //   showReadingTime: true,
         //   feedOptions: {
-        //     type: ['rss', 'atom'],
+        //     type: ["rss", "atom"],
         //     xslt: true,
         //   },
-        //   // Please change this to your repo.
-        //   // Remove this to remove the "edit this page" links.
-        //   editUrl: {
-        //     'https://github.com/martinkrivda/orienteerfeed',
-        //   // Useful options to enforce blogging best practices
-        //   onInlineTags: 'warn',
-        //   onInlineAuthors: 'warn',
-        //   onUntruncatedBlogPosts: 'warn',
-        // },
+        // Please change this to your repo.
+        // Remove this to remove the "edit this page" links.
+        // editUrl:
+        //   "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+        // Useful options to enforce blogging best practices
+        // onInlineTags: "warn",
+        // onInlineAuthors: "warn",
+        // onUntruncatedBlogPosts: "warn",
+        //},
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: "./src/css/custom.css",
         },
       } satisfies Preset.Options,
     ],
@@ -70,70 +74,61 @@ const config: Config = {
 
   plugins: [
     [
-      '@docusaurus/plugin-client-redirects',
-      {
-        redirects: [
-          {
-            to: '/docs/intro', // To the docs intro page
-            from: '/',   // Redirect from the homepage
-          },
-        ],
-      }
-    ],
-      ['@docusaurus/plugin-pwa',
+      "@docusaurus/plugin-pwa",
       {
         debug: true,
         offlineModeActivationStrategies: [
-          'appInstalled',
-          'standalone',
-          'queryString',
+          "appInstalled",
+          "standalone",
+          "queryString",
         ],
         pwaHead: [
           {
-            tagName: 'link',
-            rel: 'icon',
-            href: '/img/ico/2025-04-11_orienteerfeed_logo_48x48px_logo_favicon.png',
+            tagName: "link",
+            rel: "icon",
+            href: "/img/ico/2025-04-11_orienteerfeed_logo_48x48px_logo_favicon.png",
           },
           {
-            tagName: 'link',
-            rel: 'manifest',
-            href: '/manifest.json',
+            tagName: "link",
+            rel: "manifest",
+            href: "/manifest.json",
           },
           {
-            tagName: 'meta',
-            name: 'theme-color',
-            content: 'rgb(37, 194, 160)',
+            tagName: "meta",
+            name: "theme-color",
+            content: "rgb(37, 194, 160)",
           },
           {
-            tagName: 'meta',
-            name: 'apple-mobile-web-app-capable',
-            content: 'yes',
+            tagName: "meta",
+            name: "apple-mobile-web-app-capable",
+            content: "yes",
           },
           {
-            tagName: 'meta',
-            name: 'apple-mobile-web-app-status-bar-style',
-            content: '#000',
+            tagName: "meta",
+            name: "apple-mobile-web-app-status-bar-style",
+            content: "#000",
           },
           {
-            tagName: 'link',
-            rel: 'apple-touch-icon',
-            href: '/img/ico/2025-04-11_orienteerfeed_logo_48x48px_logo_favicon.png',
+            tagName: "link",
+            rel: "apple-touch-icon",
+            href: "/img/ico/2025-04-11_orienteerfeed_logo_48x48px_logo_favicon.png",
           },
           {
-            tagName: 'link',
-            rel: 'mask-icon',
-            href: '/img/svg/2025-04-11_orienteerfeed_48x48px_dark.svg',
-            color: 'rgb(37, 194, 160)',
+            tagName: "link",
+            rel: "mask-icon",
+            href: "/img/svg/2025-04-11_orienteerfeed_48x48px_dark.svg",
+            color: "rgb(37, 194, 160)",
           },
           {
-            tagName: 'meta',
-            name: 'msapplication-TileImage',
-            content: '/img/ico/2025-04-11_orienteerfeed_logo_48x48px_logo_favicon.png',
+            tagName: "meta",
+            name: "msapplication-TileImage",
+            content:
+              "/img/ico/2025-04-11_orienteerfeed_logo_48x48px_logo_favicon.png",
           },
           {
-            tagName: 'meta',
-            name: 'msapplication-TileColor',
-            content: '#000',
+            tagName: "meta",
+            name: "msapplication-TileColor",
+            content: "#000",
           },
         ],
       },
@@ -142,55 +137,59 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: "img/docusaurus-social-card.jpg",
+    colorMode: {
+      respectPrefersColorScheme: true,
+    },
     navbar: {
-      title: 'OFeed',
+      title: "OFeed",
       logo: {
-        alt: 'OrienteerFeed Logo',
-        src: 'img/svg/2025-04-24_orienteerfeed_logo_24x24px_logo_favicon.svg',
+        alt: "OrienteerFeed Logo",
+        src: "img/svg/2025-04-24_orienteerfeed_logo_24x24px_logo_favicon.svg",
       },
       items: [
         // {
-        //   type: 'docSidebar',
-        //   sidebarId: 'tutorialSidebar',
-        //   position: 'left',
-        //   label: 'Tutorial',
+        //   type: "docSidebar",
+        //   sidebarId: "tutorialSidebar",
+        //   position: "left",
+        //   label: "Tutorial",
         // },
+        // { to: "/blog", label: "Blog", position: "left" },
         {
-          href: 'https://github.com/orienteerfeed/ofeed',
-          label: 'GitHub',
-          position: 'right',
+          href: "https://github.com/orienteerfeed/ofeed",
+          label: "GitHub",
+          position: "right",
         },
         {
-          type:'localeDropdown',
-          position: 'right',
+          type: "localeDropdown",
+          position: "right",
           dropdownItemsAfter: [
             {
-              to: 'https://orienteerfeed.com/help-us-translate',
-              label: 'Help us translate',
+              to: "https://orienteerfeed.com/help-us-translate",
+              label: "Help us translate",
             },
           ],
         },
       ],
     },
     footer: {
-      style: 'dark',
+      style: "dark",
       links: [
-      //   {
-      //     title: 'Docs',
-      //     items: [
-      //       {
-      //         label: 'Tutorials',
-      //         to: '/docs/intro',
-      //       },
-      //     ],
-      //   },
+        // {
+        //   title: "Docs",
+        //   items: [
+        //     {
+        //       label: "Tutorial",
+        //       to: "/docs/intro",
+        //     },
+        //   ],
+        // },
         {
-          title: 'Community',
+          title: "Community",
           items: [
             {
-              label: 'Discord',
-              href: 'https://discord.gg/QMvnurgKzU',
+              label: "Discord",
+              href: "https://discord.gg/QMvnurgKzU",
             },
           ],
         },

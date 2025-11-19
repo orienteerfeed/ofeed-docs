@@ -1,0 +1,55 @@
+# Line endings – normalize to LF (recommended for JS/TS projects)
+*               text=auto eol=lf
+*.bat           eol=crlf
+
+# Lock files – reduce noise in diffs
+pnpm-lock.yaml  -diff
+yarn.lock       -diff
+package-lock.json -diff
+
+# Generated artifacts – exclude from statistics and archive exports
+build/**                linguist-generated export-ignore
+.docusaurus/**          linguist-generated export-ignore
+
+# Documentation and translations – count as documentation
+docs/**                 linguist-documentation
+i18n/**                 linguist-documentation
+blog/**                 linguist-documentation
+
+# Source files – treat as text (diffable)
+*.js    text
+*.ts    text
+*.jsx   text
+*.tsx   text
+*.mjs   text
+*.cjs   text
+*.json  text
+*.yml   text
+*.yaml  text
+*.css   text
+*.scss  text
+*.md    text
+*.mdx   text
+*.svg   text           # Keep SVG diffable
+
+# Binary assets – no text diffs
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.webp  binary
+*.avif  binary
+*.ico   binary
+*.mp4   binary
+*.mov   binary
+*.pdf   binary
+*.zip   binary
+*.gz    binary
+*.tgz   binary
+*.woff  binary
+*.woff2 binary
+*.ttf   binary
+*.eot   binary
+
+# Minified assets in /static marked as generated (optional)
+static/**/*.min.*       linguist-generated

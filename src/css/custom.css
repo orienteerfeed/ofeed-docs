@@ -18,7 +18,7 @@
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
+[data-theme="dark"] {
   --ifm-color-primary: #25c2a0;
   --ifm-color-primary-dark: #21af90;
   --ifm-color-primary-darker: #1fa588;
@@ -30,7 +30,7 @@
 }
 
 .mrb-pink {
-  color:white;
+  color: white;
   font-weight: bold;
   padding: 5px;
   border-radius: 5px;
@@ -38,7 +38,7 @@
 }
 
 .mrb-blue {
-  color:white;
+  color: white;
   font-weight: bold;
   padding: 5px;
   border-radius: 5px;
@@ -46,7 +46,7 @@
 }
 
 .mrb-grey {
-  color:white;
+  color: white;
   font-weight: bold;
   padding: 5px;
   border-radius: 5px;

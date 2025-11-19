@@ -1,0 +1,51 @@
+name: CI Verify (all branches)
+
+on:
+  push: # Every push to any branch
+  pull_request: # And also on every PR
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Read Node.js version from .nvmrc
+        id: nvm
+        run: echo "version=$(cat .nvmrc)" >> "$GITHUB_OUTPUT"
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ steps.nvm.outputs.version }}
+          cache: pnpm
+
+      - name: Setup pnpm (10.x)
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10
+          run_install: false
+
+      - name: Ensure pnpm >= 10.20.0
+        run: |
+          PNPMV="$(pnpm -v)"
+          echo "pnpm version: $PNPMV"
+          node -e "const v=process.argv[1].split('.').map(Number); const ok=(v[0]===10 && (v[1]>20 || (v[1]===20 && v[2]>=0))); if(!ok){console.error('pnpm >= 10.20.0 required'); process.exit(1)}" "$PNPMV"
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      # Optional: Type checking (if you have script "typecheck": "tsc")
+      - name: Typecheck
+        run: pnpm typecheck
+
+      # Build Docusaurus (will catch broken links if you have onBrokenLinks: "throw")
+      - name: Build
+        run: pnpm build
