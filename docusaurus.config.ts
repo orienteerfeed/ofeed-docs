@@ -213,6 +213,10 @@ const config: Config = {
       { name: "twitter:card", content: "summary_large_image" },
     ],
   } satisfies Preset.ThemeConfig,
+  markdown: {
+    mermaid: true,
+  },
+  themes: ["@docusaurus/theme-mermaid"],
 };
 
 export default config;

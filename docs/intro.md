@@ -20,6 +20,25 @@ Store all event data:
 
 The platform has specialized app [MRB](/tutorials/visualize-data#2-mrb) for the modern and interactive results visualization as well. For more information, click on the link.
 
+## Workflow
+
+```mermaid
+flowchart TD
+    A["Organising Software<br/>(QuickEvent, MeOS, Oribos, ...)"]
+    B["OFeed <br/> running at https://orienteerfeed.com"]
+    C[OChecklist]
+
+    A -- "Upload<br/>data" --> B
+    B -- "Get<br/>changes" --> A
+
+    B -- "Classes/<br/>participants" --> C
+    B -- "On-the-day<br/>entries" --> C
+    C -- "Changed<br/>status" --> B
+    C -- "Changed<br/>card<br/>number" --> B
+    C -- "Changed<br/>note" --> B
+    C -- "New<br/>entries" --> B
+```
+
 ### Main use cases
 
 - **real-time** data at the start in OChecklist app so that even late entries and card changes are handled before the competitor enters the first corridor

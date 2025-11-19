@@ -20,6 +20,25 @@ Data, se kterými platforma pracuje:
 
 Součástí platformy je i vizualizační aplikace [MRB](/tutorials/visualize-data#2-mrb) pro snadnou a moderní vizualizaci startovek/výsledků. Víc informací po kliknutí na odkaz.
 
+## Schéma
+
+```mermaid
+flowchart TD
+    A["Pořádací sw<br/>(QuickEvent, MeOS, Oribos, ...)"]
+    B["OFeed <br/> na adrese https://orienteerfeed.com"]
+    C[OChecklist]
+
+    A -- "Nahrání<br/>dat" --> B
+    B -- "Získání<br/>změn" --> A
+
+    B -- "Kategorie/<br/>závodníci" --> C
+    B -- "Dohlášky/<br/>změny na prezentaci" --> C
+    C -- "Změněný<br/>status" --> B
+    C -- "Změněné<br/>číslo<br/>čipu" --> B
+    C -- "Změněná<br/>poznámka" --> B
+    C -- "Nová<br/>dohláška" --> B
+```
+
 ### Hlavní využití
 
 - aktuální data v aplikaci OChecklist, takže i změny čipů před závodem a dohlášky jsou na startu dřív než samotný závodník vstoupí do prvního koridoru
