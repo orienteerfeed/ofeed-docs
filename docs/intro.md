@@ -55,4 +55,4 @@ Service provides both [RESTful](https://api.orienteerfeed.com/api-docs/) and [Gr
 OFeed supports PWA and the site can be installed via pop up window. The installed app offers a more pleasant browsing experience that can be launched directly from your home screen.
 
 ![Pop up install](/img/ofeed_pwa_install.jpg)
-![Pop up install](/img/ofeed_pwa_install_confirm.jpg)
+![Pop up install confirm](/img/ofeed_pwa_install_confirm.jpg)
