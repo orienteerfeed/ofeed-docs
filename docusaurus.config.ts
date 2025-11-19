@@ -200,6 +200,16 @@ const config: Config = {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
+    metadata: [
+      { name: "og:title", content: "Official OFeed docs" },
+      { name: "og:description", content: "Documentation for OFeed platform" },
+      {
+        name: "og:image",
+        content:
+          "https://docs.orienteerfeed.com/cs/img/svg/2025-04-24_orienteerfeed_logo_24x24px_logo_favicon.svg",
+      },
+      { name: "twitter:card", content: "summary_large_image" },
+    ],
   } satisfies Preset.ThemeConfig,
 };
 
