@@ -1,28 +1,12 @@
 <h1 align="center">
   <a href="https://orienteerfeed.com">
   <!-- Dark theme -->
-  <img src="https://raw.githubusercontent.com/orienteerfeed/ofeed-docs/main/static/img/svg/2025-08-18_orienteerfeed_logo_one-line_light.svg" width="400" alt="OFeed" class="dark-mode">
+  <img src="https://raw.githubusercontent.com/orienteerfeed/ofeed-docs/main/static/img/svg/2025-08-18_orienteerfeed_logo_one-line_light.svg" width="400" alt="OFeed" data-color-mode="dark">
 
   <!-- Light theme -->
-  <img src="https://raw.githubusercontent.com/orienteerfeed/ofeed-docs/main/static/img/svg/2025-08-18_orienteerfeed_logo_one-line_dark.svg" width="400" alt="OFeed" class="light-mode">
+  <img src="https://raw.githubusercontent.com/orienteerfeed/ofeed-docs/main/static/img/svg/2025-08-18_orienteerfeed_logo_one-line_dark.svg" width="400" alt="OFeed" data-color-mode="light">
   </a>
 </h1>
-
-<style>
-  /* Hide the light version by default */
-  .light-mode { display: none; }
-  
-  /* Use media query to detect dark mode */
-  @media (prefers-color-scheme: light) {
-    .light-mode { display: inline; }
-    .dark-mode { display: none; }
-  }
-  
-  @media (prefers-color-scheme: dark) {
-    .light-mode { display: none; }
-    .dark-mode { display: inline; }
-  }
-</style>
 
 # About
 
