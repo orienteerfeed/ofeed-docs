@@ -30,7 +30,7 @@ flowchart TD
     B -- "Získání<br/>změn" --> A
 
     B -- "Kategorie/<br/>závodníci" --> C
-    B -- "Dohlášky/<br/>změny na prezentaci" --> C
+    B -- "Dohlášky/<br/>změny<br/>na<br/>prezentaci" --> C
     C -- "Změněný<br/>status" --> B
     C -- "Změněné<br/>číslo<br/>čipu" --> B
     C -- "Změněná<br/>poznámka" --> B
