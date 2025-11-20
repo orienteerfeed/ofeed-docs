@@ -3,9 +3,11 @@ sidebar_position: 5
 ---
 
 # Connect to OChecklist
+
 OFeed is supported in offical release of the app since version 5.
 
 ## How to connect
+
 1. Create a new account at https://orienteerfeed.com/signup
 
 2. Create a new event and generate a new password
@@ -19,7 +21,7 @@ OFeed is supported in offical release of the app since version 5.
 
 ![Scan QR code](/img/tutorials/ochecklist/ochecklist_03_scan_qr_code_50proc.jpg)
 
-   - You can use manual settings as well in `Settings` under `Server connection` click on OFeed icon
+- You can use manual settings as well in `Settings` under `Server connection` click on OFeed icon
 
 ![Settings](/img/tutorials/ochecklist/ochecklist_01_settings_upd_50proc.jpg)
 
@@ -33,7 +35,7 @@ On the home screen (with deleted data) you can start scanning QR code as well
 
 6. Loaded categories - check event name, date and organiser
 
-![All categrie available](/img/tutorials/ochecklist/ochecklist_05_categories_available_50proc.jpg)
+![All categories available](/img/tutorials/ochecklist/ochecklist_05_categories_available_50proc.jpg)
 
 7. Select required categories - tick/untick categories by start name, e.g.`Start 1`
 
@@ -50,9 +52,10 @@ Number of imported participants is showed
 9. Update competitor's status and details (card number and note) via connected sportident unit or manually
 
 ## Changes synchronisation
+
 - Changes made at the start are uploaded to the `OFeed` platform in regular intervals.
 - Changes made at registration office, online form etc. are detected and downloaded to the OChecklist app.
-You are synchronized with the `OFeed` database in real-time.
+  You are synchronized with the `OFeed` database in real-time.
 
 When an synchronisation error occurs the `OFeed` icon has red background
 
@@ -67,4 +70,5 @@ You can open log by clicking the `OFeed` icon in upper right corner
 ![OFeed log](/img/tutorials/ochecklist/ochecklist_12_ofeed_upload_log_50proc.jpg)
 
 # Visualize changes
+
 `OFeed` app provides detailed report inside the event administartion (private, so have to be logged in). You can easily filter data as you want and need.

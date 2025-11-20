@@ -3,29 +3,37 @@ sidebar_position: 3
 ---
 
 # Nahrání dat
+
 Je možné nahrát jak manuálně výběrem souboru, tak automaticky přes API. Ruční způsob je vhodný pro prvotní nahrání a automatický způsob pak v průběhu závodu.
 
 ## Manuální
+
 V `Nastavení` závodu (musíš být přihlášený) můžeš přetažením nebo výběrem nahrát xml se startovkou či výsledky.
 ![Drag and drop](/img/tutorials/client/upload-data-manual-dd.png)
 
 ## Služba v QuickEventu
+
 ### Upload setup
+
 QuickEvent od verze 3 má přímo službu, která se o veškeré nahrávání postará. Stačí nastavit a spustit.
 
 ![QE service](/img/tutorials/quickevent/upload-data-qe-service.png)
 
 Je potřeba vyplnit:
+
 - **Url** - `https://api.orinteerfeed.com`
-- **Id akce** - napsané v `Nastavení` závodu, hodnota ala `cmanygkd60001qq3e5y5hqndm` 
-- **Heslo** - napsané v  `Nastavení` závodu, je potřeba vygenerovat po vytvoření nového závodu
+- **Id akce** - napsané v `Nastavení` závodu, hodnota ala `cmanygkd60001qq3e5y5hqndm`
+- **Heslo** - napsané v `Nastavení` závodu, je potřeba vygenerovat po vytvoření nového závodu
 
 ### Zpracování změn
+
 Změny ze startu jsou pravidelně kontrolovány a zpracovávány přímo do databáze. Veškeré provedené operace se v databázi ukládají ještě do samostatné tabulky jako záloha.
 
 ### Příznaky závodníků
+
 Používej sloupec `Příznaky závodníka` pro nastavení `DNS` místo zaškrtávátka `Startuje`, které závodníka úplně odstraní ze závodu/etapy a následného xml exportu.
 ![QE run flags](/img/tutorials/quickevent/qe_runs_run_flags.png)
 
 ## Volání API
+
 Odesláním HTTP POST požadavku na endpoint `/rest/v1/upload/iof`. Pro více detailů je k dispozici [swagger](https://api.orienteerfeed.com/api-docs/#/default/post_rest_v1_upload_iof).

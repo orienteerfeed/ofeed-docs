@@ -3,9 +3,11 @@ sidebar_position: 5
 ---
 
 # Připojení do OChecklistu
+
 OChecklist oficiálně podporuje OFeed od zveřejnění verze 5.
 
 ## Jak propojit
+
 1. Vytvoř si účet na https://orienteerfeed.com/signup
 
 2. Založ nový závod a vygeneruj heslo
@@ -19,7 +21,7 @@ OChecklist oficiálně podporuje OFeed od zveřejnění verze 5.
 
 ![Scan QR code](/img/tutorials/ochecklist/ochecklist_03_scan_qr_code_50proc.jpg)
 
-   - Připojení je možné nastavit v aplikaci i ručně v `Nastavení` v sekci `Připojení k serveru` kliknutím na ikonu OFeedu
+- Připojení je možné nastavit v aplikaci i ručně v `Nastavení` v sekci `Připojení k serveru` kliknutím na ikonu OFeedu
 
 ![Settings](/img/tutorials/ochecklist/ochecklist_01_settings_upd_50proc.jpg)
 
@@ -33,7 +35,7 @@ Na úvodní obrazovce aplikace (pokud máš smazaná všechna data) je možné r
 
 6. Načtené kategorie - ověř správný název závodu, datum a organizátora
 
-![All categrie available](/img/tutorials/ochecklist/ochecklist_05_categories_available_50proc.jpg)
+![All categories available](/img/tutorials/ochecklist/ochecklist_05_categories_available_50proc.jpg)
 
 7. Vyber kategorie co chceš načíst - výběr je možný i pro celou skupinu kategorií pro konkrétní start, např. `Start 1`
 
@@ -50,11 +52,11 @@ Zobrazí se počet závodníků, kteří byli načteni
 9. Upravuj data závodníků (status, čip, poznámka) pomocí připojené SPORTident krabičky či manuálně
 
 ## Synchronizace změn
+
 - Změny provedené na startu jsou automaticky nahrávány na server `OFeedu` v pravidelných intervalech (lze nastavit).
 - Změny provedené na prezentaci, online apod jsou automaticky detekovány a staženy do OChecklistu
 
 V případě připojení na `OFeed` máš k dispozici vždy všechna aktuální data.
-
 
 :::info
 Pokud dojde k chybě při nahrávání, tak se `OFeed` ikona zbarví červeně
@@ -71,4 +73,5 @@ Můžeš si zobrazit log z nahrávání kliknutím na `OFeed` ikonu v pravém ho
 ![OFeed log](/img/tutorials/ochecklist/ochecklist_12_ofeed_upload_log_50proc.jpg)
 
 # Vizualizace změn
+
 `OFeed` nabízí detailní report v administraci závodu (musíš být přihlášený), ve kterém je možné snadno filtrovat změny co tě zajímají.
