@@ -8,7 +8,7 @@ title: "Translations"
 
 Both `OFeed Web` and `OFeed Docs` can be translated into your language. The supported languages are shown in the language dropdown menu. We would be delighted to have OFeed translated into additional languages.
 
-## OFeed web
+## OFeed Web
 
 There are two translation files at the moment:
 
@@ -18,7 +18,7 @@ There are two translation files at the moment:
 
 Files for already translated languages are available at `/apps/client/src/i18n/locales`.
 
-## OFeed docs
+## OFeed Docs
 
 The best way to translate the documentation is to follow the official Docusaurus [guide](https://docusaurus.io/docs/i18n/tutorial) and then create a pull request.
 

@@ -8,7 +8,7 @@ title: "Překlady"
 
 `OFeed Web` i `OFeed Docs` lze přeložit do libovolného jazyka. Podporované jazyky jsou zobrazeny v rozbalovací nabídce jazyků. Budeme moc rádi za přeložení OFeedu do dalšího jazyka.
 
-## OFeed web
+## OFeed Web
 
 V tuto chvíli existují dva překladové soubory:
 
@@ -18,7 +18,7 @@ V tuto chvíli existují dva překladové soubory:
 
 Soubory pro již přeložené jazyky jsou k dispozici v `/apps/client/src/i18n/locales`.
 
-## OFeed docs
+## OFeed Docs
 
 Nejlepším způsobem, jak přeložit dokumentaci, je postupovat podle oficiálního [návodu](https://docusaurus.io/docs/i18n/tutorial) Docusaurusu a poté vytvořit pull request.
 
