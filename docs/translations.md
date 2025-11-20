@@ -6,7 +6,7 @@ title: "Translations"
 
 # Translations
 
-Both `OFeed Web` and `OFeed Docs` can be translated into your language. The supported languages are shown in the language dropdown menu. We would be very happy to have OFeed translated into another language.
+Both `OFeed Web` and `OFeed Docs` can be translated into your language. The supported languages are shown in the language dropdown menu. We would be delighted to have OFeed translated into additional languages.
 
 ## OFeed web
 

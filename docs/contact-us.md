@@ -6,33 +6,33 @@ title: "Contact us"
 
 # Contact us
 
-- Do you face an issue?
-- Are you missing some feature?
-- Would you like to help us with translation?
+- Are you experiencing an issue?
+- Are you missing a feature?
+- Would you like to help us with translations?
 - Have you found an error or unclear translation?
-- Need help learning how to use OFeed?
+- Do you need help learning how to use OFeed?
 
 We would greatly appreciate any feedback.
 
 # How to reach us?
 
-You can choose from several ways to contact the OFeed team or community around the platform.
+You can choose from several ways to contact the OFeed team or the community around the platform
 
 ## Email
 
-Send an email to <a href="mailto:support@orienteerfeed.com">support@orienteerfeed.com</a>.
+Send an email to <a href="mailto:support@orienteerfeed.com">support@orienteerfeed.com</a> for support..
 
 ## Github
 
-Create a new [issue](https://github.com/orienteerfeed/ofeed/issues) with description or even better send pull request and we will review it.
+Create a new [issue](https://github.com/orienteerfeed/ofeed/issues) with a description, or even better, submit a pull request and we will review it.
 
 ## Discord
 
-Our Discord server ([invite](https://discord.gg/QMvnurgKzU)) has dedicated `help` channel where you can create a new post with detailed description. Add related files or images if possible. We as OFeed team or someone else from the community can help you to fix the faced issue.
+Our Discord server ([invite](https://discord.gg/QMvnurgKzU)) has a dedicated `help` channel where you can create a new post with a detailed description. Add any related files or images if possible. The OFeed team or other community members can help you resolve the issue.
 
 # Support us
 
-The platform is free and always will be. We only need to cover the web hosting costs necessary to run the service. If the service has saved you work or enhanced your event, you can support us by buying us a coffee [here](https://buymeacoffee.com/ofeed).
+The platform is free and always will be. We only need to cover the web hosting costs required to run the service. If the service has saved you time or improved your event, you can support us by buying us a coffee [here](https://buymeacoffee.com/ofeed)
 
 # FAQ
 

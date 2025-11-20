@@ -3,4 +3,5 @@ sidebar_position: 2
 ---
 
 # GraphQL
-The same operations as for REST should be available. The advantage is that you can exactly specify which data you need in the reponse so it reduces the size of the data transfered.
+
+The same operations available in REST are also available in GraphQL. The advantage is that you can specify exactly which data you need in the response, reducing the size of the data transferred.
