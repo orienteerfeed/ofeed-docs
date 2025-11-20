@@ -1,6 +1,6 @@
 ---
 id: contact
-sidebar_position: 4
+sidebar_position: 5
 title: "Kontakt a podpora"
 ---
 
@@ -30,7 +30,7 @@ Založ novou [issue](https://github.com/orienteerfeed/ofeed/issues) s popisem pr
 
 Na našem Discord serveru ([pozvánka](https://discord.gg/QMvnurgKzU)) máme kanál `help` kam můžeš vše hlásit. Přilož prosím související soubory nebo obrázky pokud máš. Buď my nebo někdo z komunity ti může následně snadno poradit situaci vyřešit.
 
-# Support us
+# Podpoř ty nás
 
 Platforma je zdarma a vždy bude. Potřebujeme pouze pokrýt náklady na webhosting nezbytné pro provoz služby. Pokud ti služba ušetřila práci nebo zvýšila úroveň tvojí akce a chceš nás podpořit, můžeš nám koupit symbolickou kávu [zde](https://buymeacoffee.com/ofeed).
 
