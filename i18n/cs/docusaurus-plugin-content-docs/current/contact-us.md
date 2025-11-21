@@ -16,11 +16,7 @@ Budeme moc rádi za jakoukoliv zpětnou vazbu.
 
 # Jak nás kontaktovat?
 
-Můžeš si vybrat z několika způsobů jak se s námi nebo komunikou okolo platformy spojit.
-
-## Email
-
-Pošli nám email na <a href="mailto:support@orienteerfeed.com">support@orienteerfeed.com</a>.
+Můžeš si vybrat z několika způsobů jak se s námi nebo komunikou okolo platformy spojit. Preferujeme `Discord` a `Github`, kde může reagovat i zbytek komunity.
 
 ## Github
 
@@ -30,9 +26,13 @@ Založ novou [issue](https://github.com/orienteerfeed/ofeed/issues) s popisem pr
 
 Na našem Discord serveru ([pozvánka](https://discord.gg/QMvnurgKzU)) máme kanál `help` kam můžeš vše hlásit. Přilož prosím související soubory nebo obrázky pokud máš. Buď my nebo někdo z komunity ti může následně snadno poradit situaci vyřešit.
 
-# Podpoř ty nás
+## Email
 
-Platforma je zdarma a vždy bude. Potřebujeme pouze pokrýt náklady na webhosting nezbytné pro provoz služby. Pokud ti služba ušetřila práci nebo zvýšila úroveň tvojí akce a chceš nás podpořit, můžeš nám koupit symbolickou kávu [zde](https://buymeacoffee.com/ofeed).
+Pošli nám email na <a href="mailto:support@orienteerfeed.com">support@orienteerfeed.com</a>.
+
+# Podpoř Ty nás
+
+Platforma je zdarma a vždy bude. Potřebujeme pouze pokrýt náklady na webhosting nezbytné pro provoz služby. Pokud Ti služba ušetřila práci nebo zvýšila úroveň Tvojí akce a chceš nás finančně podpořit, můžeš nám koupit symbolickou kávu [zde](https://buymeacoffee.com/ofeed). Bude moc vděční za jakoukoliv částku. Díky :heart:.
 
 # Nejčastější dotazy
 
