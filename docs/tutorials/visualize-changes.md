@@ -6,4 +6,6 @@ sidebar_position: 6
 
 The table report with filters enables checking and tracking changes in real-time. Can be used for manual processing into organising software.
 
-TODO
+TBD [issue](https://github.com/orienteerfeed/ofeed/issues/96)
+
+![Report changes](/img/tutorials/client/report_changes.png)
