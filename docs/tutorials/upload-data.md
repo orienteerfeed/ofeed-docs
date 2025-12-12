@@ -11,7 +11,7 @@ You can use either the manual method or the API for uploading. The manual method
 In the event `Settings` (you need to be logged in), you can drag and drop XML files containing the start list or results.
 ![Drag and drop](/img/tutorials/client/upload-data-manual-dd.png)
 
-## QE Service
+## QuickEvent Service
 
 ### Upload Setup
 
