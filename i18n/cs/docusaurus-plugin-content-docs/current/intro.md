@@ -67,6 +67,10 @@ Mobilní appka `SI-Droid OFeed Connector` zveřejněná jako open-source [projek
 
 K dispozici je [RESTful](https://api.orienteerfeed.com/api-docs/) and [GraphQL](https://api.orienteerfeed.com/graphql) API, které je jednodušeji uchopitelné v porovnání s IOF XML s mnoha rozdílnými implementacemi. Slouží k snadné integraci OFeedu a dalších aplikací.
 
+# Zmínky o platformě
+
+- Metodický seminář trenérů a rozhodčích [nahrávka](https://metodika.ceskyorientak.cz/materialy/444-metodicky-seminar-rozhodcich-2025-o-checklist-po-roce)
+
 # Progresive web application (PWA)
 
 Slouží pro rychlejší přístup a příjemnější prohlížení dat. První návštěva webu sama vyvolá nabídku k instalaci aplikace, která následně umožní přímé spuštění z domovské obrazovky vašeho zařízení.

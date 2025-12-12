@@ -33,6 +33,10 @@ Changes sent back to QuickEvent are processed completely automatically. The serv
 Use `Run flags` for `DNS` instead of the off-race checkbox, which removes the competitor from the XML export.
 ![QE run flags](/img/tutorials/quickevent/qe_runs_run_flags.png)
 
+### QuickEvent Tutorial
+
+How to use QuickEvent in general is described in video [here](https://www.youtube.com/playlist?list=PLVgDCJ29lrhDWTnzczCUOCi16sydyuD9C).
+
 ## API call
 
 Use an HTTP POST reuest to the endpoint `/rest/v1/upload/iof`. More details can be found [here](https://api.orienteerfeed.com/api-docs/#/default/post_rest_v1_upload_iof).

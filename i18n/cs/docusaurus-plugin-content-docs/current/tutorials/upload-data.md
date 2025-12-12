@@ -34,6 +34,10 @@ Změny ze startu jsou pravidelně kontrolovány a zpracovávány přímo do data
 Používej sloupec `Příznaky závodníka` pro nastavení `DNS` místo zaškrtávátka `Startuje`, které závodníka úplně odstraní ze závodu/etapy a následného xml exportu.
 ![QE run flags](/img/tutorials/quickevent/qe_runs_run_flags.png)
 
+### Návod na QuickEvent
+
+Jak základně používat QuickEvent je ukázáno ve videích [zde](https://www.youtube.com/playlist?list=PLVgDCJ29lrhDWTnzczCUOCi16sydyuD9C).
+
 ## Volání API
 
 Odesláním HTTP POST požadavku na endpoint `/rest/v1/upload/iof`. Pro více detailů je k dispozici [swagger](https://api.orienteerfeed.com/api-docs/#/default/post_rest_v1_upload_iof).

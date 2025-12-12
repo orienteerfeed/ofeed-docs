@@ -67,6 +67,10 @@ A mobile app called `SI-Droid OFeed Connector` is published as an open-source [p
 
 The service provides both [RESTful](https://api.orienteerfeed.com/api-docs/) and [GraphQL](https://api.orienteerfeed.com/graphql) APIs, which are more reliable than standard IOF XML with its many different implementations. It is designed for easy integration of the OFeed platform into your app.
 
+# Public Appearances
+
+- Methodical Seminar for Coaches and Referees [recording](https://metodika.ceskyorientak.cz/materialy/444-metodicky-seminar-rozhodcich-2025-o-checklist-po-roce)
+
 # Progresive web application (PWA)
 
 OFeed supports PWA, and the site can be installed via a pop-up window. The installed app provides a smoother browsing experience and can be launched directly from your home screen
