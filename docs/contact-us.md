@@ -14,26 +14,26 @@ title: "Contact us"
 
 We would greatly appreciate any feedback.
 
-# How to reach us?
+## How to reach us?
 
 You can choose from several ways to contact the OFeed team or the community around the platform. We prefer `Discord` and `GitHub`, where the rest of the community can respond as well.
 
-## Github
+### Github
 
 Create a new [issue](https://github.com/orienteerfeed/ofeed/issues) with a description, or even better, submit a pull request and we will review it.
 
-## Discord
+### Discord
 
 Our Discord server ([invite](https://discord.gg/QMvnurgKzU)) has a dedicated `help` channel where you can create a new post with a detailed description. Add any related files or images if possible. The OFeed team or other community members can help you resolve the issue.
 
-## Email
+### Email
 
 Send an email to <a href="mailto:support@orienteerfeed.com">support@orienteerfeed.com</a> for support.
 
-# Support us
+## Support us
 
 The platform is free and always will be. We only need to cover the web hosting costs required to run the service. If the service has saved you time or improved your event, you can support us by buying us a coffee [here](https://buymeacoffee.com/ofeed). We would be very grateful for any amount. Thanks :heart:.
 
-# FAQ
+## FAQ
 
 Everything is clear so far :grin:.

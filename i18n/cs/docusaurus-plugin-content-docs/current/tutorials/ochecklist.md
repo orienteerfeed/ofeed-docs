@@ -72,6 +72,6 @@ Můžeš si zobrazit log z nahrávání kliknutím na `OFeed` ikonu v pravém ho
 
 ![OFeed log](/img/tutorials/ochecklist/ochecklist_12_ofeed_upload_log_50proc.jpg)
 
-# Vizualizace změn
+## Vizualizace změn
 
 `OFeed` nabízí detailní report v administraci závodu (musíš být přihlášený), ve kterém je možné snadno filtrovat změny co tě zajímají.

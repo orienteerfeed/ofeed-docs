@@ -18,7 +18,7 @@ Data, se kterými platforma pracuje:
 
 Součástí platformy je i vizualizační aplikace [MRB](/tutorials/visualize-data#2-mrb) pro snadnou a moderní vizualizaci startovek/výsledků. Víc informací po kliknutí na odkaz.
 
-# Schéma
+## Schéma
 
 ```mermaid
 flowchart TD
@@ -37,41 +37,41 @@ flowchart TD
     C -- "Nová<br/>dohláška" --> B
 ```
 
-## Hlavní využití
+### Hlavní využití
 
 - aktuální data v aplikaci OChecklist, takže i změny čipů před závodem a dohlášky jsou na startu dřív, než samotný závodník vstoupí do prvního koridoru
 - změny čísel čipů se ze startu snadno dostanou zpět do pořádacího sw a tak se nenastane, že by byl na trati závodník s neznámým čipem, o kterém bychom nevěděli z radiokontrol
 - závodníky co nedorazí na start je možné okamžitě označit za DNS. Případný pozdní start změnu zruší.
 
-## Omezení
+### Omezení
 
 Synchronizace dat v reálném čase vyžaduje dostupné mobilní připojení k internetu jak v centru závodu, tak na startu.
 
-# Komunita
+## Komunita
 
 Spustili jsme vlastní Discord server ([pozvánka](https://discord.gg/QMvnurgKzU)), který usnadňuje propojení lidí okolo platformy a dostupnější podporu v případě potřeby. Připoj se k nám a pomoz nám udělat z OFeedu oblíbenou platformu co usnadní práci při pořádání.
 
-# Integrace
+## Integrace
 
 Nahraná data jsou snadno přístupná dalším aplikacím pomocí připraveného aplikačního rozhraní (API).
 
-## OChecklist
+### OChecklist
 
 OFeed je v aplikaci plně podporovaný a je možné ho využít jako [zdroj dat](/tutorials/ochecklist). Stačí načíst data na začátku a vzniklé změny na prezentaci jsou automaticky načteny a zobrazeny. A zároveň změny ze startu jsou v reálném čase nahrávány na OFeed, kde jsou okamžitě dostupné k dalšímu zpracování.
 
-## SI-Droid Event
+### SI-Droid Event
 
 Mobilní appka `SI-Droid OFeed Connector` zveřejněná jako open-source [projekt](https://github.com/orienteerfeed/ofeed-sidroid-connector) pomůže nahrát data i z mobilního telefonu využitím `Výsledkové služby` v `SI-Droid Event`. Usnadní tak zpracování dat kompletně na mobilním zařízení.
 
-## API
+### API
 
 K dispozici je [RESTful](https://api.orienteerfeed.com/api-docs/) and [GraphQL](https://api.orienteerfeed.com/graphql) API, které je jednodušeji uchopitelné v porovnání s IOF XML s mnoha rozdílnými implementacemi. Slouží k snadné integraci OFeedu a dalších aplikací.
 
-# Zmínky o platformě
+## Zmínky o platformě
 
 - Metodický seminář trenérů a rozhodčích [nahrávka](https://metodika.ceskyorientak.cz/materialy/444-metodicky-seminar-rozhodcich-2025-o-checklist-po-roce)
 
-# Progresive web application (PWA)
+## Progresive web application (PWA)
 
 Slouží pro rychlejší přístup a příjemnější prohlížení dat. První návštěva webu sama vyvolá nabídku k instalaci aplikace, která následně umožní přímé spuštění z domovské obrazovky vašeho zařízení.
 

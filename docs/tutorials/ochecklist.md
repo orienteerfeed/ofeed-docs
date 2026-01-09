@@ -64,6 +64,6 @@ You can open the log by clicking the `OFeed` icon in the upper right corner.
 
 ![OFeed log](/img/tutorials/ochecklist/ochecklist_12_ofeed_upload_log_50proc.jpg)
 
-# Visualize Changes
+## Visualize Changes
 
 The `OFeed` app provides a detailed report within the event administration (private, so you need to be logged in). You can easily filter the data according to your needs.
