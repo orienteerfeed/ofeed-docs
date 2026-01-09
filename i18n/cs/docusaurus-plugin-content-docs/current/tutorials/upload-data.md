@@ -38,7 +38,7 @@ Používej sloupec `Příznaky závodníka` pro nastavení `DNS` místo zaškrt�
 
 Jak základně používat QuickEvent je ukázáno ve videích [zde](https://www.youtube.com/playlist?list=PLVgDCJ29lrhDWTnzczCUOCi16sydyuD9C).
 
-### SI-Droid Event
+## SI-Droid Event / O-Pal
 
 Mobilní appka `SI-Droid OFeed Connector` zveřejněná jako open-source [projekt](https://github.com/orienteerfeed/ofeed-sidroid-connector) pomůže nahrát data i z mobilního telefonu využitím `Výsledkové služby` v [SI-Droid Event](https://play.google.com/store/apps/details?id=se.joja.sidroid.event.full&hl=cs&pli=1) nebo [O-Pal](https://play.google.com/store/apps/details?id=se.joja.opal.event&hl=cs). Usnadní tak zpracování dat kompletně na mobilním zařízení.
 
