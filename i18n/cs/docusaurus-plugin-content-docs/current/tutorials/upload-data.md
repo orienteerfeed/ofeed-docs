@@ -15,7 +15,7 @@ V `Nastavení` závodu (musíš být přihlášený) můžeš přetažením nebo
 
 ### Upload setup
 
-QuickEvent od verze 3 má přímo službu, která se o veškeré nahrávání postará. Stačí nastavit a spustit.
+QuickEvent od verze 3 má přímo službu, která se o veškeré nahrávání postará. Stačí nastavit a spustit. Po spuštění se nahraje statovka a v nastavených intervalech se posílají celé výsledky. Dále se zpracovávájí změny při editaci závodníka a po vyčtení (je odchycena změna v databázi a vyvolána odpovídající akce).
 
 ![QE service](/img/tutorials/quickevent/upload-data-qe-service.png)
 
@@ -37,6 +37,10 @@ Používej sloupec `Příznaky závodníka` pro nastavení `DNS` místo zaškrt�
 ### Návod na QuickEvent
 
 Jak základně používat QuickEvent je ukázáno ve videích [zde](https://www.youtube.com/playlist?list=PLVgDCJ29lrhDWTnzczCUOCi16sydyuD9C).
+
+### SI-Droid Event
+
+Mobilní appka `SI-Droid OFeed Connector` zveřejněná jako open-source [projekt](https://github.com/orienteerfeed/ofeed-sidroid-connector) pomůže nahrát data i z mobilního telefonu využitím `Výsledkové služby` v [SI-Droid Event](https://play.google.com/store/apps/details?id=se.joja.sidroid.event.full&hl=cs&pli=1) nebo [O-Pal](https://play.google.com/store/apps/details?id=se.joja.opal.event&hl=cs). Usnadní tak zpracování dat kompletně na mobilním zařízení.
 
 ## Volání API
 

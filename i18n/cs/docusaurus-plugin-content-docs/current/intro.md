@@ -49,23 +49,11 @@ Synchronizace dat v reálném čase vyžaduje dostupné mobilní připojení k i
 
 ## Komunita
 
-Spustili jsme vlastní Discord server ([pozvánka](https://discord.gg/QMvnurgKzU)), který usnadňuje propojení lidí okolo platformy a dostupnější podporu v případě potřeby. Připoj se k nám a pomoz nám udělat z OFeedu oblíbenou platformu co usnadní práci při pořádání.
+Spustili jsme vlastní [Discord server](https://discord.gg/QMvnurgKzU), který usnadňuje propojení lidí okolo platformy a dostupnější podporu v případě potřeby. Připoj se k nám a pomoz nám udělat z OFeedu oblíbenou platformu co usnadní práci při pořádání.
 
 ## Integrace
 
-Nahraná data jsou snadno přístupná dalším aplikacím pomocí připraveného aplikačního rozhraní (API).
-
-### OChecklist
-
-OFeed je v aplikaci plně podporovaný a je možné ho využít jako [zdroj dat](/tutorials/ochecklist). Stačí načíst data na začátku a vzniklé změny na prezentaci jsou automaticky načteny a zobrazeny. A zároveň změny ze startu jsou v reálném čase nahrávány na OFeed, kde jsou okamžitě dostupné k dalšímu zpracování.
-
-### SI-Droid Event
-
-Mobilní appka `SI-Droid OFeed Connector` zveřejněná jako open-source [projekt](https://github.com/orienteerfeed/ofeed-sidroid-connector) pomůže nahrát data i z mobilního telefonu využitím `Výsledkové služby` v `SI-Droid Event`. Usnadní tak zpracování dat kompletně na mobilním zařízení.
-
-### API
-
-K dispozici je [RESTful](https://api.orienteerfeed.com/api-docs/) and [GraphQL](https://api.orienteerfeed.com/graphql) API, které je jednodušeji uchopitelné v porovnání s IOF XML s mnoha rozdílnými implementacemi. Slouží k snadné integraci OFeedu a dalších aplikací.
+Nahraná data jsou snadno přístupná dalším aplikacím pomocí připraveného aplikačního rozhraní (API). Seznam již propojených aplikací nalezneš [zde](/connections).
 
 ## Zmínky o platformě
 
