@@ -2,17 +2,21 @@
 sidebar_position: 4
 ---
 
-# Connect to OChecklist
+# Connect to O Checklist
 
-OFeed has been supported in the official release of the app since version 5.
+`OFeed` has been supported in the official release of the app since version 5.
+
+## Install the app
+
+`O Checklist` is a free Android app that can be downloaded and installed from [Google Play](https://play.google.com/store/apps/details?id=se.tg3.startlist).
 
 ## How to Connect
 
 1. Create a new account at https://orienteerfeed.com/signup
 2. Create a new event and generate a new password
 3. Upload data (either manually upload an IOF XML file or use a dedicated service based on your organizing software)
-4. Connect the device running the OChecklist app to the internet
-5. Scan the QR code within the OChecklist mobile app—both outside and inside scanning options work.
+4. Connect the device running the O Checklist app to the internet
+5. Scan the QR code within the O Checklist mobile app—both outside and inside scanning options work.
    - You can easily share the QR code with the start crew by clicking the `Share` button and selecting your preferred communication app (Messenger, WhatsApp, etc.)
 
 ![Scan QR code](/img/tutorials/ochecklist/ochecklist_03_scan_qr_code_50proc.jpg)
@@ -50,7 +54,7 @@ The number of imported participants is displayed
 ## Changes Synchronisation
 
 - Changes made at the start are uploaded to the `OFeed` platform at regular intervals
-- Changes made at the registration office, via online forms, etc., are detected and downloaded to the OChecklist app. You are synchronized with the `OFeed` database in real time
+- Changes made at the registration office, via online forms, etc., are detected and downloaded to the O Checklist app. You are synchronized with the `OFeed` database in real time
 
 If a synchronization error occurs, the `OFeed` icon will have a red background.
 

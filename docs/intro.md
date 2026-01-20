@@ -63,5 +63,5 @@ Data from the platform can be easily integrated into your app through dedicated 
 
 OFeed supports PWA, and the site can be installed via a pop-up window. The installed app provides a smoother browsing experience and can be launched directly from your home screen
 
-![Pop up install](/img/ofeed_pwa_install.jpg)
-![Pop up install confirm](/img/ofeed_pwa_install_confirm.jpg)
+![Pop up install](/img/tutorials/pwa/ofeed_pwa_install.jpg)
+![Pop up install confirm](/img/tutorials/pwa/ofeed_pwa_install_confirm.jpg)

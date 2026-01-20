@@ -2,9 +2,13 @@
 sidebar_position: 4
 ---
 
-# Připojení do OChecklistu
+# Připojení do O Checklistu
 
-OChecklist oficiálně podporuje OFeed od zveřejnění verze 5.
+O Checklist obsahuje přímé napojení na `OFeed` platformu od verze 5.
+
+## Instalace aplikace
+
+`O Checklist` je zdarma dostupná aplikace pro Android, kterou je možné stáhnout a nainstalovaz z [Google Play](https://play.google.com/store/apps/details?id=se.tg3.startlist).
 
 ## Jak propojit
 
@@ -14,7 +18,7 @@ OChecklist oficiálně podporuje OFeed od zveřejnění verze 5.
 
 3. Nahraj data (manuálně nahraj iof xml nebo využij integrující službu v závislosti na používaném pořádacím programu)
 
-4. Připoj zařízení s OChecklistem k internetu
+4. Připoj zařízení s O Checklistem k internetu
 
 5. Načti QR kód v `Nastavení` foťákem nebo přímo v aplikaci, obojí funguje
    - Kliknutím na tlačítko `Sdílet` můžeš snadno odeslat QR kód například startérům pomocí oblíbené komunikační aplikace (Messenger, WhatsApp, ..)
@@ -54,7 +58,7 @@ Zobrazí se počet závodníků, kteří byli načteni
 ## Synchronizace změn
 
 - Změny provedené na startu jsou automaticky nahrávány na server `OFeedu` v pravidelných intervalech (lze nastavit).
-- Změny provedené na prezentaci, online apod jsou automaticky detekovány a staženy do OChecklistu
+- Změny provedené na prezentaci, online apod jsou automaticky detekovány a staženy do O Checklistu
 
 V případě připojení na `OFeed` máš k dispozici vždy všechna aktuální data.
 

@@ -1,6 +1,6 @@
 ---
 id: contact
-sidebar_position: 6
+sidebar_position: 8
 title: "Kontakt a podpora"
 ---
 
@@ -26,9 +26,9 @@ Založ novou [issue](https://github.com/orienteerfeed/ofeed/issues) s popisem pr
 
 Na našem Discord serveru ([pozvánka](https://discord.gg/QMvnurgKzU)) máme kanál `help` kam můžeš vše hlásit. Přilož prosím související soubory nebo obrázky pokud máš. Buď my nebo někdo z komunity ti může následně snadno poradit situaci vyřešit.
 
-### Email
+<!-- ### Email
 
-Pošli nám email na <a href="mailto:support@orienteerfeed.com">support@orienteerfeed.com</a>.
+Pošli nám email na <a href="mailto:support@orienteerfeed.com">support@orienteerfeed.com</a>. -->
 
 ## Podpoř Ty nás
 

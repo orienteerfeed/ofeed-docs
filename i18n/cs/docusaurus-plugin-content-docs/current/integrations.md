@@ -1,12 +1,19 @@
 ---
-id: connections
-sidebar_position: 3
-title: "Propojení"
+id: integrations
+sidebar_position: 5
+title: "Integrace"
 ---
 
-# Propojení
+# Integrace
 
-Seznam propojení s dalšími aplikacemi.
+Seznam Integrovaných aplikací s `OFeedem`.
+| Podporované | Aplikace | Verze |
+|--|--|--|
+| ✅ | OChecklist | >= 5.0 |
+| ✅ | QuickEvent | >= 3.0 |
+| ✅ | SI-Droid Event | all |
+| ✅ | O-Pal | all |
+| ❌ | MeOS | -- |
 
 ## OChecklist
 

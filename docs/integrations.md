@@ -1,12 +1,19 @@
 ---
-id: connections
-sidebar_position: 3
-title: "Connections"
+id: integrations
+sidebar_position: 5
+title: "Integrations"
 ---
 
-# Connections
+# Integrations
 
-A list of available connections between other apps.
+A list of apps integrated with `OFeed`.
+| Supported | App | Version |
+|--|--|--|
+| ✅ | OChecklist | >= 5.0 |
+| ✅ | QuickEvent | >= 3.0 |
+| ✅ | SI-Droid Event | all |
+| ✅ | O-Pal | all |
+| ❌ | MeOS | -- |
 
 ## OChecklist
 

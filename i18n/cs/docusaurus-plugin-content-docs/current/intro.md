@@ -63,5 +63,5 @@ Nahraná data jsou snadno přístupná dalším aplikacím pomocí připravenéh
 
 Slouží pro rychlejší přístup a příjemnější prohlížení dat. První návštěva webu sama vyvolá nabídku k instalaci aplikace, která následně umožní přímé spuštění z domovské obrazovky vašeho zařízení.
 
-![Pop up install](/img/ofeed_pwa_install.jpg)
-![Pop up install](/img/ofeed_pwa_install_confirm.jpg)
+![Pop up install](/img/tutorials/pwa/ofeed_pwa_install.jpg)
+![Pop up install confirm](/img/tutorials/pwa/ofeed_pwa_install_confirm.jpg)
