@@ -1,127 +1,126 @@
 ---
 id: best-practice
 sidebar_position: 4
-title: "Best Practice Configuration"
+title: "Doporučená nastavení"
 ---
 
-# Best Practice Configuration
+# Doporučená nastavení
 
-Recommended setup scenarios for the related apps.
+Přehled doporučených nastavení a detailní vysvětlení parametrů jednotlivých aplikací.
 
 ## OFeed
 
 <!-- ![OFeed](/img/svg/2025-04-11_orienteerfeed_192x192px_dark.svg) -->
 
-Detailed description of each section in the event Settings.
+Podrobný popis jednotlivých sekcí v nastavení závodu.
 
-### Event Information
+### Parametry závodu
 
-- `Relay` - check if your event is team based (2 and more legs)
-- `Hundredth precision`
-- `Ranking` - calculates Czech ranking points in real time
-- `Published` - visible/invisible in the list of events on the homepage
+- `Štafety` - vyber pokud pořádáš týmový závod (2 a více úseků)
+- `Setinová přesnost`
+- `Ranking` - vyber pro výpočet rankinkových bodů v průběhu závodu
+- `Zveřejněno` - ovlivňuje zobrazení závodu v seznamu událostí na domovské stránce
 
-### Event Password
+### Heslo závodu
 
-- `Generate password` - if you plan to connect other app with OFeed, you need to generate a password that will be used. Shows QR code for OChecklist connection
-- `Regenerate password` - use in case of password leak
-- `Revoke`
-- `Password expiration` - generated password is valid for 7 days
+- `Generovat heslo` - heslo je nezbytné pro napojení dalších aplikací. Po vygenerování se zobrazí QR kód pro `O Checklist` propojení
+- `Přegenerovat heslo` - lze použít v případě uniknutí hesla
+- `Zneplatnit` - zruší aktuální heslo
+- `Expirace hesla` - vygenerované heslo je platné 7 dní
 
-### O Checklist connection
+### O Checklist propojení
 
-Shows QR code that can be used for simple OChecklist connection. Scan the the code and confirm opening provided link.
+Zobrazený QR kód lze jednoduše využít pro napojení `O Checklistu`. Naskenuj kód a potvrď otevření načteného odkazu.
 
-### Visibility
+### Viditelnost
 
-You can keep your event invisible in both the [OFeed](https://orienteerfeed.com/) and [MRB](https://api.orienteerfeed.com/mrb/) event lists. Optimal choice for **testing** purposes or **private** events. Everything is working **normally** even though the event is not visible in the lists.
+Událost se nemusí zobrazovat v seznamu v [OFeed](https://orienteerfeed.com/)u ani v [MRB](https://api.orienteerfeed.com/mrb/). Ideální volba pro **testování** nebo **soukromé** akce. Je zachována **plná** funkčnost, ačkoliv událost není v seznamech vidět.
 
-### Event Link
+### Odkaz na událost
 
-Can be used for event promotion, e.g. on the website. `Share` button enables sharing QR code e.g. via chat apps.
+Lze využít pro propagaci závodu, např. na webovkách. Tlačítko `Sdílet` usnadňuje sdílení QR kódu se startéry, např. přes chatovací aplikace. Tlačítko `Tisk` generuje dokument, který lze vytisknout a předat startérům.
 
-### Danger Zone
+### Nebezpečná zóna
 
-- `Delete competitors` - deletes all competitors, classes remain
-- `Delete all event data` - deletes competitors, classes, relays, password
-- `Delete event` - completly removes whole event
+- `Smazat závodníky` - smaže pouze všechny závodníky - slouží pokud se objeví duplicity, kategorie zůstávají
+- `Smazat všechna data závodu` - smaže závodníky, kategorie, štafety i heslo
+- `Delete event` - odstraní kompletně celou událost
 
 ## MRB
 
-Based on the number of screens and their size adjust number of columns and scroll speed. We like `Continues scroll` the most.
+Dle počtu a velikosti obrazovek je ideální upravit množství zobrazovaných sloupců a rychlost posouvání. Doporučujeme `Continues scroll`.
 
-If you want to save space, use `Compact mode`. Some browsers are not able to display Emojis so uncheck `Show Emoji in table` option.
+Jestli potřebuješ ušetřit místo, tak použij `Compact mode`. Některé prohlížeče maji problémy se zobrazením emotikonů, tak odklikni `Show Emoji in table` a problém se vyřeší.
 
-For a clearer view of the results after the first competitors have finished, you can use uncheck `Show unfinished` option.
+Pro přehlednější zobrazení výsledků po doběhnutí prvních závodníků můžeš odkliknout `Show unfinished`.
 
 ## O Checklist
 
 ### App Settings
 
-Recommended `Settings` setup:
+Doporučené `Nastavení` pro závod:
 
-- `Time adjustment`
-  - Individual start (e.g. –3 min prestart)
-- `Start window`
+- `Úprava času`
+  - pro intervalový start nejčastěji +3 min
+- `Startovní interval`
   - 1 min
-  - Automatic DNS
-- `SPORTident` - turn the sound on
-  - Automatic tick off OK
-  - Failed to automaticaůůy tick off
-- `Server connection`
-  - Use OFeed
+  - Automatické DNS
+- `SPORTident` - zapni si zvuky
+  - Automaticky označen OK
+  - Signalizovat chybu při automatickém označení
+- `Připojení k serveru`
+  - Použij samozřejmě **OFeed**
 
-### Other
+### Ostatní
 
 :::tip
-Turn `Competition mode` on.
+Zapni si `Soutěžní mód`, který deaktivuje nepotřebné položky v menu.
 :::
 
 ## QuickEvent
 
-### Setup steps
+### Postup nastavení
 
-- Display Services
-- Open Service - `settings` icon
-- Fill in the credentials
-- Turn on changes processing when using OChecklist
-- Start the service - `play` icon, the <span class="red-qe-service-dot">red</span> dot goes <span class="green-qe-service-dot">green</span>
+- ZObraz si Služby
+- Otavři nastavení služby přes ikonu ozubeného kolečka
+- Vyplň přihlašovací údaje
+- Zapni zpracování změn jestli používáš O Checklist
+- Zapni službu - ikonou `spustit`, <span class="red-qe-service-dot">červená</span> tečka se následně změní na <span class="green-qe-service-dot">zelenou</span>
 
-### Advanced options
+### Rozšířené nastavení
 
-- Disable IOF XML validation - in case of troubles with upload
-- Manual startlist/results upload
+- Zruš validaci IOF XML - pokud máš problémy s nahráním dat
+- Manuální nahrání startovky výsledků tlačítky `Exportovat startovku`/`Exportovat výsledky`
 
-### How does the service works
+### Jak služba funguje
 
-- Uploads starlist on startup
-- Every `xx` sec uploads results
-- Reacts on db events
-  - competitor edited
-  - competitor added
-  - competitor deleted
-  - competitor read-out
+- Po spuštění nahraje startovku
+- Každé `xx` vteřiny nahraje výsledky
+- Pracuje se změnami v databázi
+  - editace závodnika
+  - přidání závodníka
+  - smazání závodníka
+  - vyčtení závodníka
 
-### Known limitations
+### Známá omezení
 
-- Direct table edits in the `Runs` are NOT handled at this moment.
-- Relay xml can not pass iof xml validation -> use checkbox `Run IOF XML validation`
-  Screenshot(s)
+- Přímé změny v tabulce `Úseky/Etapy` **nejsou** aktuálně zpracovány
+- Pokud xml export štafet naprochází validací -> odklikni checkbox `Provést IOF XML validaci`
 
 ## SI-Droid Connector
 
-### Setup steps
+### Postup nastavení
 
-- Start SI-Droid result service
-- Open `Settings` and:
-  - fill in port number
-  - for `OFeed` scan qr code with credentials or manually enter the credentials
-  - for `OResults` enter `api key`
+- Zapni výsledkovou služby v SI-Droid Event
+- Otevři `Nastavení` a:
+  - vyplň číslo portu výsledkové služby
+  - pro `OFeed` naskenuj QR kód s přihlašovacími údaji nebo vlož ručně
+  - pro `OResults` vlož `api key`
 
-### Handle ducplcities
+### Odstranění duplicit
 
-- Use `Clear OFeed` menu option
+- Použij možnost `Promazat OFeed` v hlavním menu
 
-### Battery usage
+### Využití baterie
 
-The `Unrestricted battery` setting may resolve some issues that occur while running the app.
+Nastavení `Bez omezení` může vyřešit některé problémy, které se mohou objevit při běhu aplikace.

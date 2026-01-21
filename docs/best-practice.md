@@ -23,14 +23,14 @@ Detailed description of each section in the event Settings.
 
 ### Event Password
 
-- `Generate password` - if you plan to connect other app with OFeed, you need to generate a password that will be used. Shows QR code for OChecklist connection
+- `Generate password` - if you plan to connect other app with OFeed, you need to generate a password that will be used. Shows QR code for `O Checklist` connection
 - `Regenerate password` - use in case of password leak
-- `Revoke`
+- `Revoke` - invalidates actual password
 - `Password expiration` - generated password is valid for 7 days
 
 ### O Checklist connection
 
-Shows QR code that can be used for simple OChecklist connection. Scan the the code and confirm opening provided link.
+Shows QR code that can be used for simple `O Checklist` connection. Scan the the code and confirm opening provided link.
 
 ### Visibility
 
@@ -38,13 +38,13 @@ You can keep your event invisible in both the [OFeed](https://orienteerfeed.com/
 
 ### Event Link
 
-Can be used for event promotion, e.g. on the website. `Share` button enables sharing QR code e.g. via chat apps.
+Can be used for event promotion, e.g. on the website. `Share` button enables sharing QR code with the start crew, e.g. via chat apps. `Print` button generates document that can be printed and provided to the start crew.
 
 ### Danger Zone
 
-- `Delete competitors` - deletes all competitors, classes remain
+- `Delete competitors` - deletes all competitors - is useful in case of duplicities appear, classes remain
 - `Delete all event data` - deletes competitors, classes, relays, password
-- `Delete event` - completly removes whole event
+- `Delete event` - completely deletes the entire event
 
 ## MRB
 
@@ -61,20 +61,20 @@ For a clearer view of the results after the first competitors have finished, you
 Recommended `Settings` setup:
 
 - `Time adjustment`
-  - Individual start (e.g. –3 min prestart)
+  - Individual start (e.g. +3 min prestart)
 - `Start window`
   - 1 min
   - Automatic DNS
 - `SPORTident` - turn the sound on
   - Automatic tick off OK
-  - Failed to automaticaůůy tick off
+  - Failed to automatically tick off
 - `Server connection`
-  - Use OFeed
+  - Use **OFeed**
 
 ### Other
 
 :::tip
-Turn `Competition mode` on.
+Turn `Competition mode` on, it deactivates all menu items.
 :::
 
 ## QuickEvent
@@ -84,19 +84,19 @@ Turn `Competition mode` on.
 - Display Services
 - Open Service - `settings` icon
 - Fill in the credentials
-- Turn on changes processing when using OChecklist
+- Turn on changes processing when using O Checklist
 - Start the service - `play` icon, the <span class="red-qe-service-dot">red</span> dot goes <span class="green-qe-service-dot">green</span>
 
 ### Advanced options
 
 - Disable IOF XML validation - in case of troubles with upload
-- Manual startlist/results upload
+- Manual startlist/results upload via buttons `Export startlist`/`Export results`
 
 ### How does the service works
 
 - Uploads starlist on startup
 - Every `xx` sec uploads results
-- Reacts on db events
+- Reacts on database events
   - competitor edited
   - competitor added
   - competitor deleted
@@ -104,18 +104,17 @@ Turn `Competition mode` on.
 
 ### Known limitations
 
-- Direct table edits in the `Runs` are NOT handled at this moment.
-- Relay xml can not pass iof xml validation -> use checkbox `Run IOF XML validation`
-  Screenshot(s)
+- Direct table edits in the `Runs` are **not** handled at this moment.
+- Relay xml can not pass iof xml validation -> uncheck checkbox `Run IOF XML validation`
 
 ## SI-Droid Connector
 
 ### Setup steps
 
-- Start SI-Droid result service
+- Start SI-Droid Event result service
 - Open `Settings` and:
-  - fill in port number
-  - for `OFeed` scan qr code with credentials or manually enter the credentials
+  - fill in port number of the result service
+  - for `OFeed` scan QR code with credentials or manually enter the credentials
   - for `OResults` enter `api key`
 
 ### Handle ducplcities
