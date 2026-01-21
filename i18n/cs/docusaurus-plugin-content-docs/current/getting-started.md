@@ -1,10 +1,10 @@
 ---
 id: getting-started
 sidebar_position: 2
-title: "Začínáme"
+title: "Jak na to"
 ---
 
-# Začínáme
+# Jak na to
 
 Souhrnná stránka s nezbytnými kroky při prvním použití `OFeed` platformy a napojených aplikací.
 
@@ -20,7 +20,7 @@ Koukni na [Jak propojit O Checklist s OFeed platformou](/cs/tutorials/ochecklist
 
 ## Používáš QuickEvent?
 
-Použij `OFeed` _Službu_, koukni na [návod](/cs/tutorials/upload-data#quickevent-service).
+Použij `OFeed` _Službu_, koukni na [návod](/cs/tutorials/upload-data#slu%C5%BEba-v-quickeventu).
 
 ## Seznam integrací
 
