@@ -15,7 +15,7 @@ In the event `Settings` (you need to be logged in), you can drag and drop XML fi
 
 ### Upload Setup
 
-QuickEvent 3 has a dedicated service that handles regular uploads to the platform. The service can manage initial upload of the start list after startup and regular uploads of the results and changes made while editing and read-out (database events are invoked and processed).
+`QuickEvent` 3 has a dedicated service that handles regular uploads to the platform. The service can manage initial upload of the start list after startup and regular uploads of the results and changes made while editing and read-out (database events are invoked and processed).
 ![QE service](/img/tutorials/quickevent/upload-data-qe-service.png)
 
 Fill in the fields:

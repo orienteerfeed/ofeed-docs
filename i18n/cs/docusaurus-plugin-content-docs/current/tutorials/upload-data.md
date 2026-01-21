@@ -13,9 +13,9 @@ V `Nastavení` závodu (musíš být přihlášený) můžeš přetažením nebo
 
 ## Služba v QuickEventu
 
-### Upload setup
+### Nastavení služby
 
-QuickEvent od verze 3 má přímo službu, která se o veškeré nahrávání postará. Stačí nastavit a spustit. Po spuštění se nahraje statovka a v nastavených intervalech se posílají celé výsledky. Dále se zpracovávájí změny při editaci závodníka a po vyčtení (je odchycena změna v databázi a vyvolána odpovídající akce).
+`QuickEvent` od verze 3 má přímo službu, která se o veškeré nahrávání postará. Stačí nastavit a spustit. Po spuštění se nahraje statovka a v nastavených intervalech se posílají celé výsledky. Dále se zpracovávájí změny při editaci závodníka a po vyčtení (je odchycena změna v databázi a vyvolána odpovídající akce).
 
 ![QE service](/img/tutorials/quickevent/upload-data-qe-service.png)
 
