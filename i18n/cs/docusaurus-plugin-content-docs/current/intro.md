@@ -13,7 +13,7 @@ Data, se kterými platforma pracuje:
 
 - Startovky
 - Výsledky
-- Změny ze startu zaznamenané v mobilní aplikaci [OChecklist](https://stigning.se/checklist/help_en.html)
+- Změny ze startu zaznamenané v mobilní aplikaci [O Checklist](https://stigning.se/checklist/help_en.html)
 - Dohlášky
 
 Součástí platformy je i vizualizační aplikace [MRB](/tutorials/visualize-data#2-mrb) pro snadnou a moderní vizualizaci startovek/výsledků. Víc informací po kliknutí na odkaz.
@@ -39,13 +39,14 @@ flowchart TD
 
 ### Hlavní využití
 
-- aktuální data v aplikaci OChecklist, takže i změny čipů před závodem a dohlášky jsou na startu dřív, než samotný závodník vstoupí do prvního koridoru
-- změny čísel čipů se ze startu snadno dostanou zpět do pořádacího sw a tak se nenastane, že by byl na trati závodník s neznámým čipem, o kterém bychom nevěděli z radiokontrol
-- závodníky co nedorazí na start je možné okamžitě označit za DNS. Případný pozdní start změnu zruší.
+- `Hladký průběh vyčítání` - víš, kdo s jakým čipem vystartoval a tak vyčítací frontu neznámý čip již **nezpomalí**
+- `Skutečná čísla čipů` - změny čísel čipů na startu se snadno dostanou zpět do **pořádacího programu** a tak se nenastane, že by nefungovaly radiokontroly. Práce s instalací radiokontrol nepřijde **nazmar**.
+- `Aktuální data` - O Checklist si **sám** stáhne provedené změny před závodem i **dohlášky** během závodu. Data jsou na startu dřív, než samotný závodník vstoupí do prvního koridoru.
+- `Okamžité DNS` - závodníky co nedorazí na start je možné **okamžitě** označit jako nestartující. Případný pozdní start změnu zruší. Máš tak **jasný přehled**, kdo je ještě na trati.
 
 ### Omezení
 
-Synchronizace dat v reálném čase vyžaduje dostupné mobilní připojení k internetu jak v centru závodu, tak na startu.
+Synchronizace dat v reálném čase vyžaduje **dostupné mobilní připojení** k internetu jak v centru závodu, tak na startu.
 
 ## Komunita
 

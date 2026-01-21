@@ -13,7 +13,7 @@ Store all event data:
 
 - Start lists
 - Results
-- Changes from the start captured by the [OChecklist](https://stigning.se/checklist/help_en.html) mobile app
+- Changes from the start captured by the [O Checklist](https://stigning.se/checklist/help_en.html) mobile app
 - New entries
 
 The platform also has a specialized app, [MRB](/tutorials/visualize-data#2-mrb), for modern and interactive results visualization. For more information, click the link.
@@ -39,13 +39,14 @@ flowchart TD
 
 ### Main Use Cases
 
-- **Real-time** data at the start in the OChecklist app, so that even late entries and card changes are handled before the competitor enters the first corridor
-- Changed card numbers at the start can be processed within a minute, and radiocontrols work for all competitors. No more unknown card numbers
-- Competitors who didn’t start can be processed quickly. If a late start occurs, the `DNS` status is changed back to `Active`
+- `Smooth readout` - no unknown cards that **slow down** read-out.
+- `Actual card numbers` - changed card numbers at the start can be **processed within a minute** and radio controls work for all competitors. The work involved in installing radio controls will not be **wasted**.
+- `Real-time data` - O Checklist app has up-to-date data, so that even **late entries** during the race and **other changes** are synchronized before the competitor enters the first corridor.
+- `Instant DNS` - competitors who didn’t start can be processed quickly. If a late start occurs, the **DNS** status is changed back to **Active**. You have accurate statistics of who is still running.
 
 ### Limitations
 
-Real-time data synchronization requires mobile network availability at both the event center and the start.
+Real-time data synchronization requires **mobile network availability** at both the event center and the start.
 
 ## Community
 
