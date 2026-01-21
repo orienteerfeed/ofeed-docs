@@ -53,7 +53,7 @@ We have launched a [Discord server](https://discord.gg/QMvnurgKzU) that is open 
 
 ## Integration
 
-Data from the platform can be easily integrated into your app through dedicated API endpoints in both directions. List of already supported apps is [here](/connections).
+Data from the platform can be easily integrated into your app through dedicated API endpoints in both directions. List of already supported apps is [here](/integrations).
 
 ## Public Appearances
 

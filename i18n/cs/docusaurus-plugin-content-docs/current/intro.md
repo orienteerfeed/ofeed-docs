@@ -53,7 +53,7 @@ Spustili jsme vlastní [Discord server](https://discord.gg/QMvnurgKzU), který u
 
 ## Integrace
 
-Nahraná data jsou snadno přístupná dalším aplikacím pomocí připraveného aplikačního rozhraní (API). Seznam již propojených aplikací nalezneš [zde](/connections).
+Nahraná data jsou snadno přístupná dalším aplikacím pomocí připraveného aplikačního rozhraní (API). Seznam již propojených aplikací nalezneš [zde](/integrations).
 
 ## Zmínky o platformě
 
