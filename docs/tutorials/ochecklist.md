@@ -54,13 +54,13 @@ The number of imported participants is displayed
 ## Changes Synchronisation
 
 - Changes made at the start are uploaded to the `OFeed` platform at regular intervals
-- Changes made at the registration office, via online forms, etc., are detected and downloaded to the O Checklist app. You are synchronized with the `OFeed` database in real time
+- Changes made at the registration office, via online forms, etc., are detected and downloaded to the `O Checklist` app. You are synchronized with the `OFeed` database in real time
 
-If a synchronization error occurs, the `OFeed` icon will have a red background.
+If a synchronization error occurs, the `OFeed` icon will have a <span class="red-qe-service-dot">red</span> background.
 
 ![Error status](/img/tutorials/ochecklist/ochecklist_09_ofeed_error_status_50proc.jpg)
 
-Under normal conditions (when everything works as expected), it should be green
+Under normal conditions (when everything works as expected), it should be <span class="green-qe-service-dot">green</span>
 
 ![OK status](/img/tutorials/ochecklist/ochecklist_10_ofeed_ok_status_50proc.jpg)
 
@@ -70,4 +70,4 @@ You can open the log by clicking the `OFeed` icon in the upper right corner.
 
 ## Visualize Changes
 
-The `OFeed` app provides a detailed report within the event administration (private, so you need to be logged in). You can easily filter the data according to your needs.
+The `OFeed` app provides a detailed report within the event administration (private, so you need to be logged in). You can easily filter the data according to your needs. More details [here](/tutorials/visualize-changes).

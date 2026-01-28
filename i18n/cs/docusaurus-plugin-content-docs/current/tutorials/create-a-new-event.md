@@ -2,9 +2,9 @@
 sidebar_position: 2
 ---
 
-# Vytvořit nový závod
+# Vytvořit novou akci
 
-Prvním krokem k využívání OFeedu je vytvoření nového závodu. Je potřeba být přihlášený a následně kliknout na `+ Přidat závod`.
+Prvním krokem k využívání OFeedu je vytvoření nové akce. Je potřeba být přihlášený a následně kliknout na `+ Přidat závod`.
 
 ![Create button](/img/tutorials/client/create_event.png)
 
@@ -27,10 +27,10 @@ Heslo je po vygenerování platné 7 dní. Odpočet ukazuje kolik času zbývá 
 :::
 
 :::warning[Upozornění]
-Pokud smažeš všechna data závodu, tak vymažeš i heslo. Nezapomeň informovat startéry, že původní heslo i qr kód (co obsahuje heslo) byly přegenerované a poslat jim nový qr kód.
+Pokud smažeš všechna data akce, tak vymažeš i heslo. Nezapomeň informovat startéry, že původní heslo i QR kód (co obsahuje heslo) byly přegenerované a poslat jim nový QR kód.
 :::
 
 ## Nebezpečná zóna
 
-Zde můžeš provést operace s daty akce. Opartně, jsou nevratné!
+Zde můžeš provést operace s daty akce. Opatrně, jsou nevratné!
 ![Danger zone](/img/tutorials/client/danger_zone.png)
