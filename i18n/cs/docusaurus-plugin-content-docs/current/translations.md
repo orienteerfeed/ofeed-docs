@@ -1,6 +1,6 @@
 ---
 id: translations
-sidebar_position: 4
+sidebar_position: 7
 title: "Překlady"
 ---
 
@@ -24,4 +24,4 @@ Nejlepším způsobem, jak přeložit dokumentaci, je postupovat podle oficiáln
 
 ## Dotazy
 
-Pokud chceš přispět a není ti jasné jak na to, koukni na stránku jak nás [kontaktovat](contact) a napiš nám. Rádi dotazy zodpovíme.
+Pokud chceš přispět a není ti jasné jak na to, koukni na stránku jak nás [kontaktovat](/contact) a napiš nám. Rádi dotazy zodpovíme.

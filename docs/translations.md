@@ -1,6 +1,6 @@
 ---
 id: translations
-sidebar_position: 4
+sidebar_position: 7
 title: "Translations"
 ---
 
@@ -24,4 +24,4 @@ The best way to translate the documentation is to follow the official Docusaurus
 
 ## Questions
 
-If you want to contribute and you're not sure how, take a look at the page on how to [contact us](contact) and send us a message. We’ll be happy to answer any questions.
+If you want to contribute and you're not sure how, take a look at the page on how to [contact us](/contact) and send us a message. We’ll be happy to answer any questions.

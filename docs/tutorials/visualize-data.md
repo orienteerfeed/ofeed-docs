@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 5
 ---
 
 # Visualize Data
@@ -78,3 +78,10 @@ The app supports:
 
 ![Showcase SHK women](/img/tutorials/mrb/mrb_showcase_shk_women.jpg)
 ![Showcase SHK men](/img/tutorials/mrb/mrb_showcase_shk_men.jpg)
+
+### Known issues
+
+- Loading data problem [issue](https://github.com/orienteerfeed/ofeed/issues/67)
+  - missing registration number and card number - fill in some values e.g. 1 for card number and unique value for registration number
+  - empty categories (no runners) - just uncheck the category in the Settings
+  - the last option is in [Danger Zone](/tutorials/create-a-new-event#danger-zone) delete competitors and upload data again

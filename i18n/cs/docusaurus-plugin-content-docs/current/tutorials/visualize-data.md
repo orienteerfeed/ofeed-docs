@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 5
 ---
 
 # Vizualizace dat
@@ -78,3 +78,10 @@ Aplikace podporuje:
 
 ![Showcase SHK women](/img/tutorials/mrb/mrb_showcase_shk_women.jpg)
 ![Showcase SHK men](/img/tutorials/mrb/mrb_showcase_shk_men.jpg)
+
+### Známé problémy
+
+- Problém s načtením dat kategorie [issue](https://github.com/orienteerfeed/ofeed/issues/67)
+  - chybějící registtračka nebo číslo čipu - vyplň nějaké hodnoty, např. 1 pro čísla čipů a unikátní honotu pro registračku
+  - prýzdné kategorie (bez běžců) - v nastavení odškrtni kategorie pro zobrazování
+  - poslední možností je v [Nebezpečné zóně](/tutorials/create-a-new-event#danger-zone) smazat závodníky a znovu je nahrát
