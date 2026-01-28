@@ -1,18 +1,21 @@
 ---
-sidebar_position: 4
+sidebar_position: 5
 ---
 
-# Visualize data
-OFeed offers two ways of visualizing the uploaded data:
-- `Basic view` - more for mobile devices and personal usage
-- `MRB` - result presentation system suitable for presenting the startlists/results in the event center on the screens
+# Visualize Data
 
-## 1. Basic tool
-You can check the data in the `event` details. You can analyze both simple results and splits times as well.
+OFeed offers two ways to visualize the uploaded data:
+
+- `Basic view` - designed more for mobile devices and personal use
+- `MRB` - a results presentation system suitable for displaying start lists and results on screens in the event center
+
+## 1. Basic Tool
+
+You can check the data in the `event` details. Both simple results and split times can be analyzed.
 ![Basic tool](/img/tutorials/client/visualize-data-ofeed.png)
 
 :::tip
-The view supports automatic `speaker` (speaker icon) that comments when a new winner reads out.
+The view supports automatic `speaker` (speaker icon), which announces when a new winner is read out.
 :::
 
 :::tip
@@ -20,43 +23,52 @@ Czech ranking points are calculated on the fly.
 :::
 
 ## 2. MRB
-Dedicated web app called `MyResultBoard` (MRB) that shows startlist and results in one setup. The headers of the classes are colored:
+
+A dedicated web app called `MyResultBoard` (MRB) displays the start list and results in a single interface. The class headers are color-coded:
+
 - <span class="mrb-blue">Men</span>
 - <span class="mrb-pink">Women</span>
-- <span class="mrb-grey">Other</span> (e.g. `T`, `Open`)
+- <span class="mrb-grey">Other</span> (e.g., `T`, `Open`)
 
-If you turn on showing the Emoji in the table (default option), you can see:
+If you enable emoji display in the table (default option), you will see:
+
 - 🙈 - disqualified
 - 🏃 - running
 - 🥺 - did not start
 - 🏴 - disqualified by the organiser
 - 🦄 - not competing
 - 🛏️ - not started yet
-- 🥇🥈🥉 - for top three positions
+- 🥇🥈🥉 - top three positions
 
 ![Visualize Data](/img/tutorials/mrb/visualize-data-mrb.png)
 
-### How it works
-Once you upload data to the platform everything is automatically prepared for you. Just visit https://api.orienteerfeed.com/mrb/ and select your event that is listed.
+### How It Works
 
-Launch `MRB` in the morning, start regular uploading of the startlists and the results. The startlists are transformed to the results smoothly as the event goes on. No additional settings is needed.
+Once you upload data to the platform, everything is automatically prepared for you. Simply visit https://api.orienteerfeed.com/mrb/ and select your listed event.
 
-The recommanded browsers are Google Chrome and Firefox. Other can face an issue with e.g. displaying the Emoji.
+Launch `MRB` in the morning and start regular uploading of the start lists and results. The start lists are seamlessly transformed into results as the event progresses. No additional settings are needed.
+
+The recommended browsers are Google Chrome and Firefox. Other browsers may encounter issues, for example, with displaying the emojis.
 
 ### Setup
-Using `Settings` button in the upper right corner gives you advanced options. You can adjust classes that are visualized, number of columns used (based on your screen size and orientation), order of the classes, scrolling style, table content.
+
+Click the `Settings` button in the upper right corner to access advanced options. You can adjust which classes are displayed, the number of columns used (based on your screen size and orientation), the order of the classes, scrolling style, and table content.
 ![MRB setup](/img/tutorials/mrb/visualize-data-mrb-settings.png)
 
-#### Offline mode
-`OFeed` can run locally in docker but that is suitable just for `MRB` and `OChecklist` can't be connected as it's not available on the internet.
+#### Offline Mode
+
+`OFeed` can run locally in Docker, but this setup is only suitable for `MRB`. `OChecklist` cannot be connected, as it requires an internet connection.
 
 ### Supported event types
+
 The app supports:
-- invidivual race (both individual and mass start)
-- relays - both sprint relay (4 legs) and classic relay (3 legs)
-![Visualize data sprint relay](/img/tutorials/mrb/visualize-data-mrb-sprint-relay.png)
+
+- **Individual race** - both individual and mass start
+- **Relays** - both sprint relay (4 legs) and classic relay (3 legs)
+  ![Visualize data sprint relay](/img/tutorials/mrb/visualize-data-mrb-sprint-relay.png)
 
 ### Showcase
+
 - TV screens
 
 ![Showcase CHC](/img/tutorials/mrb/mrb_showcase_chc.jpeg)
@@ -66,3 +78,10 @@ The app supports:
 
 ![Showcase SHK women](/img/tutorials/mrb/mrb_showcase_shk_women.jpg)
 ![Showcase SHK men](/img/tutorials/mrb/mrb_showcase_shk_men.jpg)
+
+### Known issues
+
+- Loading data problem [issue](https://github.com/orienteerfeed/ofeed/issues/67)
+  - missing registration number and card number - fill in some values e.g. 1 for card number and unique value for registration number
+  - empty categories (no runners) - just uncheck the category in the Settings
+  - the last option is in [Danger Zone](/tutorials/create-a-new-event#danger-zone) delete competitors and upload data again
