@@ -96,7 +96,7 @@ const config: Config = {
           {
             tagName: "meta",
             name: "theme-color",
-            content: "rgb(37, 194, 160)",
+            content: "rgba(255, 255, 255, 1)",
           },
           {
             tagName: "meta",
@@ -117,7 +117,7 @@ const config: Config = {
             tagName: "link",
             rel: "mask-icon",
             href: "/img/svg/2025-04-11_orienteerfeed_48x48px_dark.svg",
-            color: "rgb(37, 194, 160)",
+            color: "rgba(255, 255, 255, 1)",
           },
           {
             tagName: "meta",
@@ -137,7 +137,7 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: "img/docusaurus-social-card.jpg",
+    image: "img/ofeed-social-card.jpg",
     colorMode: {
       respectPrefersColorScheme: true,
     },
@@ -167,7 +167,7 @@ const config: Config = {
           position: "right",
           dropdownItemsAfter: [
             {
-              to: "https://orienteerfeed.com/help-us-translate",
+              to: "https://docs.orienteerfeed.com/translations",
               label: "Help us translate",
             },
           ],
