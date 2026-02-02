@@ -39,7 +39,7 @@
     "@docusaurus/tsconfig": "3.9.2",
     "@docusaurus/types": "3.9.2",
     "@types/node": "^24.10.1",
-    "eslint": "^9.39.1",
+    "eslint": "^9.39.2",
     "eslint-plugin-mdx": "^3.6.2",
     "husky": "^9.1.7",
     "lint-staged": "^16.2.7",
