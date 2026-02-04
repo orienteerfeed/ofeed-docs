@@ -52,7 +52,7 @@ Can be used for event promotion, e.g. on the website. `Share` button enables sha
 <tr>
 <td>
 
-![MRB logo](/img/logos/mrb.png)
+<img src="/img/logos/mrb.png" alt="MRB logo" width="300" />
 
 Based on the number of screens and their size adjust number of columns and scroll speed. We like `Continues scroll` the most.
 
@@ -77,7 +77,7 @@ For a clearer view of the results after the first competitors have finished, you
 <tr>
 <td>
 
-![O Checklist logo](/img/logos/o_checklist.png)
+<img src="/img/logos/o_checklist.png" alt="O Checklist logo" width="150" />
 
 Recommended `Settings` setup:
 
@@ -106,6 +106,8 @@ Turn `Competition mode` on, it deactivates all menu items.
 :::
 
 ## QuickEvent
+
+<img src="/img/logos/quickevent.png" alt="QuickEvent logo" width="150" />
 
 <table class="two-col-table">
 <tr>
@@ -136,7 +138,7 @@ Turn `Competition mode` on, it deactivates all menu items.
 </tr>
 </table>
 
-### How does the service works
+### How does the service work
 
 - Uploads starlist on startup
 - Every `xx` sec uploads results
@@ -153,11 +155,17 @@ Turn `Competition mode` on, it deactivates all menu items.
 
 ## SI-Droid Connector
 
+<table class="two-col-table">
+<tr>
+<td>
+
+<img src="/img/logos/connector.png" alt="Connector logo" width="150" />
+
 ### Setup steps
 
-- Start SI-Droid Event result service
+- Start SI-Droid Event Result service
 - Open `Settings` and:
-  - fill in port number of the result service
+  - fill in **port** number of the result service
   - for `OFeed` scan QR code with credentials or manually enter the credentials
   - for `OResults` enter `api key`
 
@@ -168,3 +176,12 @@ Turn `Competition mode` on, it deactivates all menu items.
 ### Battery usage
 
 The `Unrestricted battery` setting may resolve some issues that occur while running the app.
+
+</td>
+<td>
+
+![Connector Settings](/img/tutorials/client/best_practice_connector.png)
+
+</td>
+</tr>
+</table>

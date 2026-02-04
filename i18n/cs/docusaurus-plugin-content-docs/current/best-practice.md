@@ -52,7 +52,7 @@ Lze využít pro propagaci závodu, např. na webovkách. Tlačítko `Sdílet` u
 <tr>
 <td>
 
-![MRB logo](/img/logos/mrb.png)
+<img src="/img/logos/mrb.png" alt="MRB logo" width="300" />
 
 Dle počtu a velikosti obrazovek je ideální upravit množství zobrazovaných sloupců a rychlost posouvání. Doporučujeme `Continues scroll`.
 
@@ -77,7 +77,7 @@ Pro přehlednější zobrazení výsledků po doběhnutí prvních závodníků 
 <tr>
 <td>
 
-![O Checklist logo](/img/logos/o_checklist.png)
+<img src="/img/logos/o_checklist.png" alt="O Checklist logo" width="150" />
 
 Doporučené `Nastavení` pro závod:
 
@@ -106,6 +106,8 @@ Zapni si `Soutěžní mód`, který deaktivuje nepotřebné položky v menu.
 :::
 
 ## QuickEvent
+
+<img src="/img/logos/quickevent.png" alt="QuickEvent logo" width="150" />
 
 <table class="two-col-table">
 <tr>
@@ -153,11 +155,17 @@ Zapni si `Soutěžní mód`, který deaktivuje nepotřebné položky v menu.
 
 ## SI-Droid Connector
 
+<table class="two-col-table">
+<tr>
+<td>
+
+<img src="/img/logos/connector.png" alt="Connector logo" width="150" />
+
 ### Postup nastavení
 
 - Zapni výsledkovou služby v SI-Droid Event
 - Otevři `Nastavení` a:
-  - vyplň číslo portu výsledkové služby
+  - vyplň číslo **portu** výsledkové služby
   - pro `OFeed` naskenuj QR kód s přihlašovacími údaji nebo vlož ručně
   - pro `OResults` vlož `api key`
 
@@ -168,3 +176,12 @@ Zapni si `Soutěžní mód`, který deaktivuje nepotřebné položky v menu.
 ### Využití baterie
 
 Nastavení `Bez omezení` může vyřešit některé problémy, které se mohou objevit při běhu aplikace.
+
+</td>
+<td>
+
+![Connector Settings](/img/tutorials/client/best_practice_connector.png)
+
+</td>
+</tr>
+</table>
