@@ -19,7 +19,7 @@ Podrobný popis jednotlivých sekcí v nastavení závodu.
 - `Štafety` - vyber pokud pořádáš týmový závod (2 a více úseků)
 - `Setinová přesnost`
 - `Ranking` - vyber pro výpočet rankinkových bodů v průběhu závodu
-- `Zveřejněno` - ovlivňuje zobrazení závodu v seznamu událostí na domovské stránce
+- `Zveřejněno` - ovlivňuje zobrazení závodu v seznamu akcí na domovské stránce
 
 ### Heslo závodu
 
@@ -34,9 +34,9 @@ Zobrazený QR kód lze jednoduše využít pro napojení `O Checklistu`. Naskenu
 
 ### Viditelnost
 
-Událost se nemusí zobrazovat v seznamu v [OFeed](https://orienteerfeed.com/)u ani v [MRB](https://api.orienteerfeed.com/mrb/). Ideální volba pro **testování** nebo **soukromé** akce. Je zachována **plná** funkčnost, ačkoliv událost není v seznamech vidět.
+Akce se nemusí zobrazovat v seznamu v [OFeed](https://orienteerfeed.com/)u ani v [MRB](https://api.orienteerfeed.com/mrb/). Ideální volba pro **testování** nebo **soukromé** akce. Je zachována **plná** funkčnost, ačkoliv akce není v seznamech vidět.
 
-### Odkaz na událost
+### Odkaz na akci
 
 Lze využít pro propagaci závodu, např. na webovkách. Tlačítko `Sdílet` usnadňuje sdílení QR kódu se startéry, např. přes chatovací aplikace. Tlačítko `Tisk` generuje dokument, který lze vytisknout a předat startérům.
 
@@ -44,7 +44,7 @@ Lze využít pro propagaci závodu, např. na webovkách. Tlačítko `Sdílet` u
 
 - `Smazat závodníky` - smaže pouze všechny závodníky - slouží pokud se objeví duplicity, kategorie zůstávají
 - `Smazat všechna data závodu` - smaže závodníky, kategorie, štafety i heslo
-- `Delete event` - odstraní kompletně celou událost
+- `Delete event` - odstraní kompletně celou akci
 
 ## MyResultBoard (MRB)
 
