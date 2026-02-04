@@ -46,7 +46,13 @@ Can be used for event promotion, e.g. on the website. `Share` button enables sha
 - `Delete all event data` - deletes competitors, classes, relays, password
 - `Delete event` - completely deletes the entire event
 
-## MRB
+## MyResultBoard (MRB)
+
+<table class="two-col-table">
+<tr>
+<td>
+
+![MRB logo](/img/logos/mrb.png)
 
 Based on the number of screens and their size adjust number of columns and scroll speed. We like `Continues scroll` the most.
 
@@ -54,9 +60,24 @@ If you want to save space, use `Compact mode`. Some browsers are not able to dis
 
 For a clearer view of the results after the first competitors have finished, you can use uncheck `Show unfinished` option.
 
+</td>
+<td>
+
+![MRB Settings](/img/tutorials/client/best_practice_mrb.png)
+
+</td>
+</tr>
+</table>
+
 ## O Checklist
 
 ### App Settings
+
+<table class="two-col-table">
+<tr>
+<td>
+
+![O Checklist logo](/img/logos/o_checklist.png)
 
 Recommended `Settings` setup:
 
@@ -71,7 +92,14 @@ Recommended `Settings` setup:
 - `Server connection`
   - Use **OFeed**
 
-### Other
+</td>
+<td>
+
+![O Checklist Settings](/img/tutorials/client/best_practice_ochecklist.png)
+
+</td>
+</tr>
+</table>
 
 :::tip
 Turn `Competition mode` on, it deactivates all menu items.
@@ -79,18 +107,34 @@ Turn `Competition mode` on, it deactivates all menu items.
 
 ## QuickEvent
 
+<table class="two-col-table">
+<tr>
+<td>
+
 ### Setup steps
 
 - Display Services
 - Open Service - `settings` icon
 - Fill in the credentials
-- Turn on changes processing when using O Checklist
+- Turn <span class="green-qe-service-dot">ON</span> changes processing when using O Checklist
 - Start the service - `play` icon, the <span class="red-qe-service-dot">red</span> dot goes <span class="green-qe-service-dot">green</span>
+
+![QE Service Off](/img/tutorials/client/qe_ofeed_service_off.png)
+![QE Service On](/img/tutorials/client/qe_ofeed_service_on.png)
 
 ### Advanced options
 
 - Disable IOF XML validation - in case of troubles with upload
 - Manual startlist/results upload via buttons `Export startlist`/`Export results`
+
+</td>
+<td>
+
+![QE Settings](/img/tutorials/client/best_practice_qe_on.png)
+
+</td>
+</tr>
+</table>
 
 ### How does the service works
 

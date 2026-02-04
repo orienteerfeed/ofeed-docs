@@ -46,7 +46,13 @@ Lze využít pro propagaci závodu, např. na webovkách. Tlačítko `Sdílet` u
 - `Smazat všechna data závodu` - smaže závodníky, kategorie, štafety i heslo
 - `Delete event` - odstraní kompletně celou událost
 
-## MRB
+## MyResultBoard (MRB)
+
+<table class="two-col-table">
+<tr>
+<td>
+
+![MRB logo](/img/logos/mrb.png)
 
 Dle počtu a velikosti obrazovek je ideální upravit množství zobrazovaných sloupců a rychlost posouvání. Doporučujeme `Continues scroll`.
 
@@ -54,9 +60,24 @@ Jestli potřebuješ ušetřit místo, tak použij `Compact mode`. Některé proh
 
 Pro přehlednější zobrazení výsledků po doběhnutí prvních závodníků můžeš odkliknout `Show unfinished`.
 
+</td>
+<td>
+
+![MRB Settings](/img/tutorials/client/best_practice_mrb.png)
+
+</td>
+</tr>
+</table>
+
 ## O Checklist
 
 ### App Settings
+
+<table class="two-col-table">
+<tr>
+<td>
+
+![O Checklist logo](/img/logos/o_checklist.png)
 
 Doporučené `Nastavení` pro závod:
 
@@ -71,7 +92,14 @@ Doporučené `Nastavení` pro závod:
 - `Připojení k serveru`
   - Použij samozřejmě **OFeed**
 
-### Ostatní
+</td>
+<td>
+
+![O Checklist Settings](/img/tutorials/client/best_practice_ochecklist.png)
+
+</td>
+</tr>
+</table>
 
 :::tip
 Zapni si `Soutěžní mód`, který deaktivuje nepotřebné položky v menu.
@@ -79,18 +107,34 @@ Zapni si `Soutěžní mód`, který deaktivuje nepotřebné položky v menu.
 
 ## QuickEvent
 
+<table class="two-col-table">
+<tr>
+<td>
+
 ### Postup nastavení
 
 - ZObraz si Služby
 - Otavři nastavení služby přes ikonu ozubeného kolečka
 - Vyplň přihlašovací údaje
-- Zapni zpracování změn jestli používáš O Checklist
+- Zapni <span class="green-qe-service-dot">ON</span> zpracování změn jestli používáš O Checklist
 - Zapni službu - ikonou `spustit`, <span class="red-qe-service-dot">červená</span> tečka se následně změní na <span class="green-qe-service-dot">zelenou</span>
+
+![QE Service Off](/img/tutorials/client/qe_ofeed_service_off.png)
+![QE Service On](/img/tutorials/client/qe_ofeed_service_on.png)
 
 ### Rozšířené nastavení
 
 - Zruš validaci IOF XML - pokud máš problémy s nahráním dat
 - Manuální nahrání startovky výsledků tlačítky `Exportovat startovku`/`Exportovat výsledky`
+
+</td>
+<td>
+
+![QE Settings](/img/tutorials/client/best_practice_qe_on.png)
+
+</td>
+</tr>
+</table>
 
 ### Jak služba funguje
 

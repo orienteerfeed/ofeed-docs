@@ -62,3 +62,26 @@
   color: green;
   font-weight: bold;
 }
+
+.two-col-table td {
+  vertical-align: top;
+  border: none;
+}
+
+.two-col-table td:first-child {
+  padding-right: 2rem;
+  width: 60%;
+}
+
+.two-col-table {
+  border: none;
+  border-collapse: collapse;
+}
+
+.two-col-table tr {
+  border: none;
+}
+
+.two-col-table thead {
+  display: none;
+}
