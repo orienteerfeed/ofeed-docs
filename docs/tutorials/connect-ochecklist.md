@@ -8,7 +8,7 @@ sidebar_position: 4
 
 ## Install the app
 
-`O Checklist` is a free Android app that can be downloaded and installed from [Google Play](https://play.google.com/store/apps/details?id=se.tg3.startlist).
+`O Checklist` is a digital tick off utility for orienteering competitions. The mobile app is available for **free** and can be downloaded and installed from [Google Play](https://play.google.com/store/apps/details?id=se.tg3.startlist).
 
 ## How to Connect
 

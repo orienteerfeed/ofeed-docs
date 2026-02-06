@@ -8,7 +8,7 @@ O Checklist obsahuje přímé napojení na `OFeed` platformu od verze 5.
 
 ## Instalace aplikace
 
-`O Checklist` je zdarma dostupná aplikace pro Android, kterou je možné stáhnout a nainstalovaz z [Google Play](https://play.google.com/store/apps/details?id=se.tg3.startlist).
+`O Checklist` je digitální startovka pro startéry, kteří kontrolují vstup do koridoru. Jde o **zdarma** dostupnou mobilní aplikaci pro Android, kterou je možné stáhnout a nainstalovat z [Google Play](https://play.google.com/store/apps/details?id=se.tg3.startlist).
 
 ## Jak propojit
 

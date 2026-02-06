@@ -1,10 +1,10 @@
 ---
-id: contact
+id: support
 sidebar_position: 8
-title: "Kontakt a podpora"
+title: "Podpora"
 ---
 
-# Kontakt a podpora
+# Podpora
 
 - Něco ti nefunguje?
 - Chybí ti nějaká funkce?
@@ -29,10 +29,6 @@ Na našem Discord serveru ([pozvánka](https://discord.gg/QMvnurgKzU)) máme kan
 <!-- ### Email
 
 Pošli nám email na <a href="mailto:support@orienteerfeed.com">support@orienteerfeed.com</a>. -->
-
-## Podpoř Ty nás
-
-Platforma je zdarma a vždy bude. Potřebujeme pouze pokrýt náklady na webhosting nezbytné pro provoz služby. Pokud Ti služba ušetřila práci nebo zvýšila úroveň Tvojí akce a chceš nás finančně podpořit, můžeš nám koupit symbolickou kávu [zde](https://buymeacoffee.com/ofeed). Bude moc vděční za jakoukoliv částku. Díky :heart:.
 
 ## Nejčastější dotazy
 

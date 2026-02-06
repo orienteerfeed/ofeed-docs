@@ -16,7 +16,7 @@ The page outlines the initial steps required to start using `OFeed` and integrat
 ## Are you using O Checklist?
 
 `O Checklist` is a digital tick off utility for orienteering competitions.
-See [How to connect O Checklist with OFeed](/tutorials/ochecklist)
+See [How to connect O Checklist with OFeed](/tutorials/connect-ochecklist)
 
 ## Are you using QuickEvent?
 
@@ -24,8 +24,8 @@ Use dedicated _Service_, check the [tutorial](/tutorials/upload-data#quickevent-
 
 ## List of integrations
 
-[Overview of how OFeed connects with other event tools](/integrations)
+[Overview of how OFeed connects with other event tools](/category/integrations)
 
 ## Do you need help?
 
-Ask community, more details how to contact us are [here](/contact).
+Ask community, more details how to contact us are [here](/support).

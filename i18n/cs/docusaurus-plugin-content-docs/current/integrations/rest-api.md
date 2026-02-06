@@ -1,8 +1,8 @@
 ---
-sidebar_position: 1
+sidebar_position: 5
 ---
 
-# REST
+# REST API
 
 Swagger s detailnějším popisem je dostupný [zde](https://api.orienteerfeed.com/api-docs).
 

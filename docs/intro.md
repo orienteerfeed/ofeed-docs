@@ -16,25 +16,38 @@ The platform also has a specialized app, [MRB](/tutorials/visualize-data#2-mrb),
 - `Smooth readout` - no **unknown** cards that **slow down** read-out.
 - `Actual card numbers` - changed card numbers at the start can be **processed within a minute** and radio controls work for all competitors. The work involved in installing radio controls will not be **wasted**.
 - `Real-time data` - [O Checklist](https://play.google.com/store/apps/details?id=se.tg3.startlist) app has up-to-date data, so that even **late entries** during the race and **other changes** are synchronized **before** the competitor enters the first corridor.
-- `Instant DNS` - competitors who didn’t start can be processed quickly. If a late start occurs, the **DNS** status is changed back to **Active**. You have accurate statistics of who is still running.
+- `Instant DNS` - competitors who **didn’t start** can be processed **quickly**. If a late start occurs, the **DNS** status is changed back to **Active**. You have accurate statistics of who is still running.
+- `Central Data Hub` - keep **all** your orienteering **data** in one secure place when organizing, where it's easily **accessible** to other integrated applications.
 
 ## Workflow
 
 ```mermaid
-flowchart TD
-    A["Organising Software<br/>(QuickEvent, MeOS, Oribos, ...)"]
-    B["OFeed <br/> running at https://orienteerfeed.com"]
-    C[OChecklist]
+flowchart TB
+    SW@{ shape: cyl, label: "Organising Software<br/>(QuickEvent, MeOS, Oribos, ...)" }
+    OFeed@{ shape: cloud, label: "**OFeed**<br/>https://orienteerfeed.com" }
+    OChecklist@{ shape: rounded, label: "**O Checklist**" }
 
-    A -- "Upload<br/>data" --> B
-    B -- "Get<br/>changes" --> A
+    SW e1@== "Upload<br/>data" ==> OFeed
+    e1@{ animation: fast }
+    OFeed e2@== "Get<br/>changes" ==> SW
+    e2@{ animation: fast }
 
-    B -- "Classes/<br/>participants" --> C
-    B -- "On-the-day<br/>entries" --> C
-    C -- "Changed<br/>status" --> B
-    C -- "Changed<br/>card<br/>number" --> B
-    C -- "Changed<br/>note" --> B
-    C -- "New<br/>entries" --> B
+    OFeed e3@-- "Classes/<br/>participants" --> OChecklist
+    e3@{ animation: fast }
+    OFeed e4@-- "Late<br/>entries/<br/>changes" --> OChecklist
+    e4@{ animation: fast }
+
+    OChecklist e5@-- "Changed<br/>status" --> OFeed
+    e5@{ animation: fast }
+    OChecklist e6@-- "Changed<br/>card<br/>number" --> OFeed
+    e6@{ animation: fast }
+    OChecklist e7@-- "Changed<br/>note" --> OFeed
+    e7@{ animation: fast }
+    OChecklist e8@-- "New<br/>entries" --> OFeed
+    e8@{ animation: fast }
+
+    click OFeed "https://orienteerfeed.com" _blank
+    click OChecklist "https://stigning.se/checklist/help_en.html" _blank
 ```
 
 ## Data inputs
@@ -56,7 +69,20 @@ Connecting the right people is essential, which is why we have launched a [Disco
 
 ## Integrations
 
-Data from the platform can be easily integrated into your app through dedicated API endpoints in both directions. List of already supported apps is [here](/integrations).
+A list of apps integrated with `OFeed`.
+| Supported | App | Version | Details |
+|--|--|--|--|
+| ✅ | OChecklist | >= 5.0 | [link](/integrations/ochecklist) |
+| ✅ | QuickEvent | >= 3.0 | [link](/integrations/quickevent) |
+| ✅ | SI-Droid Event | all | [link](/integrations/joja) |
+| ✅ | O-Pal | all | [link](/integrations/joja) |
+| ❌ | MeOS | -- | [link](/integrations/meos) |
+
+Data from the platform can be easily integrated into your app through dedicated API endpoints in both directions. List of already supported apps is [here](/category/integrations).
+
+### Custom
+
+Can you simply create your own connection. `OFeed` provides both [RESTful](/integrations/rest-api) and [GraphQL](/integrations/graphql) APIs, which are more reliable than standard IOF XML with its many different implementations.
 
 ## Public Appearances
 

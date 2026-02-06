@@ -1,6 +1,6 @@
 ---
 id: best-practice
-sidebar_position: 4
+sidebar_position: 3
 title: "Doporučená nastavení"
 ---
 
@@ -10,7 +10,7 @@ Přehled doporučených nastavení a detailní vysvětlení parametrů jednotliv
 
 ## OFeed
 
-<!-- ![OFeed](/img/svg/2025-04-11_orienteerfeed_192x192px_dark.svg) -->
+<img src="/img/ico/2025-04-11_orienteerfeed_logo_48x48px_logo_favicon.png" alt="OFeed logo" width="150" />
 
 Podrobný popis jednotlivých sekcí v nastavení závodu.
 
@@ -60,6 +60,10 @@ Jestli potřebuješ ušetřit místo, tak použij `Compact mode`. Některé proh
 
 Pro přehlednější zobrazení výsledků po doběhnutí prvních závodníků můžeš odkliknout `Show unfinished`.
 
+### Dokumentace
+
+Podrobnější informace [zde](/tutorials/visualize-data#2-mrb)
+
 </td>
 <td>
 
@@ -92,6 +96,10 @@ Doporučené `Nastavení` pro závod:
 - `Připojení k serveru`
   - Použij samozřejmě **OFeed**
 
+### Dokumentace
+
+Podrobnější informace [zde](/integrations/ochecklist)
+
 </td>
 <td>
 
@@ -113,21 +121,15 @@ Zapni si `Soutěžní mód`, který deaktivuje nepotřebné položky v menu.
 <tr>
 <td>
 
-### Postup nastavení
+### Doporučené nastavení
 
-- ZObraz si Služby
-- Otavři nastavení služby přes ikonu ozubeného kolečka
-- Vyplň přihlašovací údaje
-- Zapni <span class="green-qe-service-dot">ON</span> zpracování změn jestli používáš O Checklist
-- Zapni službu - ikonou `spustit`, <span class="red-qe-service-dot">červená</span> tečka se následně změní na <span class="green-qe-service-dot">zelenou</span>
+- `Interval pro exportování` většinou stačí v klidu **60s**
+- Kliknutím na <span class="red-qe-service-dot">OFF</span> zapni zpracování změn z `O Checklistu`, pokud ho používáš -> změní se na <span class="green-qe-service-dot">ON</span>
+- Zruš validaci IOF XML - pokud máš problémy s nahráním dat, tak může pomoct
 
-![QE Service Off](/img/tutorials/client/qe_ofeed_service_off.png)
-![QE Service On](/img/tutorials/client/qe_ofeed_service_on.png)
+### Dokumentace
 
-### Rozšířené nastavení
-
-- Zruš validaci IOF XML - pokud máš problémy s nahráním dat
-- Manuální nahrání startovky výsledků tlačítky `Exportovat startovku`/`Exportovat výsledky`
+Podrobnější informace [zde](/integrations/quickevent)
 
 </td>
 <td>
@@ -137,21 +139,6 @@ Zapni si `Soutěžní mód`, který deaktivuje nepotřebné položky v menu.
 </td>
 </tr>
 </table>
-
-### Jak služba funguje
-
-- Po spuštění nahraje startovku
-- Každé `xx` vteřiny nahraje výsledky
-- Pracuje se změnami v databázi
-  - editace závodnika
-  - přidání závodníka
-  - smazání závodníka
-  - vyčtení závodníka
-
-### Známá omezení
-
-- Přímé změny v tabulce `Úseky/Etapy` **nejsou** aktuálně zpracovány
-- Pokud xml export štafet naprochází validací -> odklikni checkbox `Provést IOF XML validaci`
 
 ## SI-Droid Connector
 
@@ -163,7 +150,7 @@ Zapni si `Soutěžní mód`, který deaktivuje nepotřebné položky v menu.
 
 ### Postup nastavení
 
-- Zapni výsledkovou služby v SI-Droid Event
+- Zapni **výsledkovou služby** v mobilní aplikaci `SI-Droid Event`
 - Otevři `Nastavení` a:
   - vyplň číslo **portu** výsledkové služby
   - pro `OFeed` naskenuj QR kód s přihlašovacími údaji nebo vlož ručně
@@ -176,6 +163,10 @@ Zapni si `Soutěžní mód`, který deaktivuje nepotřebné položky v menu.
 ### Využití baterie
 
 Nastavení `Bez omezení` může vyřešit některé problémy, které se mohou objevit při běhu aplikace.
+
+### Dokumentace
+
+Podrobnější informace [zde](/integrations/joja)
 
 </td>
 <td>

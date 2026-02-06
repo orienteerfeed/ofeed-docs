@@ -1,8 +1,8 @@
 ---
-sidebar_position: 1
+sidebar_position: 5
 ---
 
-# REST
+# REST API
 
 The Swagger documentation with detailed endpoints is available [here](https://api.orienteerfeed.com/api-docs).
 

@@ -1,6 +1,6 @@
 ---
 id: best-practice
-sidebar_position: 4
+sidebar_position: 3
 title: "Best Practice Configuration"
 ---
 
@@ -10,7 +10,7 @@ Recommended setup scenarios for the related apps.
 
 ## OFeed
 
-<!-- ![OFeed](/img/svg/2025-04-11_orienteerfeed_192x192px_dark.svg) -->
+<img src="/img/ico/2025-04-11_orienteerfeed_logo_48x48px_logo_favicon.png" alt="OFeed logo" width="150" />
 
 Detailed description of each section in the event Settings.
 
@@ -60,6 +60,10 @@ If you want to save space, use `Compact mode`. Some browsers are not able to dis
 
 For a clearer view of the results after the first competitors have finished, you can use uncheck `Show unfinished` option.
 
+### Documentation
+
+For more details click [here](/tutorials/visualize-data#2-mrb)
+
 </td>
 <td>
 
@@ -92,6 +96,10 @@ Recommended `Settings` setup:
 - `Server connection`
   - Use **OFeed**
 
+### Documentation
+
+For more details click [here](/integrations/ochecklist)
+
 </td>
 <td>
 
@@ -107,27 +115,21 @@ Turn `Competition mode` on, it deactivates all menu items.
 
 ## QuickEvent
 
-<img src="/img/logos/quickevent.png" alt="QuickEvent logo" width="150" />
-
 <table class="two-col-table">
 <tr>
 <td>
 
-### Setup steps
+<img src="/img/logos/quickevent.png" alt="QuickEvent logo" width="150" />
 
-- Display Services
-- Open Service - `settings` icon
-- Fill in the credentials
-- Turn <span class="green-qe-service-dot">ON</span> changes processing when using O Checklist
-- Start the service - `play` icon, the <span class="red-qe-service-dot">red</span> dot goes <span class="green-qe-service-dot">green</span>
+### Recommended settings
 
-![QE Service Off](/img/tutorials/client/qe_ofeed_service_off.png)
-![QE Service On](/img/tutorials/client/qe_ofeed_service_on.png)
+- `Export interval` usually **60 seconds** is fine
+- Click <span class="red-qe-service-dot">OFF</span> to enable processing of changes from `O Checklist`, if you use it -> it will change to <span class="green-qe-service-dot">ON</span>
+- Disable IOF XML validation - in case of troubles with upload, it may help
 
-### Advanced options
+### Documentation
 
-- Disable IOF XML validation - in case of troubles with upload
-- Manual startlist/results upload via buttons `Export startlist`/`Export results`
+For more details click [here](/integrations/quickevent)
 
 </td>
 <td>
@@ -137,21 +139,6 @@ Turn `Competition mode` on, it deactivates all menu items.
 </td>
 </tr>
 </table>
-
-### How does the service work
-
-- Uploads starlist on startup
-- Every `xx` sec uploads results
-- Reacts on database events
-  - competitor edited
-  - competitor added
-  - competitor deleted
-  - competitor read-out
-
-### Known limitations
-
-- Direct table edits in the `Runs` are **not** handled at this moment.
-- Relay xml can not pass iof xml validation -> uncheck checkbox `Run IOF XML validation`
 
 ## SI-Droid Connector
 
@@ -163,7 +150,7 @@ Turn `Competition mode` on, it deactivates all menu items.
 
 ### Setup steps
 
-- Start SI-Droid Event Result service
+- Start **Result service** in the mobile app `SI-Droid Event`
 - Open `Settings` and:
   - fill in **port** number of the result service
   - for `OFeed` scan QR code with credentials or manually enter the credentials
@@ -176,6 +163,10 @@ Turn `Competition mode` on, it deactivates all menu items.
 ### Battery usage
 
 The `Unrestricted battery` setting may resolve some issues that occur while running the app.
+
+### Documentation
+
+For more details click [here](/integrations/joja)
 
 </td>
 <td>
