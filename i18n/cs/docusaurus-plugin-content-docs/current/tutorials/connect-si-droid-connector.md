@@ -20,15 +20,12 @@ Apliakc ještě není oficiálně publikovaná na Google Play a je možné ji st
 
 1. Zapni výsledkovou službu v `SI-Droid` - můžeš nechat výchozí nastavení čísla portu **8080**
 
-<img src="/img/tutorials/connector/si_droid_results_service.jpg)
-.jpg" alt="Result service select" width="200" />
-<img src="/img/tutorials/connector/si_droid_results_service_startup.jpg)
-.jpg" alt="Result service start" width="200" />
+<img src="/img/tutorials/connector/si_droid_results_service.jpg" alt="Result service select" width="200" />
+<img src="/img/tutorials/connector/si_droid_results_service_startup.jpg" alt="Result service start" width="200" />
 
 2. Zapni SI-Droid Connector - potvrď právo na zobrazení notifikací
 
-<img src="/img/tutorials/connector/android_permissions.jpg)
-.jpg" alt="Permissions info" width="200" />
+<img src="/img/tutorials/connector/android_permissions.jpg" alt="Permissions info" width="200" />
 <img src="/img/tutorials/connector/android_permissions_confirm.jpg" alt="Permissions confirm" width="200" />
 
 3. Nastav přihlašovací údaje a číslo portu - skenováním QR kódu nebo vložením zkopírovaného odkazu, číslo portu musí souhlasit s nastavením v `SI-Droidu`.
