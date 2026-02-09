@@ -40,6 +40,6 @@ Pokud chceš přispět a není ti jasné jak na to, koukni na stránku jak nás 
 
 ## Finanční podpora
 
-Platforma je **zdarma** a vždy bude. Potřebujeme pouze pokrýt **náklady** na webhosting nezbytné pro provoz služby. Pokud Ti služba **ušetřila** práci nebo **zvýšila** úroveň Tvojí akce a chceš nás finančně podpořit, můžeš nám koupit symbolickou kávičku [zde](https://buymeacoffee.com/ofeed). Bude moc vděční za jakoukoliv částku. Díky :heart:.
+Platforma je **zdarma** a vždy bude. Potřebujeme pouze pokrýt **náklady** na webhosting nezbytné pro provoz služby. Pokud Ti služba **ušetřila** práci nebo **zvýšila** úroveň Tvojí akce a chceš nás finančně podpořit, můžeš nám koupit symbolickou kávičku [👉](https://buymeacoffee.com/ofeed). Bude moc vděční za jakoukoliv částku. Díky :heart:.
 
 <!-- TODO: Přímo nějaký hezčí widget -->

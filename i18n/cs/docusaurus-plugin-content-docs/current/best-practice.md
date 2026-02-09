@@ -12,39 +12,24 @@ Přehled doporučených nastavení a detailní vysvětlení parametrů jednotliv
 
 <img src="/img/ico/2025-04-11_orienteerfeed_logo_48x48px_logo_favicon.png" alt="OFeed logo" width="150" />
 
-Podrobný popis jednotlivých sekcí v nastavení závodu.
+Nejdůležitější **nastavení** podle sekcí:
 
-### Parametry závodu
-
-- `Štafety` - vyber pokud pořádáš týmový závod (2 a více úseků)
-- `Setinová přesnost`
-- `Ranking` - vyber pro výpočet rankinkových bodů v průběhu závodu
-- `Zveřejněno` - ovlivňuje zobrazení závodu v seznamu akcí na domovské stránce
-
-### Heslo závodu
-
-- `Generovat heslo` - heslo je nezbytné pro napojení dalších aplikací. Po vygenerování se zobrazí QR kód pro `O Checklist` propojení
-- `Přegenerovat heslo` - lze použít v případě uniknutí hesla
-- `Zneplatnit` - zruší aktuální heslo
-- `Expirace hesla` - vygenerované heslo je platné 7 dní
-
-### O Checklist propojení
-
-Zobrazený QR kód lze jednoduše využít pro napojení `O Checklistu`. Naskenuj kód a potvrď otevření načteného odkazu.
-
-### Viditelnost
-
-Akce se nemusí zobrazovat v seznamu v [OFeed](https://orienteerfeed.com/)u ani v [MRB](https://api.orienteerfeed.com/mrb/). Ideální volba pro **testování** nebo **soukromé** akce. Je zachována **plná** funkčnost, ačkoliv akce není v seznamech vidět.
-
-### Odkaz na akci
-
-Lze využít pro propagaci závodu, např. na webovkách. Tlačítko `Sdílet` usnadňuje sdílení QR kódu se startéry, např. přes chatovací aplikace. Tlačítko `Tisk` generuje dokument, který lze vytisknout a předat startérům.
-
-### Nebezpečná zóna
-
-- `Smazat závodníky` - smaže pouze všechny závodníky - slouží pokud se objeví duplicity, kategorie zůstávají
-- `Smazat všechna data závodu` - smaže závodníky, kategorie, štafety i heslo
-- `Delete event` - odstraní kompletně celou akci
+- `Parametry akce`:
+  - [x] Štafety – pokud organizuješ štafety/ družstva, zaškrtni tuto možnost
+  - [x] Zveřejněno – akce se stane veřejnou a viditelnou v seznamu akcí
+- `Heslo akce`
+  - Klikni na `Generovat heslo` a zkopíruj jej podle použité [integrace](/category/integrations).
+  - Heslo platí **7 dní**
+- `Integrace`
+  - Nastav připojení k aplikaci, kterou používáš
+  - Pro `O Checklist` nebo `SI Droid Conenctor` sdílej QR kód nebo klikni na tlačítko s ikonou aplikace, abys snadno nastavil připojení na aktuálním zařízení
+- `Odkaz na akci`
+  - Sdílejte odkaz na akci s účastníky a diváky
+  - Vytiskni a vyvěš QR kód na viditelném místě pro snadný přístup
+- `Nebezpečná zóna`
+  - Použij v případě, že potřebuješ znovu nahrát data nebo opravit neočekávaný stav (např. duplicity atd.)
+- `Potřebuješ pomoc nebo máš dotazy?`
+  - Podívejte se na [stránku podpory](/support)
 
 ## MyResultBoard (MRB)
 
@@ -62,7 +47,7 @@ Pro přehlednější zobrazení výsledků po doběhnutí prvních závodníků 
 
 ### Dokumentace
 
-Podrobnější informace [zde](/tutorials/visualize-data#2-mrb)
+Podrobnější informace [👉](/features/visualize-data#2-mrb)
 
 </td>
 <td>
@@ -98,7 +83,7 @@ Doporučené `Nastavení` pro závod:
 
 ### Dokumentace
 
-Podrobnější informace [zde](/integrations/ochecklist)
+Podrobnější informace [👉](/integrations/ochecklist)
 
 </td>
 <td>
@@ -129,7 +114,7 @@ Zapni si `Soutěžní mód`, který deaktivuje nepotřebné položky v menu.
 
 ### Dokumentace
 
-Podrobnější informace [zde](/integrations/quickevent)
+Podrobnější informace [👉](/integrations/quickevent)
 
 </td>
 <td>
@@ -166,7 +151,7 @@ Nastavení `Bez omezení` může vyřešit některé problémy, které se mohou 
 
 ### Dokumentace
 
-Podrobnější informace [zde](/integrations/joja)
+Podrobnější informace [👉](/integrations/joja)
 
 </td>
 <td>

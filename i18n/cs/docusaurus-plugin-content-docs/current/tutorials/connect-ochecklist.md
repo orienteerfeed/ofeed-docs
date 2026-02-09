@@ -78,4 +78,4 @@ Můžeš si zobrazit log z nahrávání kliknutím na `OFeed` ikonu v pravém ho
 
 ## Vizualizace změn
 
-`OFeed` nabízí detailní report v administraci závodu (musíš být přihlášený), ve kterém je možné snadno filtrovat změny co tě zajímají. Více podrobností [zde](/cs/tutorials/visualize-changes).
+`OFeed` nabízí detailní report v administraci závodu (musíš být přihlášený), ve kterém je možné snadno filtrovat změny co tě zajímají. Více podrobností [👉](/features/detect-changes#zobrazení-změn).

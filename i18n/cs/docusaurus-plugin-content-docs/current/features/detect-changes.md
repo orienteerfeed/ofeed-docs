@@ -1,8 +1,12 @@
 ---
-sidebar_position: 6
+sidebar_position: 3
 ---
 
-# Vizualizace změn
+# Detekce změn
+
+Jde o stěžejní funkci platformy. Změny v nahrávaných datech jsou detekovány a ukládány. Následně je možné si změny zobrazit a filtrovat například dle místa původu (start, IT centrum, ...). Změny je možné jednoduše označit za zpracované.
+
+## Zobrazení změn
 
 Reportovací tabulka s filty umožňuje prohlížení a sledování změn v realném čase. Jde využít jako zdroj pro ruční zapracování změn do pořádacího software.
 
@@ -13,7 +17,7 @@ Klikni na tlačítko `Report` pro zobrazení tabulky se změnami.
 Report se změnami je dostupný pouze přihlášenému uživateli, který je autorem akce.
 :::
 
-## Filtrování
+### Filtrování
 
 Filtrovat data můžeš dle potřeby. Sloupec `Origin` popisuje místo původu dat. Můžeš taky využít **předdefinované** filtry, které je možné kombinovat:
 
@@ -25,7 +29,7 @@ Filtrovat data můžeš dle potřeby. Sloupec `Origin` popisuje místo původu d
 nebo jen prostě vepiš nebo vyber hledanou hodnotu v hlavičce sloupce. Data jsou **automaticky** obnovována každých **30s**.
 ![Report changes](/img/tutorials/client/report_changes.png)
 
-## Změny u vybraného závodníka
+### Změny u vybraného závodníka
 
 Kliknutím na řádek v tabulce si můžeš zobrazit tabulku se všemi změnami u daného závodníka.
 ![Selected competitor changes](/img/tutorials/client/report_changes_single_competitor.png)

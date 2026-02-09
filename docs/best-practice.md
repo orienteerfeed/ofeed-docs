@@ -12,39 +12,24 @@ Recommended setup scenarios for the related apps.
 
 <img src="/img/ico/2025-04-11_orienteerfeed_logo_48x48px_logo_favicon.png" alt="OFeed logo" width="150" />
 
-Detailed description of each section in the event Settings.
+The most important **Settings** by sections:
 
-### Event Information
-
-- `Relay` - check if your event is team based (2 and more legs)
-- `Hundredth precision`
-- `Ranking` - calculates Czech ranking points in real time
-- `Published` - visible/invisible in the list of events on the homepage
-
-### Event Password
-
-- `Generate password` - if you plan to connect other app with OFeed, you need to generate a password that will be used. Shows QR code for `O Checklist` connection
-- `Regenerate password` - use in case of password leak
-- `Revoke` - invalidates actual password
-- `Password expiration` - generated password is valid for 7 days
-
-### O Checklist connection
-
-Shows QR code that can be used for simple `O Checklist` connection. Scan the the code and confirm opening provided link.
-
-### Visibility
-
-You can keep your event invisible in both the [OFeed](https://orienteerfeed.com/) and [MRB](https://api.orienteerfeed.com/mrb/) event lists. Optimal choice for **testing** purposes or **private** events. Everything is working **normally** even though the event is not visible in the lists.
-
-### Event Link
-
-Can be used for event promotion, e.g. on the website. `Share` button enables sharing QR code with the start crew, e.g. via chat apps. `Print` button generates document that can be printed and provided to the start crew.
-
-### Danger Zone
-
-- `Delete competitors` - deletes all competitors - is useful in case of duplicities appear, classes remain
-- `Delete all event data` - deletes competitors, classes, relays, password
-- `Delete event` - completely deletes the entire event
+- `Event Information`:
+  - [x] Relay - if you organize non-individual Event check this option
+  - [x] Published - makes the Event public, will be visible in the list of events
+- `Event Password`
+  - Click `Generate Password` and copy&paste it according to used [integration](/category/integrations)
+  - Expires after **7 days**
+- `Integrations`
+  - Setup the connection with the app you use
+  - For `O Checklist` or `SI Droid Conenctor` share the QR code or click the button with the app icon to easily setup the connection on actual device
+- `Event link`
+  - Share the Event link with the audience
+  - Print and place a QR code in the center of the event for easy access
+- `Danger Zone`
+  - Use in case you need to reupload data or fix unexpected state (liek duplicities etc.)
+- `Need Help of Have Questions?`
+  - Check [Support page](/support)
 
 ## MyResultBoard (MRB)
 
@@ -62,7 +47,7 @@ For a clearer view of the results after the first competitors have finished, you
 
 ### Documentation
 
-For more details click [here](/tutorials/visualize-data#2-mrb)
+For more details click [👉](/features/visualize-data#2-mrb)
 
 </td>
 <td>
@@ -98,7 +83,7 @@ Recommended `Settings` setup:
 
 ### Documentation
 
-For more details click [here](/integrations/ochecklist)
+For more details click [👉](/integrations/ochecklist)
 
 </td>
 <td>
@@ -129,7 +114,7 @@ Turn `Competition mode` on, it deactivates all menu items.
 
 ### Documentation
 
-For more details click [here](/integrations/quickevent)
+For more details click [👉](/integrations/quickevent)
 
 </td>
 <td>
@@ -166,7 +151,7 @@ The `Unrestricted battery` setting may resolve some issues that occur while runn
 
 ### Documentation
 
-For more details click [here](/integrations/joja)
+For more details click [👉](/integrations/joja)
 
 </td>
 <td>

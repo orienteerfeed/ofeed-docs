@@ -20,7 +20,7 @@ See [How to connect O Checklist with OFeed](/tutorials/connect-ochecklist)
 
 ## Are you using QuickEvent?
 
-Use dedicated _Service_, check the [tutorial](/tutorials/upload-data#quickevent-service).
+Use dedicated _Service_, check the [tutorial](/integrations/quickevent).
 
 ## List of integrations
 
@@ -28,4 +28,4 @@ Use dedicated _Service_, check the [tutorial](/tutorials/upload-data#quickevent-
 
 ## Do you need help?
 
-Ask community, more details how to contact us are [here](/support).
+Ask community, more details how to contact us are [👉](/support).

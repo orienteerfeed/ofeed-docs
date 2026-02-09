@@ -1,10 +1,10 @@
 ---
-sidebar_position: 5
+sidebar_position: 2
 ---
 
 # Visualize Data
 
-OFeed offers two ways to visualize the uploaded data:
+`OFeed` offers two ways to visualize the uploaded data:
 
 - `Basic view` - designed more for mobile devices and personal use
 - `MRB` - a results presentation system suitable for displaying start lists and results on screens in the event center
@@ -24,7 +24,7 @@ Czech ranking points are calculated on the fly.
 
 ## 2. MRB
 
-A dedicated web app called `MyResultBoard` (MRB) displays the start list and results in a single interface. The class headers are color-coded:
+An application proven in many races called `MyResultBoard` (MRB) displays the start list and results in a single interface. The class headers are color-coded:
 
 - <span class="mrb-blue">Men</span>
 - <span class="mrb-pink">Women</span>
@@ -57,7 +57,7 @@ Click the `Settings` button in the upper right corner to access advanced options
 
 #### Offline Mode
 
-`OFeed` can run locally in Docker, but this setup is only suitable for `MRB`. `OChecklist` cannot be connected, as it requires an internet connection.
+`OFeed` can run locally in Docker, but this setup is only suitable for `MRB`. `O Checklist` cannot be connected, as it requires an internet connection.
 
 ### Supported event types
 

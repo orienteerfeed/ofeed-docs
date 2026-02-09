@@ -20,7 +20,7 @@ Koukni na [Jak propojit O Checklist s OFeed platformou](/tutorials/connect-ochec
 
 ## Používáš QuickEvent?
 
-Použij `OFeed` _Service_, koukni na [návod](/tutorials/upload-data#slu%C5%BEba-v-quickeventu).
+Použij `OFeed` _Service_, koukni na [návod](/integrations/quickevent).
 
 ## Seznam integrací
 

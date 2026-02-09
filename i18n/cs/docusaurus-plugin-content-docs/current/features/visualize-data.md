@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+sidebar_position: 2
 ---
 
 # Vizualizace dat
@@ -24,7 +24,7 @@ Počet získaných bodů do rankingu se počítá průběžně.
 
 ## 2. MRB
 
-Webová aplikace `MyResultBoard` (MRB) určená k zobrazování startovek a výsledků v jednom nastavení. Hlavičky názvů kategorií jsou obarveny:
+Mnoh závody ověřená webová aplikace `MyResultBoard` (MRB) určená k zobrazování startovek a výsledků v jednom nastavení. Hlavičky názvů kategorií jsou obarveny:
 
 - <span class="mrb-blue">Muži</span>
 - <span class="mrb-pink">Ženy</span>
@@ -57,7 +57,7 @@ Pomocí tlačítka `Settings` v pravém horním rohu jde otevřít okno s detail
 
 #### Offline režim
 
-`OFeed` je možné spustit i lokálně, což umožní využívat pouze `MRB`. `OChecklist` nepůjde na lokální instanci napojit pokud nebude dostupná v internetu.
+`OFeed` je možné spustit i lokálně, což umožní využívat pouze `MRB`. `O Checklist` nepůjde na lokální instanci napojit pokud nebude dostupná v internetu.
 
 ### Podporované typy závodu
 

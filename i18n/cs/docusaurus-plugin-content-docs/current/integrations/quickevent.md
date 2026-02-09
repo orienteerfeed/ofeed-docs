@@ -52,4 +52,4 @@ Používej sloupec `Příznaky závodníka` pro nastavení `DNS` místo zaškrt�
 
 ## Návod na QuickEvent
 
-Jak základně používat QuickEvent je ukázáno ve videích [zde](https://www.youtube.com/playlist?list=PLVgDCJ29lrhDWTnzczCUOCi16sydyuD9C).
+Jak základně používat QuickEvent je ukázáno ve videích [👉](https://www.youtube.com/playlist?list=PLVgDCJ29lrhDWTnzczCUOCi16sydyuD9C).

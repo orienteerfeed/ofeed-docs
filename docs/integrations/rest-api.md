@@ -4,7 +4,7 @@ sidebar_position: 5
 
 # REST API
 
-The Swagger documentation with detailed endpoints is available [here](https://api.orienteerfeed.com/api-docs).
+The Swagger documentation with detailed endpoints is available [👉](https://api.orienteerfeed.com/api-docs).
 
 ## Authorization
 

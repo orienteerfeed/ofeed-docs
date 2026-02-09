@@ -18,7 +18,7 @@ The switch on the `Visibility` card keeps your event private and accessible only
 
 ## Generate event password
 
-The password is used to update event details. The **event ID** is also **required** to set up the connection in, for example, `OChecklist` or the `QuickEvent service`.
+The password is used to update event details. The **event ID** is also **required** to set up the connection in, for example, `O Checklist` or the `QuickEvent service`.
 
 ![Event form](/img/tutorials/client/settings_password.png)
 

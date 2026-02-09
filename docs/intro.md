@@ -9,7 +9,7 @@ slug: /
 
 A modern IOF-XML–oriented platform for managing all orienteering event data in one place. Developed as an open-source project and hosted at [orienteerfeed.com](https://orienteerfeed.com).
 
-The platform also has a specialized app, [MRB](/tutorials/visualize-data#2-mrb), for modern and interactive results visualization.
+The platform also has a [specialized app](/features/visualize-data#2-mrb) for modern and interactive start list/results visualization.
 
 ## Key benefits of using the platform
 
@@ -50,18 +50,7 @@ flowchart TB
     click OChecklist "https://stigning.se/checklist/help_en.html" _blank
 ```
 
-## Data inputs
-
-Store all event data:
-
-- Start lists
-- Results
-- Changes from the start captured by the [O Checklist](https://play.google.com/store/apps/details?id=se.tg3.startlist) mobile app
-- New entries
-
-## Limitations
-
-Real-time data synchronization requires **mobile network availability** at both the event center and the start.
+A detailed description of the platform itself and the features it offers can be found [👉](/category/features).
 
 ## Community
 
@@ -72,25 +61,51 @@ Connecting the right people is essential, which is why we have launched a [Disco
 A list of apps integrated with `OFeed`.
 | Supported | App | Version | Details |
 |--|--|--|--|
-| ✅ | OChecklist | >= 5.0 | [link](/integrations/ochecklist) |
+| ✅ | O Checklist | >= 5.0 | [link](/integrations/ochecklist) |
 | ✅ | QuickEvent | >= 3.0 | [link](/integrations/quickevent) |
 | ✅ | SI-Droid Event | all | [link](/integrations/joja) |
 | ✅ | O-Pal | all | [link](/integrations/joja) |
 | ❌ | MeOS | -- | [link](/integrations/meos) |
 
-Data from the platform can be easily integrated into your app through dedicated API endpoints in both directions. List of already supported apps is [here](/category/integrations).
+Data from the platform can be easily integrated into your app through dedicated API endpoints in both directions. List of already supported apps is [👉](/category/integrations).
 
 ### Custom
 
 Can you simply create your own connection. `OFeed` provides both [RESTful](/integrations/rest-api) and [GraphQL](/integrations/graphql) APIs, which are more reliable than standard IOF XML with its many different implementations.
 
-## Public Appearances
+## Support for platform operation
 
-- Methodical Seminar for Coaches and Referees [recording](https://metodika.ceskyorientak.cz/materialy/444-metodicky-seminar-rozhodcich-2025-o-checklist-po-roce)
+`OFeed` is an open-source project created by a community of organizers, developers, and orienteering enthusiasts. Support for the project is not just about finances — **time**, **knowledge**, and **experience** are just as important. You're wondering how to **get involved**?
 
-## Progresive web application (PWA)
+### Financial support 💰
 
-OFeed supports PWA, and the site can be installed via a pop-up window. The installed app provides a smoother browsing experience and can be launched directly from your home screen.
+**Operating** the platform in the cloud (servers, domains, monitoring, backups) and further development involve **long-term** costs.
+If you use `OFeed` or find it **helpful** in organizing races, you can also support its operation and development **financially**:
 
-![Pop up install](/img/tutorials/pwa/ofeed_pwa_install.jpg)
-![Pop up install confirm](/img/tutorials/pwa/ofeed_pwa_install_confirm.jpg)
+- with a **one-time** contribution
+- with **regular** support
+- with support from a **club** or **organizer**
+
+### Development and technical support 💻
+
+You can get directly involved in the development of the platform:
+
+- by contributing **code** (bug fixes, new features, refactoring)
+- by testing and providing feedback from **organized** events
+- by documenting and improving the **instructions**
+
+You can find the project repositories and information on how to get involved on [GitHub](https://github.com/orienteerfeed).
+
+You can find ways to get involved [👉](/contribute).
+
+### Why get involved? 🌟
+
+Supporting `OFeedu` helps:
+
+- keep the platform available **in the long term**
+- **expand** support for other applications and formats
+- **simplify** the work of race organizers
+- build an **open** ecosystem of tools for orienteering sports
+
+**Any** form of support is meaningful – whether you contribute code, ideas, testing, or financially.
+Thank you for helping `OFeed` move forward ❤️.

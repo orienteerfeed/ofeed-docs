@@ -52,4 +52,4 @@ Use `Run flags` for `DNS` instead of the off-race checkbox, which removes the co
 
 ## QuickEvent Tutorial
 
-How to use QuickEvent in general is described in video [here](https://www.youtube.com/playlist?list=PLVgDCJ29lrhDWTnzczCUOCi16sydyuD9C).
+How to use QuickEvent in general is described in video [👉](https://www.youtube.com/playlist?list=PLVgDCJ29lrhDWTnzczCUOCi16sydyuD9C).

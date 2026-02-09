@@ -13,10 +13,18 @@
   },
   "sidebar.tutorialSidebar.category.Integrations": {
     "message": "Integrace",
-    "description": "The label for category 'API' in sidebar 'tutorialSidebar'"
+    "description": "The label for category 'Integrations' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Integrations.link.generated-index.description": {
     "message": "Jak na integraci s platformou",
-    "description": "The generated-index page description for category 'API' in sidebar 'tutorialSidebar'"
+    "description": "The generated-index page description for category 'Integrations' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Features": {
+    "message": "Funkcionality",
+    "description": "The label for category 'API' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Features.link.generated-index.description": {
+    "message": "Přehled funkcí, které platforma nabízí",
+    "description": "The generated-index page description for category 'Integrations' in sidebar 'tutorialSidebar'"
   }
 }

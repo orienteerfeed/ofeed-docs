@@ -167,7 +167,7 @@ const config: Config = {
           position: "right",
           dropdownItemsAfter: [
             {
-              to: "https://docs.orienteerfeed.com/translations",
+              to: "https://docs.orienteerfeed.com/contribute#translating",
               label: "Help us translate",
             },
           ],

@@ -18,7 +18,7 @@ Přepínáč na kartě `Viditelnost` umožňuje akci nastavit na soukromou a př
 
 ## Generování hesla
 
-Heslo slouží pro zabezpečení aktualizování dat. Stejně jako **id akce** je **nezbytné** pro nastavení připojení například i do `OChecklistu` nebo `Služby v QuickEventu`.
+Heslo slouží pro zabezpečení aktualizování dat. Stejně jako **id akce** je **nezbytné** pro nastavení připojení například i do `O Checklistu` nebo `Služby v QuickEventu`.
 
 ![Event form](/img/tutorials/client/settings_password.png)
 

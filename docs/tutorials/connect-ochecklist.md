@@ -70,4 +70,4 @@ You can open the log by clicking the `OFeed` icon in the upper right corner.
 
 ## Visualize Changes
 
-The `OFeed` app provides a detailed report within the event administration (private, so you need to be logged in). You can easily filter the data according to your needs. More details [here](/tutorials/visualize-changes).
+The `OFeed` app provides a detailed report within the event administration (private, so you need to be logged in). You can easily filter the data according to your needs. More details [👉](/features/detect-changes#displaying-changes).

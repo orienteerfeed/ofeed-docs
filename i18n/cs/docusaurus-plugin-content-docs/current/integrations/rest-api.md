@@ -4,7 +4,7 @@ sidebar_position: 5
 
 # REST API
 
-Swagger s detailnějším popisem je dostupný [zde](https://api.orienteerfeed.com/api-docs).
+Swagger s detailnějším popisem je dostupný [👉](https://api.orienteerfeed.com/api-docs).
 
 ## Autorizace
 

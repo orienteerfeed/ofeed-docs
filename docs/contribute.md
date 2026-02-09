@@ -40,6 +40,6 @@ If you want to contribute and you're not sure how, take a look at the page on ho
 
 ## Cash Donations
 
-The platform is free and always will be. We only need to cover the web hosting costs required to run the service. If the service has saved you time or improved your event, you can support us by buying us a coffee [here](https://buymeacoffee.com/ofeed). We would be very grateful for any amount. Thanks :heart:.
+The platform is free and always will be. We only need to cover the web hosting costs required to run the service. If the service has saved you time or improved your event, you can support us by buying us a coffee [👉](https://buymeacoffee.com/ofeed). We would be very grateful for any amount. Thanks :heart:.
 
 <!-- TODO: Přímo nějaký hezčí widget -->

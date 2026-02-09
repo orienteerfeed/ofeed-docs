@@ -9,7 +9,7 @@ slug: /
 
 Moderní platforma podporující IOF XML pro správu všech dat o závodě na jednom místě. Vyvíjena jako open-source a hostována na adrese [orienteerfeed.com](https://orienteerfeed.com).
 
-Součástí platformy je i vizualizační aplikace [MRB](/tutorials/visualize-data#2-mrb) pro snadnou a moderní vizualizaci startovek/výsledků.
+Součástí platformy je i [vizualizační aplikace](/features/visualize-data#2-mrb) pro snadnou a moderní vizualizaci startovek/výsledků.
 
 ## Hlavní přínosy použítí
 
@@ -50,18 +50,7 @@ flowchart TB
     click OChecklist "https://stigning.se/checklist/help_en.html" _blank
 ```
 
-## Datové vstupy
-
-Data, se kterými platforma pracuje:
-
-- Startovky
-- Výsledky
-- Změny ze startu zaznamenané v mobilní aplikaci [O Checklist](https://play.google.com/store/apps/details?id=se.tg3.startlist)
-- Dohlášky
-
-## Omezení
-
-Synchronizace dat v reálném čase vyžaduje **dostupné mobilní připojení** k internetu jak v centru závodu, tak na startu.
+Podrobný popis samostné platformy a funkcí co přináší najdeš [👉](/category/features).
 
 ## Komunita
 
@@ -72,25 +61,51 @@ Propojování správných lidí je základ a proto jsme spustili [Discord server
 Seznam Integrovaných aplikací s `OFeedem`.
 | Podporované | Aplikace | Verze | Podrobnosti |
 |--|--|--|--|
-| ✅ | OChecklist | >= 5.0 | [odkaz](/integrations/ochecklist) |
+| ✅ | O Checklist | >= 5.0 | [odkaz](/integrations/ochecklist) |
 | ✅ | QuickEvent | >= 3.0 | [odkaz](/integrations/quickevent) |
 | ✅ | SI-Droid Event | all | [odkaz](/integrations/joja) |
 | ✅ | O-Pal | all | [odkaz](/integrations/joja) |
 | ❌ | MeOS | -- | [odkaz](/integrations/meos) |
 
-Nahraná data jsou snadno přístupná dalším aplikacím pomocí připraveného aplikačního rozhraní (API). Seznam již propojených aplikací najdeš [zde](/category/integrations).
+Nahraná data jsou snadno přístupná dalším aplikacím pomocí připraveného aplikačního rozhraní (API). Seznam již propojených aplikací najdeš [👉](/category/integrations).
 
 ### Vlastní
 
 Můžeš si snadno připojit vlastní aplikaci. `OFeed` má k dispozici [REST API](/integrations/rest-api) a [GraphQL](/integrations/graphql), které je jednodušeji uchopitelné v porovnání s **IOF XML** s mnoha rozdílnými implementacemi.
 
-## Zmínky o platformě
+## Podpora provozu platformy
 
-- Metodický seminář trenérů a rozhodčích [nahrávka](https://metodika.ceskyorientak.cz/materialy/444-metodicky-seminar-rozhodcich-2025-o-checklist-po-roce)
+`OFeed` je open-source projekt, který vzniká díky komunitě pořadatelů, vývojářů a nadšenců do orientačního běhu. Podpora projektu není jen o financích – stejně důležitý je i **čas**, **znalosti** a **zkušenosti**. Říkáš si, jak se **zapojit**?
 
-## Progresive web application (PWA)
+### Finanční podpora 💰
 
-Slouží pro rychlejší přístup a příjemnější prohlížení dat. První návštěva webu sama vyvolá nabídku k instalaci aplikace, která následně umožní přímé spuštění z domovské obrazovky tvého zařízení.
+**Provoz** platformy v cloudu (servery, domény, monitoring, zálohy) a další rozvoj znamenají **dlouhodobé** náklady.
+Pokud `OFeed` používáš nebo ti **pomáhá** při pořádání závodů, můžeš jeho provoz a vývoj podpořit i **finančně**:
 
-![Pop up install](/img/tutorials/pwa/ofeed_pwa_install.jpg)
-![Pop up install confirm](/img/tutorials/pwa/ofeed_pwa_install_confirm.jpg)
+- **jednorázovým** příspěvkem
+- **pravidelnou** podporou
+- podporou ze strany **klubu** nebo **pořadatele**
+
+### Vývoj a technická podpora 💻
+
+Můžeš se zapojit přímo do vývoje platformy:
+
+- přispíváním **kódem** (bugfixy, nové funkce, refactoring)
+- testováním a zpětnou vazbou z **uspořadaných** závodů
+- dokumentací a zlepšováním **návodů**
+
+Repozitáře projektu a informace k zapojení najdeš na [GitHubu](https://github.com/orienteerfeed).
+
+Možnosti jak se zapojit najdeš [👉](/contribute).
+
+### Proč se zapojit? 🌟
+
+Podpora `OFeedu` pomáhá:
+
+- udržet platformu **dlouhodobě** dostupnou
+- **rozšiřovat** podporu dalších aplikací a formátů
+- **zjednodušovat** práci pořadatelům závodů
+- budovat **otevřený** ekosystém nástrojů pro orientační sporty
+
+**Každá** forma podpory má smysl – ať už přispěješ kódem, nápadem, testováním nebo finančně.
+Díky, že pomáháš `OFeed` posouvat dál ❤️.
