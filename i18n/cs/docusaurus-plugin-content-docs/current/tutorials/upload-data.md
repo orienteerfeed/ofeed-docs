@@ -13,4 +13,4 @@ V `Nastavení` závodu (musíš být přihlášený) můžeš přetažením nebo
 
 ## Automatické
 
-Koukni se seznam dostupných [integrací](/category/integrations) (napojení), která usnadňují přímé anhrání dat na OFeed.
+Koukni se seznam dostupných [integrací](/category/integrations) (napojení), která usnadňují přímé nahrání dat na `OFeed`.
