@@ -217,7 +217,7 @@ const config: Config = {
       {
         name: "keywords",
         content:
-          "sorienteering, orienteering events, orienteering entries, live results, split times, GPS tracking, real-time race data, OrienteerFeed, race synchronization, timing, o-results, o-races, orienteering maps, route tracking, orientační běh, orientační závody, výsledky OB, mezičasy, GPS tracking OB",
+          "orienteering, orienteering events, orienteering entries, live results, split times, GPS tracking, real-time race data, OrienteerFeed, race synchronization, timing, o-results, o-races, orienteering maps, route tracking, orientační běh, orientační závody, výsledky OB, mezičasy, GPS tracking OB",
       },
       { name: "author", content: "Lukáš Kettner" },
       { name: "robots", content: "index, follow" },
