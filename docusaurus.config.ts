@@ -203,16 +203,69 @@ const config: Config = {
       darkTheme: prismThemes.dracula,
     },
     metadata: [
-      { name: "og:title", content: "Official OFeed docs" },
-      { name: "og:description", content: "Documentation for OFeed platform" },
+      { name: "og:title", content: "OFeed documentation" },
+      {
+        name: "og:description",
+        content: "Official documentation for OFeed platform",
+      },
       {
         name: "og:image",
         content:
           "https://docs.orienteerfeed.com/cs/img/svg/2025-04-24_orienteerfeed_logo_24x24px_logo_favicon_dark.svg",
       },
       { name: "twitter:card", content: "summary_large_image" },
+      {
+        name: "keywords",
+        content:
+          "sorienteering, orienteering events, orienteering entries, live results, split times, GPS tracking, real-time race data, OrienteerFeed, race synchronization, timing, o-results, o-races, orienteering maps, route tracking, orientační běh, orientační závody, výsledky OB, mezičasy, GPS tracking OB",
+      },
+      { name: "author", content: "Lukáš Kettner" },
+      { name: "robots", content: "index, follow" },
     ],
   } satisfies Preset.ThemeConfig,
+  headTags: [
+    // Declare some json-ld structured data
+    {
+      tagName: "script",
+      attributes: {
+        type: "application/ld+json",
+      },
+      innerHTML: JSON.stringify({
+        "@context": "https://schema.org/",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://orienteerfeed.com/#organization",
+            name: "OrienteerFeed",
+            url: "https://orienteerfeed.com/",
+            logo: {
+              "@type": "ImageObject",
+              url: "https://docs.orienteerfeed.com/img/svg/2025-04-11_orienteerfeed_512x512px_light.svg",
+            },
+            sameAs: [
+              "https://github.com/orienteerfeed",
+              "https://docs.orienteerfeed.com/",
+            ],
+            founder: {
+              "@type": "Person",
+              name: "Martin Křivda",
+            },
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://orienteerfeed.com/#website",
+            url: "https://orienteerfeed.com/",
+            name: "OrienteerFeed",
+            description:
+              "Live orienteering results and real-time competition data",
+            publisher: {
+              "@id": "https://orienteerfeed.com/#organization",
+            },
+          },
+        ],
+      }),
+    },
+  ],
   markdown: {
     mermaid: true,
   },
