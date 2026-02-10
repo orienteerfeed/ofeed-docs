@@ -23,8 +23,8 @@ Součástí platformy je i [vizualizační aplikace](/features/visualize-data#2-
 
 ```mermaid
 flowchart TB
-    SW@{ shape: cyl, label: "Pořádací sw<br/>(QuickEvent, MeOS, Oribos, ...)" }
-    OFeed@{ shape: cloud, label: "**OFeed**<br/>https://orienteerfeed.com" }
+    SW@{ shape: cyl, label: "**Pořádací sw** (QuickEvent, SI-Droid, MeOS, Oribos, ...)" }
+    OFeed@{ shape: cloud, label: "**OFeed** https://orienteerfeed.com" }
     OChecklist@{ shape: rounded, label: "**O Checklist**" }
 
     SW e1@== "Nahrání<br/>dat" ==> OFeed
@@ -71,7 +71,7 @@ Nahraná data jsou snadno přístupná dalším aplikacím pomocí připravenéh
 
 ### Vlastní
 
-Můžeš si snadno připojit vlastní aplikaci. `OFeed` má k dispozici [REST API](/integrations/rest-api) a [GraphQL](/integrations/graphql), které je jednodušeji uchopitelné v porovnání s **IOF XML** s mnoha rozdílnými implementacemi.
+Můžeš si snadno připojit vlastní aplikaci. `OFeed` má k dispozici [REST](/integrations/rest-api) a [GraphQL](/integrations/graphql) API, které je jednodušeji uchopitelné v porovnání s **IOF XML** s mnoha rozdílnými implementacemi.
 
 ## Podpora provozu platformy
 

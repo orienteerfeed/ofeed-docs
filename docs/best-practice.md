@@ -31,6 +31,10 @@ The most important **Settings** by sections:
 - `Need Help of Have Questions?`
   - Check [Support page](/support)
 
+### Documentation
+
+For more details click [👉](/features/general-description)
+
 ## MyResultBoard (MRB)
 
 <table class="two-col-table">

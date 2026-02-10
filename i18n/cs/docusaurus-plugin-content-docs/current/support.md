@@ -24,7 +24,7 @@ Založ novou [issue](https://github.com/orienteerfeed/ofeed/issues) s popisem pr
 
 ### Discord
 
-Na našem Discord serveru ([pozvánka](https://discord.gg/QMvnurgKzU)) máme kanál `help` kam můžeš vše hlásit. Přilož prosím související soubory nebo obrázky pokud máš. Buď my nebo někdo z komunity ti může následně snadno poradit situaci vyřešit.
+Na našem [Discord serveru](https://discord.gg/QMvnurgKzU) máme kanál `help` kam můžeš vše hlásit. Přilož prosím související soubory nebo obrázky pokud máš. Buď my nebo někdo z komunity ti může následně snadno poradit situaci vyřešit.
 
 <!-- ### Email
 

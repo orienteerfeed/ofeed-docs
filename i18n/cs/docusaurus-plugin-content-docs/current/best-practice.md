@@ -31,6 +31,10 @@ Nejdůležitější **nastavení** podle sekcí:
 - `Potřebuješ pomoc nebo máš dotazy?`
   - Podívejte se na [stránku podpory](/support)
 
+### Dokumentace
+
+Podrobnější informace [👉](/features/general-description)
+
 ## MyResultBoard (MRB)
 
 <table class="two-col-table">

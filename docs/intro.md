@@ -23,8 +23,8 @@ The platform also has a [specialized app](/features/visualize-data#2-mrb) for mo
 
 ```mermaid
 flowchart TB
-    SW@{ shape: cyl, label: "Organising Software<br/>(QuickEvent, MeOS, Oribos, ...)" }
-    OFeed@{ shape: cloud, label: "**OFeed**<br/>https://orienteerfeed.com" }
+    SW@{ shape: cyl, label: "**Organising Software** (QuickEvent, SI-Droid, MeOS, Oribos, ...)" }
+    OFeed@{ shape: cloud, label: "**OFeed** https://orienteerfeed.com" }
     OChecklist@{ shape: rounded, label: "**O Checklist**" }
 
     SW e1@== "Upload<br/>data" ==> OFeed
@@ -71,7 +71,7 @@ Data from the platform can be easily integrated into your app through dedicated 
 
 ### Custom
 
-Can you simply create your own connection. `OFeed` provides both [RESTful](/integrations/rest-api) and [GraphQL](/integrations/graphql) APIs, which are more reliable than standard IOF XML with its many different implementations.
+Can you simply create your own connection. `OFeed` provides both [REST](/integrations/rest-api) and [GraphQL](/integrations/graphql) APIs, which are more reliable than standard IOF XML with its many different implementations.
 
 ## Support for platform operation
 

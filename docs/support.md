@@ -24,7 +24,7 @@ Create a new [issue](https://github.com/orienteerfeed/ofeed/issues) with a descr
 
 ### Discord
 
-Our Discord server ([invite](https://discord.gg/QMvnurgKzU)) has a dedicated `help` channel where you can create a new post with a detailed description. Add any related files or images if possible. The OFeed team or other community members can help you resolve the issue.
+Our [Discord server](https://discord.gg/QMvnurgKzU) has a dedicated `help` channel where you can create a new post with a detailed description. Add any related files or images if possible. The OFeed team or other community members can help you resolve the issue.
 
 <!-- ### Email
 
