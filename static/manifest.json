@@ -21,28 +21,43 @@
   "theme_color": "#3367D6",
   "shortcuts": [
     {
-      "name": "OFeed docs",
-      "short_name": "Docs",
+      "name": "O Checklist Connection",
+      "short_name": "O Checklist",
       "description": "Check official OFeed documentation",
-      "url": "https://docs.orienteerfeed.com/?source=pwa",
-      "icons": [{ "src": "/images/today.png", "sizes": "192x192" }]
+      "url": "/integrations/ochecklist?source=pwa",
+      "icons": [
+        {
+          "src": "/img/logos/o_checklist.png",
+          "sizes": "192x192"
+        }
+      ]
     },
     {
-      "name": "OFeed demo event",
-      "short_name": "Demo",
-      "description": "Open OFeed demo event to test the platform",
-      "url": "/demo?source=pwa",
-      "icons": [{ "src": "/images/tomorrow.png", "sizes": "192x192" }]
+      "name": "QuickEvent Service",
+      "short_name": "QE Service",
+      "description": "Setup QuickEvent Service",
+      "url": "/integrations/quickevent?source=pwa",
+      "icons": [
+        {
+          "src": "/img/logos/quickevent.png",
+          "sizes": "192x192"
+        }
+      ]
     },
     {
-      "name": "Github issue",
-      "short_name": "Issue",
-      "description": "Create new Github issue",
-      "url": "https://github.com/orienteerfeed/ofeed/issues?source=pwa",
-      "icons": [{ "src": "/images/tomorrow.png", "sizes": "192x192" }]
+      "name": "Support",
+      "short_name": "Support",
+      "description": "Contant support team",
+      "url": "/support?source=pwa",
+      "icons": [
+        {
+          "src": "/img/ofeed-social-card.jpg",
+          "sizes": "192x192"
+        }
+      ]
     }
   ],
-  "description": "Live orienteering results and event hub",
+  "description": "Live orienteering results and data hub",
   "screenshots": [
     {
       "src": "/images/screenshot1.png",
