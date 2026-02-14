@@ -54,7 +54,7 @@ Podrobný popis samostné platformy a funkcí co přináší najdeš [👉](/cat
 
 ## Komunita
 
-Propojování správných lidí je základ a proto jsme spustili [Discord server](https://discord.gg/QMvnurgKzU), kde se můžeš poradit i rozšířit povědomí o dalších šikovných nástrojích. Připoj se k nám a pomoz nám udělat z OFeedu oblíbenou platformu co usnadní práci při pořádání nejen nám, ale i tobě.
+Propojování správných lidí je základ a proto jsme spustili [Discord server](https://discord.gg/QMvnurgKzU), kde se můžeš poradit i rozšířit povědomí o dalších šikovných nástrojích. Připoj se k nám a pomoz nám udělat z `OFeedu` oblíbenou platformu co usnadní práci při pořádání nejen nám, ale i tobě.
 
 ## Integrace
 

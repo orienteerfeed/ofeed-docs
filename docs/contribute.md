@@ -18,17 +18,18 @@ If you find any inaccuracies or something in the documentation is unclear, we wo
 
 ## Translating
 
-Both `OFeed Web` and `OFeed Docs` can be translated into your language. The supported languages are shown in the language dropdown menu. We would be delighted to have OFeed translated into additional languages.
+Both `OFeed` and `OFeed Docs` can be translated into your language. The already supported languages are shown in the language dropdown menu. We would be delighted to have `OFeed` translated into additional languages.
 
-### OFeed Web
+### OFeed
 
-There are two translation files at the moment:
+We are using [Webplate](https://hosted.weblate.org/projects/ofeed/), thanks to Michal Čihař.
 
-- `common.json` — general strings
+Available components for translation:
 
-- `translation.json` — app-specific strings
+- `Client-common` — general strings
+- `Client-translation` — app-specific strings
 
-Files for already translated languages are available at `/apps/client/src/i18n/locales`.
+When you login in with GitHub account to Webplate when translation you will be automatically listed as a contributor.
 
 ### OFeed Docs
 

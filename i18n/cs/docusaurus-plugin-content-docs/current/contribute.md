@@ -10,7 +10,7 @@ title: "Spolupráce"
 
 ## Používání a zpětná vazba
 
-Neznáme lepší způsob testování než využití při pořádání. Je jedno jestli jde o trénink nebo závod. Každé používání na reálných datech ověří funkčnost nejlépe. A taky nabídne mnoho zpětné vazby, která nás hodně zajímá. Budeme moc rádi, když nám svoje poznatky napíšeš na Discord nebo třeba založíš issue na Githubu.
+Neznáme lepší způsob testování než využití při pořádání. Je jedno jestli jde o trénink nebo závod. Každé používání na reálných datech ověří funkčnost nejlépe. A taky nabídne mnoho zpětné vazby, která nás hodně zajímá. Budeme moc rádi, když nám svoje poznatky napíšeš na **Discord** nebo třeba založíš issue na GitHubu.
 
 ## Doplnění či úprava dokumentace
 
@@ -18,17 +18,18 @@ Pokud narazíš na nepřesnost nebo ti v dokumentaci něco není jasné, budeme 
 
 ## Překlady
 
-`OFeed Web` i `OFeed Docs` lze přeložit do libovolného jazyka. Podporované jazyky jsou zobrazeny v rozbalovací nabídce jazyků. Budeme moc rádi za přeložení OFeedu do dalšího jazyka.
+`OFeed` i `OFeed Docs` lze přeložit do libovolného jazyka. Již podporované jazyky jsou zobrazeny v rozbalovací nabídce jazyků. Budeme moc rádi za přeložení `OFeedu` do dalšího jazyka.
 
-### OFeed Web
+### OFeed
 
-V tuto chvíli existují dva překladové soubory:
+K překladům používáme [Webplate](https://hosted.weblate.org/projects/ofeed/), děkujeme autorovi Michalu Čihařovi.
 
-- `common.json` — obecné texty
+Dostupné komponenty k přeložení:
 
-- `translation.json` — texty specifické pro aplikaci
+- `Client-common` — obecné texty
+- `Client-translation` — texty specifické pro aplikaci
 
-Soubory pro již přeložené jazyky jsou k dispozici v `/apps/client/src/i18n/locales`.
+Když se přihlásíš do Webplate přes GitHub účet, tak budeš automaticky uveden jako přispěvatel projektu.
 
 ### OFeed Docs
 

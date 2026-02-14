@@ -27,7 +27,7 @@ The most important **Settings** by sections:
   - Share the Event link with the audience
   - Print and place a QR code in the center of the event for easy access
 - `Danger Zone`
-  - Use in case you need to reupload data or fix unexpected state (liek duplicities etc.)
+  - Use in case you need to reupload data or fix unexpected state (like duplicities etc.)
 - `Need Help of Have Questions?`
   - Check [Support page](/support)
 

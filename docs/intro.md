@@ -11,7 +11,7 @@ A modern IOF-XML–oriented platform for managing all orienteering event data in
 
 The platform also has a [specialized app](/features/visualize-data#2-mrb) for modern and interactive start list/results visualization.
 
-## Key benefits of using the platform
+## Elevator pitch
 
 - `Smooth readout` - no **unknown** cards that **slow down** read-out.
 - `Actual card numbers` - changed card numbers at the start can be **processed within a minute** and radio controls work for all competitors. The work involved in installing radio controls will not be **wasted**.
@@ -54,7 +54,7 @@ A detailed description of the platform itself and the features it offers can be 
 
 ## Community
 
-Connecting the right people is essential, which is why we have launched a [Discord server](https://discord.gg/QMvnurgKzU), where you can seek advice and learn about other useful tools. Join us and help us make OFeed a popular platform that will make organizing easier not only for us, but for you as well.
+Connecting the right people is essential, which is why we have launched a [Discord server](https://discord.gg/QMvnurgKzU), where you can seek advice and learn about other useful tools. Join us and help us make `OFeed` a popular platform that will make organizing easier not only for us, but for you as well.
 
 ## Integrations
 
