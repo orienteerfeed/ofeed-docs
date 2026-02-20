@@ -22,14 +22,14 @@ Pokud narazíš na nepřesnost nebo ti v dokumentaci něco není jasné, budeme 
 
 ### OFeed
 
-K překladům používáme [Webplate](https://hosted.weblate.org/projects/ofeed/), děkujeme autorovi Michalu Čihařovi.
+K překladům používáme [Weblate](https://hosted.weblate.org/projects/ofeed/), děkujeme autorovi Michalu Čihařovi.
 
 Dostupné komponenty k přeložení:
 
 - `Client-common` — obecné texty
 - `Client-translation` — texty specifické pro aplikaci
 
-Když se přihlásíš do Webplate přes GitHub účet, tak budeš automaticky uveden jako přispěvatel projektu.
+Když se přihlásíš do Weblate přes GitHub účet, tak budeš automaticky uveden jako přispěvatel projektu.
 
 ### OFeed Docs
 

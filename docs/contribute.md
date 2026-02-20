@@ -22,14 +22,14 @@ Both `OFeed` and `OFeed Docs` can be translated into your language. The already 
 
 ### OFeed
 
-We are using [Webplate](https://hosted.weblate.org/projects/ofeed/), thanks to Michal Čihař.
+We are using [Weblate](https://hosted.weblate.org/projects/ofeed/), thanks to Michal Čihař.
 
 Available components for translation:
 
 - `Client-common` — general strings
 - `Client-translation` — app-specific strings
 
-When you login in with GitHub account to Webplate when translation you will be automatically listed as a contributor.
+When you login in with GitHub account to Weblate when translation you will be automatically listed as a contributor.
 
 ### OFeed Docs
 
