@@ -26,8 +26,9 @@ K překladům používáme [Weblate](https://hosted.weblate.org/projects/ofeed/)
 
 Dostupné komponenty k přeložení:
 
-- `Client-common` — obecné texty
-- `Client-translation` — texty specifické pro aplikaci
+- `Client-common` — obecné řetězce
+- `Client-translation` — řetězce specifické pro aplikaci
+- `SI-Droid Connector` — řetězce pro mobilní aplikaci
 
 Když se přihlásíš do Weblate přes GitHub účet, tak budeš automaticky uveden jako přispěvatel projektu.
 

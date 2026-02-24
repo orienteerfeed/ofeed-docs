@@ -28,6 +28,7 @@ Available components for translation:
 
 - `Client-common` — general strings
 - `Client-translation` — app-specific strings
+- `SI-Droid Connector` — mobile app strings
 
 When you login in with GitHub account to Weblate when translation you will be automatically listed as a contributor.
 
