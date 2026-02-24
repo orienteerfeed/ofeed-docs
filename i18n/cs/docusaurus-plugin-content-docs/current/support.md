@@ -32,4 +32,6 @@ Pošli nám email na <a href="mailto:support@orienteerfeed.com">support@orientee
 
 ## Nejčastější dotazy
 
-Budeme doplňovat, zatím je vše jasné :grin:.
+### 1. Neukazuje se mi tlačítko co je zobrazené v dokumentaci, co mám dělat?
+
+Zkus spustit v anonymním okně prohlížeče, může být způsobeno nacachovanými daty a nejnovější změny se neukážou.

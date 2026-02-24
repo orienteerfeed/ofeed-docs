@@ -32,4 +32,6 @@ Send an email to <a href="mailto:support@orienteerfeed.com">support@orienteerfee
 
 ## FAQ
 
-Everything is clear so far :grin:.
+### 1. I can't see the button shown in the documentation. What should I do?
+
+Try running it in an incognito browser window. It may be caused by cached data, and the latest changes may not be visible.
