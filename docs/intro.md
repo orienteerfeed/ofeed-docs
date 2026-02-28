@@ -96,6 +96,10 @@ You can get directly involved in the development of the platform:
 
 You can find the project repositories and information on how to get involved on [GitHub](https://github.com/orienteerfeed).
 
+:::tip
+Don't be afraid to use AI tools (Claude Code, OpenAI Codex, Google Gemini, etc.) to design the implementation of your idea in a single prompt.
+:::
+
 You can find ways to get involved [👉](/contribute).
 
 ### Why get involved? 🌟

@@ -30,7 +30,11 @@ Available components for translation:
 - `Client-translation` — app-specific strings
 - `SI-Droid Connector` — mobile app strings
 
+You can also contribute by **editing** existing translations if they are not entirely accurate or correct.
+
+:::tip
 When you login in with GitHub account to Weblate when translation you will be automatically listed as a contributor.
+:::
 
 ### OFeed Docs
 

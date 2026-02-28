@@ -96,6 +96,10 @@ Můžeš se zapojit přímo do vývoje platformy:
 
 Repozitáře projektu a informace k zapojení najdeš na [GitHubu](https://github.com/orienteerfeed).
 
+:::tip
+Neboj se využít AI nástroje (Claude Code, OpenAI Codex, Google Gemini, ...) pro návrh realizace tvého nápadu na jeden prompt.
+:::
+
 Možnosti jak se zapojit najdeš [👉](/contribute).
 
 ### Proč se zapojit? 🌟

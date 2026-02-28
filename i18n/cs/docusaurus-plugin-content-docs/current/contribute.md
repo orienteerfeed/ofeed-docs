@@ -30,7 +30,11 @@ Dostupné komponenty k přeložení:
 - `Client-translation` — řetězce specifické pro aplikaci
 - `SI-Droid Connector` — řetězce pro mobilní aplikaci
 
+Přispět můžeš i **úpravou** stávajících překladů, pokud třeba nejsou úplně přesné nebo správné.
+
+:::tip
 Když se přihlásíš do Weblate přes GitHub účet, tak budeš automaticky uveden jako přispěvatel projektu.
+:::
 
 ### OFeed Docs
 
