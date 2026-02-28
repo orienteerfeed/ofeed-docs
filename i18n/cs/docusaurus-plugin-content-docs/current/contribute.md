@@ -6,7 +6,7 @@ title: "Spolupráce"
 
 # Spolupráce
 
-`OFeed` je open source a proto jsou veškeré příspěvky a jakákoliv pomoc od uživatelů vítána.
+`OFeed` je open source a proto jsou veškeré příspěvky a jakákoliv pomoc od uživatelů vítána. Základní informace o možnostech zapojení do OFeed projektu jsou na [úvodní stránce](/#podpora-provozu-platformy).
 
 ## Používání a zpětná vazba
 
@@ -48,4 +48,10 @@ Pokud chceš přispět a není ti jasné jak na to, koukni na stránku jak nás 
 
 Platforma je **zdarma** a vždy bude. Potřebujeme pouze pokrýt **náklady** na webhosting nezbytné pro provoz služby. Pokud Ti služba **ušetřila** práci nebo **zvýšila** úroveň Tvojí akce a chceš nás finančně podpořit, můžeš nám koupit symbolickou kávičku [👉](https://buymeacoffee.com/ofeed). Bude moc vděční za jakoukoliv částku. Díky :heart:.
 
-<!-- TODO: Přímo nějaký hezčí widget -->
+<div style={{ textAlign: 'center', marginTop: '1.5rem' }}>
+  <iframe
+    src="https://www.buymeacoffee.com/widget/page/ofeed?description=Support%20OFeed%20development&color=%23FFDD00"
+    title="Support OFeed on Buy Me a Coffee"
+    style={{ border: 'none', width: '100%', maxWidth: '420px', height: '600px' }}
+  />
+</div>

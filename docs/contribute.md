@@ -6,7 +6,7 @@ title: "Contribute"
 
 # Contribute
 
-`OFeed` is open source software. As such, we welcome contributions and help from any and all interested people.
+`OFeed` is open source software. As such, we welcome contributions and help from any and all interested people. Basic information about opportunities to participate in the OFeed project can be found on the [home page](/#support-for-platform-operation).
 
 ## Providing Feedback
 
@@ -48,4 +48,10 @@ If you want to contribute and you're not sure how, take a look at the page on ho
 
 The platform is free and always will be. We only need to cover the web hosting costs required to run the service. If the service has saved you time or improved your event, you can support us by buying us a coffee [👉](https://buymeacoffee.com/ofeed). We would be very grateful for any amount. Thanks :heart:.
 
-<!-- TODO: Přímo nějaký hezčí widget -->
+<div style={{ textAlign: 'center', marginTop: '1.5rem' }}>
+  <iframe
+    src="https://www.buymeacoffee.com/widget/page/ofeed?description=Support%20OFeed%20development&color=%23FFDD00"
+    title="Support OFeed on Buy Me a Coffee"
+    style={{ border: 'none', width: '100%', maxWidth: '420px', height: '600px' }}
+  />
+</div>
