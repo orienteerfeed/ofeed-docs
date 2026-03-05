@@ -74,6 +74,16 @@ const config: Config = {
 
   plugins: [
     [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "siDroidManual",
+        path: "si-droid-event",
+        routeBasePath: "si-droid-event",
+        sidebarPath: "./sidebars-si-droid-manual.ts",
+        editUrl: "https://github.com/orienteerfeed/ofeed-docs/blob/main/",
+      },
+    ],
+    [
       "@docusaurus/plugin-pwa",
       {
         debug: true,
@@ -150,12 +160,11 @@ const config: Config = {
           "img/svg/2025-04-24_orienteerfeed_logo_24x24px_logo_favicon_light.svg",
       },
       items: [
-        // {
-        //   type: "docSidebar",
-        //   sidebarId: "tutorialSidebar",
-        //   position: "left",
-        //   label: "Tutorial",
-        // },
+        {
+          to: "/si-droid-event/manual/intro",
+          position: "left",
+          label: "SI Droid Event",
+        },
         // { to: "/blog", label: "Blog", position: "left" },
         {
           href: "https://github.com/orienteerfeed/ofeed",

@@ -84,4 +84,4 @@ Aplikace podporuje:
 - Problém s načtením dat kategorie [issue](https://github.com/orienteerfeed/ofeed/issues/67)
   - chybějící registtračka nebo číslo čipu - vyplň nějaké hodnoty, např. 1 pro čísla čipů a unikátní honotu pro registračku
   - prýzdné kategorie (bez běžců) - v nastavení odškrtni kategorie pro zobrazování
-  - poslední možností je v [Nebezpečné zóně](/tutorials/create-a-new-event#danger-zone) smazat závodníky a znovu je nahrát
+  - poslední možností je v [Nebezpečné zóně](/tutorials/create-a-new-event#nebezpečná-zóna) smazat závodníky a znovu je nahrát

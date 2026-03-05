@@ -10,5 +10,9 @@
   "item.label.GitHub": {
     "message": "GitHub",
     "description": "Navbar item with label GitHub"
+  },
+  "item.label.SI Droid manual": {
+    "message": "SI Droid manuál",
+    "description": "Navbar item with label SI-Droid manual"
   }
 }
