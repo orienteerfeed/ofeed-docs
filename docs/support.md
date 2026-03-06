@@ -38,4 +38,4 @@ Try running it in an incognito browser window. It may be caused by cached data, 
 
 ### 2. How are you different from OResults?
 
-OFeed is a platform that is more focused on supporting organizers than on tracking live results on your phone. We offer [tools](/features) that help you keep track of current competitor data (started/did not start, chip number, etc.).
+OFeed is a platform that is more focused on supporting organizers than on tracking live results on your phone. We offer [tools](/category/features) that help you keep track of current competitor data (started/did not start, chip number, etc.).

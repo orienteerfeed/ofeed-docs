@@ -38,4 +38,4 @@ Zkus spustit v anonymním okně prohlížeče, může být způsobeno nacachovan
 
 ### 2. V čem se lišíte od OResults?
 
-OFeed je platforma více orientovaná na podporu pořadatelů než sledování live výsledků na telefonu. Nabízíme [nástroje ](/features), které pomáhají mít přehled o aktuálních datech závodníků (vyběhl/nevyběhl, s jakým čipem,...).
+OFeed je platforma více orientovaná na podporu pořadatelů než sledování live výsledků na telefonu. Nabízíme [nástroje ](/category/features), které pomáhají mít přehled o aktuálních datech závodníků (vyběhl/nevyběhl, s jakým čipem,...).
