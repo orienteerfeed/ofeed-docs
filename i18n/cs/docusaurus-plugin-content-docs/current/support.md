@@ -35,3 +35,7 @@ Pošli nám email na <a href="mailto:support@orienteerfeed.com">support@orientee
 ### 1. Neukazuje se mi tlačítko co je zobrazené v dokumentaci, co mám dělat?
 
 Zkus spustit v anonymním okně prohlížeče, může být způsobeno nacachovanými daty a nejnovější změny se neukážou.
+
+### 2. V čem se lišíte od OResults?
+
+OFeed je platforma více orientovaná na podporu pořadatelů než sledování live výsledků na telefonu. Nabízíme [nástroje ](/features), které pomáhají mít přehled o aktuálních datech závodníků (vyběhl/nevyběhl, s jakým čipem,...).

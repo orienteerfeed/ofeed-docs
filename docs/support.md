@@ -35,3 +35,7 @@ Send an email to <a href="mailto:support@orienteerfeed.com">support@orienteerfee
 ### 1. I can't see the button shown in the documentation. What should I do?
 
 Try running it in an incognito browser window. It may be caused by cached data, and the latest changes may not be visible.
+
+### 2. How are you different from OResults?
+
+OFeed is a platform that is more focused on supporting organizers than on tracking live results on your phone. We offer [tools](/features) that help you keep track of current competitor data (started/did not start, chip number, etc.).
