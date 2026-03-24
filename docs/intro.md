@@ -71,7 +71,7 @@ Data from the platform can be easily integrated into your app through dedicated 
 
 ### Custom
 
-Can you simply create your own connection. `OFeed` provides both [REST](/integrations/rest-api) and [GraphQL](/integrations/graphql) APIs, which are more reliable than standard IOF XML with its many different implementations.
+Can you simply create your own connection. `OFeed` provides both **REST** and **GraphQL** [APIs](/integrations/api), which are more reliable than standard IOF XML with its many different implementations.
 
 ## Support for platform operation
 

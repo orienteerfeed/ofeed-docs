@@ -71,7 +71,7 @@ Nahraná data jsou snadno přístupná dalším aplikacím pomocí připravenéh
 
 ### Vlastní
 
-Můžeš si snadno připojit vlastní aplikaci. `OFeed` má k dispozici [REST](/integrations/rest-api) a [GraphQL](/integrations/graphql) API, které je jednodušeji uchopitelné v porovnání s **IOF XML** s mnoha rozdílnými implementacemi.
+Můžeš si snadno připojit vlastní aplikaci. `OFeed` má k dispozici **REST** a **GraphQL** [API](/integrations/api), které je jednodušeji uchopitelné v porovnání s **IOF XML** s mnoha rozdílnými implementacemi.
 
 ## Podpora provozu platformy
 
