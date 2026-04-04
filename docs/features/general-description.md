@@ -15,6 +15,21 @@ Overview of data types that `OFeed` operates with:
 - Changes from the start captured by the [O Checklist](https://play.google.com/store/apps/details?id=se.tg3.startlist) mobile app
 - Changes from the presentation (late entries, card number changes, category changes, start times changes, etc.)
 
+## List of Events
+
+The list of events on the home page has three modes:
+
+- `Cards` - A list of events, including logos; if no logo has been uploaded, the default logo is displayed
+- `List` - Simple and compact table
+- `Map` - Events displayed on a map based on the coordinates of their event centers
+
+You can filter the displayed events:
+
+- `All`
+- `Today`
+- `Upcoming`
+- `Recent`
+
 ## Event Settings
 
 Detailed description of each section in the Event Settings.

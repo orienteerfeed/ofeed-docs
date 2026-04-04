@@ -15,6 +15,21 @@ Přehled dat, se kterými platforma pracuje:
 - Změny ze startu zaznamenané v mobilní aplikaci [O Checklist](https://play.google.com/store/apps/details?id=se.tg3.startlist)
 - Změny z prezentace (dohlášky, změny čísel čipů, kategorií, startovních časů, ...)
 
+## Zobrazení akcí
+
+Seznam akcí na úvodní stránce má tři režimy:
+
+- `Dlaždice` - přehled akcí i s logy, pokud nejsou nahraná, tak se ukazuje výchozí logo
+- `Seznam` - jednoduchý a kompaktní seznam
+- `Mapa` - zobrazení akcí na mapě podle toho, kde mají zadané souřadnice centra akce
+
+Zobrazené akce je možné omezit:
+
+- Všechny
+- Dnes
+- Plánované
+- Nedávné
+
 ## Nastavení akce
 
 Podrobný popis jednotlivých sekcí v nastavení akce.
