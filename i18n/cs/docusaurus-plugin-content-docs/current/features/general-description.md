@@ -25,10 +25,10 @@ Seznam akcí na úvodní stránce má tři režimy:
 
 Zobrazené akce je možné omezit:
 
-- Všechny
-- Dnes
-- Plánované
-- Nedávné
+- `Všechny` - ukáže všechny akce
+- `Dnes` - aktuálně konané akce
+- `Plánované` - akce co se právě připravují
+- `Nedávné` - uspořádané akce od dneška 30 dní zpět
 
 ## Nastavení akce
 

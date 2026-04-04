@@ -25,10 +25,10 @@ The list of events on the home page has three modes:
 
 You can filter the displayed events:
 
-- `All`
-- `Today`
-- `Upcoming`
-- `Recent`
+- `All` - Shows all events
+- `Today` - Current events
+- `Upcoming` - Events that are still in the planning stages
+- `Recent` - Events held over the past 30 days
 
 ## Event Settings
 
