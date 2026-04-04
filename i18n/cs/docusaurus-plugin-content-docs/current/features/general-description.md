@@ -48,7 +48,11 @@ Podrobný popis jednotlivých sekcí v nastavení akce.
 - `Zneplatnit` - zruší aktuální heslo
 - `Expirace hesla` - vygenerované heslo je platné 7 dní
 
-### Integrace
+### Nastavení aplikací
+
+:::info
+Nejprve je třeba vygenerovat heslo k akci, aby sis mohl zobrazit podrobnosti o nastavení aplikací.
+:::
 
 - `O Checklist` - zobrazený QR kód lze jednoduše využít pro napojení `O Checklistu`. Naskenuj kód a potvrď otevření načteného odkazu. Nebo můžeš odkaz přímo otevřít pomocí talčítka s ikonou aplikace.
 - `QuickEvent` - přihlašovací údaje pro nastavení služby

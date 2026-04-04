@@ -48,7 +48,11 @@ Detailed description of each section in the Event Settings.
 - `Revoke` - invalidates actual password
 - `Password expiration` - generated password is valid for 7 days
 
-### Integrations
+### Configuration of apps
+
+:::info
+First, you need to generate an event password so you can view the app settings.
+:::
 
 - `O Checklist` - shows QR code that can be used for simple `O Checklist` connection. Scan the the code and confirm opening provided link. Or you can open the link by clicking the button with the app icon.
 - `QuickEvent` - Credentials for the Service setup
