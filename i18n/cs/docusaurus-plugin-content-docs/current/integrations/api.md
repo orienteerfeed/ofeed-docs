@@ -7,7 +7,7 @@ title: "OFeed API"
 
 ## REST API
 
-Swagger s detailnějším popisem je dostupný [👉](https://api.orienteerfeed.com/api-docs).
+Swagger s detailnějším popisem je dostupný [👉](https://api.orienteerfeed.com/reference).
 
 ## Autorizace
 
