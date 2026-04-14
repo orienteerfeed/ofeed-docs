@@ -16,6 +16,18 @@ a vyplnit formulář
 Přepínáč na kartě `Viditelnost` umožňuje akci nastavit na soukromou a přístupnou jen přes odkaz. Lze tak šikovně využít k testování.
 :::
 
+## Import dat z externího IS
+
+Údaje je možné také načíst z externího IS, např. Orisu vyhledáním akce nebo zadáním id. Napojení má i další výhody s přímým prolinkem na akci.
+
+![Import data external IS](/img/tutorials/client/import_external_is.png)
+
+## Nahrání loga akce
+
+K akci je možné nahrát také obrázek s logem, které se ukazuje v mapě akcí a může být například využit jako zdroj pro tisk na lístečku.
+
+![Event image upload](/img/tutorials/client/event_detail_upload_image.png)
+
 ## Generování hesla
 
 Heslo slouží pro zabezpečení aktualizování dat. Stejně jako **id akce** je **nezbytné** pro nastavení připojení například i do `O Checklistu` nebo `Služby v QuickEventu`.
