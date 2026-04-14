@@ -28,7 +28,16 @@ The application is not yet officially published on Google Play and can be downlo
 <img src="/img/tutorials/connector/android_permissions.jpg" alt="Permissions info" width="200" />
 <img src="/img/tutorials/connector/android_permissions_confirm.jpg" alt="Permissions confirm" width="200" />
 
-3. Set login credentials and port number - by scanning the QR code or inserting the copied link. The port number must match the settings in `SI-Droid`.
+3. Set the credentials and port number in multiple ways:
+   - by scanning the QR code
+   - **1.** Sharing via other apps
+   - **2.** Scanning printed qr code
+   - **3.** Inserting the copied link
+   - **4.** Open app from OFeed setting by clicking the buton with the Connector icon
+
+   <img src="/img/tutorials/connector/ofeed_conenctor_credentials.jpg" alt="Set credentials" width="500" />
+
+   The port number must match the settings in `SI-Droid`.
 
 <img src="/img/tutorials/connector/screen_init.jpg" alt="Upload settings not configured" width="200" />
 <img src="/img/tutorials/connector/scan_qr_code.jpg" alt="Scan QR" width="200" />

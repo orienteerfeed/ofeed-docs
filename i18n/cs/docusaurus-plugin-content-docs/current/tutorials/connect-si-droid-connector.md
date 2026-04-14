@@ -28,7 +28,14 @@ Apliakc ještě není oficiálně publikovaná na Google Play a je možné ji st
 <img src="/img/tutorials/connector/android_permissions.jpg" alt="Permissions info" width="200" />
 <img src="/img/tutorials/connector/android_permissions_confirm.jpg" alt="Permissions confirm" width="200" />
 
-3. Nastav přihlašovací údaje a číslo portu - skenováním QR kódu nebo vložením zkopírovaného odkazu, číslo portu musí souhlasit s nastavením v `SI-Droidu`.
+3. Nastav přihlašovací údaje a číslo portu v několika variacích:
+   - skenováním QR kódu
+   - **1.** Sdílením přes chatovací aplikaci (Signal, WhatsApp, ..)
+   - **2.** naskenováním vytištěného QR kódu
+   - **3.** Vložením zkopírovaného odkazu
+   - **4.** Přímým otevřením apliakce s nastavením údajů
+
+Číslo portu musí souhlasit s nastavením v `SI-Droidu`.
 
 <img src="/img/tutorials/connector/screen_init.jpg" alt="Upload settings not configured" width="200" />
 <img src="/img/tutorials/connector/scan_qr_code.jpg" alt="Scan QR" width="200" />

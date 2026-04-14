@@ -20,16 +20,17 @@ O Checklist obsahuje přímé napojení na `OFeed` platformu od verze 5.
 
 4. Připoj zařízení s O Checklistem k internetu
 
-5. Načti QR kód v `Nastavení` foťákem nebo přímo v aplikaci, obojí funguje
-   - Kliknutím na tlačítko `Sdílet` můžeš snadno odeslat QR kód například startérům pomocí oblíbené komunikační aplikace (Signal, WhatsApp, ..)
+5. Nastav přihlašovací údaje, máš několik možností:
+   - Načti QR kód v `Nastavení` foťákem nebo přímo v aplikaci, obojí funguje
+   - **1.** Kliknutím na tlačítko `Sdílet` můžeš snadno odeslat QR kód například startérům pomocí oblíbené komunikační aplikace (Signal, WhatsApp, ..)
+   - **2.** Tisk - dobrá záloha
+   - **3.** Zkopírování a vložení - dobré při práci na jednom zařízení
+   - **4.** přímo otevře aplikaci a údaje nastaví - **doporučená varianta**
+   - Ručně v `Nastavení` v sekci `Připojení k serveru` kliknutím na ikonu OFeedu
 
-![Scan QR code](/img/tutorials/ochecklist/ochecklist_03_scan_qr_code_50proc.jpg)
-
-- Připojení je možné nastavit v aplikaci i ručně v `Nastavení` v sekci `Připojení k serveru` kliknutím na ikonu OFeedu
+![Scan QR code](/img/tutorials/ochecklist/ofeed_ochecklist_credentials.jpg)
 
 ![Settings](/img/tutorials/ochecklist/ochecklist_01_settings_upd_50proc.jpg)
-
-a vyplněním potřebných údajů. Nebo kliknutím na `Skenovat` a naskenováním QR kódu.
 
 ![OFeed settings](/img/tutorials/ochecklist/ochecklist_02_ofeed_settings_upd_50proc.jpg)
 

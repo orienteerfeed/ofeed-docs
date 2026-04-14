@@ -16,20 +16,21 @@ sidebar_position: 4
 2. Create a new event and generate a new password
 3. Upload data (either manually upload an IOF XML file or use a dedicated service based on your organizing software)
 4. Connect the device running the O Checklist app to the internet
-5. Scan the QR code within the O Checklist mobile app—both outside and inside scanning options work.
-   - You can easily share the QR code with the start crew by clicking the `Share` button and selecting your preferred communication app (Messenger, WhatsApp, etc.)
+5. Set the credentials in multiple ways:
+   - Scan the QR code within the O Checklist mobile app—both outside and inside scanning options work.
+   - **1.** You can easily share the QR code with the start crew by clicking the `Share` button and selecting your preferred communication app (Messenger, WhatsApp, etc.)
+   - **2.** Print - good backup choice
+   - **3.** Copy&paste - handy for single device usage
+   - **4.** Opens the app and sets the credentials - **recommended option**
+   - You can use manual settings: in `Settings`, under `Server connection` click on the OFeed icon
 
-![Scan QR code](/img/tutorials/ochecklist/ochecklist_03_scan_qr_code_50proc.jpg)
-
-- You can use manual settings: in `Settings`, under `Server connection` click on the OFeed icon
+![Scan QR code](/img/tutorials/ochecklist/ofeed_ochecklist_credentials.jpg)
 
 ![Settings](/img/tutorials/ochecklist/ochecklist_01_settings_upd_50proc.jpg)
 
-Then, fill in the credentials provided in your event settings, or click `Scan` to scan the QR code.
-
 ![OFeed settings](/img/tutorials/ochecklist/ochecklist_02_ofeed_settings_upd_50proc.jpg)
 
-On the home screen (with eleted data), you can also start scanning the QR code.
+On the home screen (with deleted data), you can also start scanning the QR code.
 
 ![Home screen](/img/tutorials/ochecklist/ochecklist_04_init_screen_upd_50proc.jpg)
 
