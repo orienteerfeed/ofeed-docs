@@ -55,3 +55,7 @@ Platforma je **zdarma** a vždy bude. Potřebujeme pouze pokrýt **náklady** na
     style={{ border: 'none', width: '100%', maxWidth: '420px', height: '600px' }}
   />
 </div>
+
+## Propagace OFeedu
+
+Pomož propagovat OFeed stažením oficiálního loga a jeho umístěním do materiálů k akci – například na mapy, do pokynů nebo do aplikací napojených na OFeed.

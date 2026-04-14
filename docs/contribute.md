@@ -55,3 +55,7 @@ The platform is free and always will be. We only need to cover the web hosting c
     style={{ border: 'none', width: '100%', maxWidth: '420px', height: '600px' }}
   />
 </div>
+
+## Promoting OFeed
+
+Help promote OFeed by downloading the official [logo](/download/ofeed-logos.zip) and placing it on your event materials—such as maps, bulletins, or applications connected to OFeed.
