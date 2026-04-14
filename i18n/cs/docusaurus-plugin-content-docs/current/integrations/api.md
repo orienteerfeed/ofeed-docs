@@ -9,7 +9,7 @@ title: "OFeed API"
 
 Swagger s detailnějším popisem je dostupný [👉](https://api.orienteerfeed.com/reference).
 
-## Autorizace
+### Autorizace
 
 Využivá se Basic eventId:eventPassword enkódované jako Base64 řetězec, jak je vidět u `PUT` a `POST` dotazu v authorization hlavičce.
 
@@ -47,6 +47,12 @@ curl --location 'https://api.orienteerfeed.com/rest/v1/upload/iof' \
 ```
 
 #### Úprava závodníka
+
+##### Seznam závodníků
+
+```sh
+curl --location 'http://localhost:3001/rest/v1/events/cmg4t3f0i0007my3m5hh50wl2/competitors'
+```
 
 ##### Přidání nového závodníka
 
@@ -123,6 +129,11 @@ curl --location --request DELETE 'https://api.orienteerfeed.com/rest/v1/events/c
 
 ##### Smazat hromadně všechny závodníky
 
+```sh
+curl --location --request DELETE 'http://api.orienteerfeed.com/rest/v1/events/cmg4t3f0i0007my3m5hh50wl2/competitors' \
+--header 'Authorization: ••••••'
+```
+
 ##### Změna statusu
 
 ```sh
@@ -149,28 +160,6 @@ curl --location --globoff 'https://api.orienteerfeed.com/rest/v1/events/cmg4t3f0
 ```sh
 curl --location 'https://api.orienteerfeed.com/rest/v1/events/cmg4t3f0i0007my3m5hh50wl2'
 ```
-
-##### Získat seznam akcí
-
-##### Smazat všechna data závodu (závodníci, kategorie, štafety, mezičasy, ...)
-
-##### Nahrání loga/obrázku
-
-##### Získání loga/obrázku
-
-#### Autorizace
-
-##### Získat JWT pro uživatele
-
-##### Generovat OAuth token
-
-#### Heslo
-
-##### Generovat heslo
-
-##### Získat heslo
-
-##### Zrušit heslo
 
 ## GraphQL
 
