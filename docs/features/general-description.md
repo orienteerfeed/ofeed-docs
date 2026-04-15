@@ -41,6 +41,14 @@ Detailed description of each section in the Event Settings.
 - `Ranking` - calculates Czech ranking points in real time
 - `Published` - visible/invisible in the list of events on the homepage
 
+### Publishing and schedule
+
+Used to set:
+
+- when split times should be published
+- when registration is open
+- whether results are final
+
 ### Event Password
 
 - `Generate password` - if you plan to connect other app with OFeed, you need to generate a password that will be used. Shows QR code for `O Checklist` connection

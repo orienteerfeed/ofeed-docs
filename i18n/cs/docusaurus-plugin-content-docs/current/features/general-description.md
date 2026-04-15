@@ -41,6 +41,14 @@ Podrobný popis jednotlivých sekcí v nastavení akce.
 - `Ranking` - vyber pro výpočet rankinkových bodů v průběhu závodu
 - `Zveřejněno` - ovlivňuje zobrazení závodu v seznamu akcí na domovské stránce
 
+### Zveřejnění a termíny
+
+Slouží k nastavení:
+
+- kdy se mají zveřejnit mezičasy
+- kdy je možné se přihlašovat
+- označení výsledků na finální
+
 ### Heslo závodu
 
 - `Generovat heslo` - heslo je nezbytné pro napojení dalších aplikací. Po vygenerování se zobrazí QR kód pro `O Checklist` propojení
