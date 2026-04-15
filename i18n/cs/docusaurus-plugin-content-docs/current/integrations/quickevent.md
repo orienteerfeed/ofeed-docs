@@ -14,10 +14,15 @@ sidebar_position: 2
 
 - Zobraz si `Služby`
 - Otevři nastavení služby přes ikonu ozubeného kolečka
-- Vyplň přihlašovací údaje:
-  - **Url** - `https://api.orinteerfeed.com`
-  - **Id akce** - napsané v `Nastavení` závodu, hodnota ala `cmanygkd60001qq3e5y5hqndm`
-  - **Heslo** - napsané v `Nastavení` závodu, je potřeba vygenerovat po vytvoření nového závodu
+- Vyplň přihlašovací údaje vložením zkopírovaného odkazu:
+  1. Zkopíruj v `OFeedu`
+
+  ![Copy Credentials](/img/tutorials/quickevent/ofeed_qe_credentials.png)
+  2. Vlož v `QuickEventu`
+
+  ![Paste Credentials](/img/tutorials/quickevent/service_paste_setup_link.png)
+
+- Ověř tlačítkem `Otestovat připojení` správnost - ukáže se název akce, pokud je vše ok
 - Kliknutím na <span class="red-qe-service-dot">OFF</span> zapni zpracování změn z `O Checklistu`, pokud ho používáš -> změní se na <span class="green-qe-service-dot">ON</span>
 - Zapni službu - ikonou `spustit`, <span class="red-qe-service-dot">červená</span> tečka se následně změní na <span class="green-qe-service-dot">zelenou</span>
 
@@ -29,6 +34,17 @@ sidebar_position: 2
 ## Zpracování změn
 
 Změny ze startu jsou pravidelně kontrolovány a zpracovávány přímo do databáze. Veškeré provedené operace se v databázi ukládají ještě do samostatné tabulky jako záloha.
+
+## Nastavení lístečku
+
+Můžeš nastavit:
+
+- **Logo akce** v horní části lístečku (výšku je možné upravit)
+  - obrázek se načítá z `OFeedu` pokud je tam nahraný, je potřeba kliknout na `Obnovit uložený obrázek`
+- **QR kód** s odkazem na výsledky akce a vlastním popiskem v dolní části lístečku
+  - využívá se znalosti závodníkovi kategorie a url parametr `class` s jeho hodnotou je automaticky připojen, takže odkaz vede rovnou do správné kategorie
+
+![Setup Receipt](/img/tutorials/quickevent/service_additional_settings_merged.png)
 
 ## Příznaky závodníků
 

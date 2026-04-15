@@ -14,10 +14,15 @@ sidebar_position: 2
 
 - Display `Services`
 - Open Service - `settings` icon
-- Fill in the credentials:
-  - **Url** - `https://api.orinteerfeed.com`
-  - **Event id** - see the `Settings` section; it will look similar to `cmanygkd60001qq3e5y5hqndm`
-  - **Password** - see the `Settings` section; you need to generate a new one after creating the event
+- Fill in the credentials by pasting copied link, click `Paste setup link`
+  1. Copy in `OFeed`
+
+  ![Copy Credentials](/img/tutorials/quickevent/ofeed_qe_credentials.png)
+  2. Paste in `QuickEvent`
+
+  ![Paste Credentials](/img/tutorials/quickevent/service_paste_setup_link.png)
+
+- Test connection by clicking `Test connection` button - name of the event is displayed if everything is ok
 - Click <span class="red-qe-service-dot">OFF</span> to enable processing of changes from `O Checklist`, if you use it -> it will change to <span class="green-qe-service-dot">ON</span>
 - Start the service - `play` icon, the <span class="red-qe-service-dot">red</span> dot goes <span class="green-qe-service-dot">green</span>
 
@@ -29,6 +34,17 @@ sidebar_position: 2
 ## Processing Changes
 
 Changes sent back to QuickEvent are processed completely automatically. The service regularly checks for available updates and applies them to the database. There is also a backup table that stores all processed changes.
+
+## Setup Receipt
+
+You can configure:
+
+- **Event logo** at the top (height can be adjusted)
+  - image is loaded from `OFeed` if uploaded, you have to click `Refresh event image cache`
+- **QR code** with link to the event results and custom caption at the bottom
+  - competitor's class is used and url param `class` is appended so the QR code opens the correct category
+
+![Setup Receipt](/img/tutorials/quickevent/service_additional_settings_merged.png)
 
 ## Run flags
 
