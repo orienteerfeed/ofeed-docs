@@ -26,10 +26,6 @@ Založ novou [issue](https://github.com/orienteerfeed/ofeed/issues) s popisem pr
 
 Na našem [Discord serveru](https://discord.gg/QMvnurgKzU) máme kanál `help` kam můžeš vše hlásit. Přilož prosím související soubory nebo obrázky pokud máš. Buď my nebo někdo z komunity ti může následně snadno poradit situaci vyřešit.
 
-{/\* ### Email
-
-Pošli nám email na <a href="mailto:support@orienteerfeed.com">support@orienteerfeed.com</a>. \*/}
-
 ## Nejčastější dotazy
 
 ### 1. Neukazuje se mi tlačítko co je zobrazené v dokumentaci, co mám dělat?

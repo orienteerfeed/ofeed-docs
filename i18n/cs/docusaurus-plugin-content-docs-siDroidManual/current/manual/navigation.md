@@ -80,5 +80,3 @@ Zde se zobrazují výsledky rozdělené do jednotlivých tratí. Kliknutím na o
 Konečné výsledky je možné uložit jak v klasických formátech – jednoduché a s mezičasy, tak ve speciálních formátech. Tady doporučuju vyzkoušet. Zajímavou možností jsou **kombinované výsledky**, které jsou šikovné při sčítání časů na více tratích. Napadá mě použití při běhání okruhů a my chceme vědět, kdo měl v součtu nejlepší čas nebo udělat orientačně pořadí za celé soustředění.
 
 Nově přibyla možnost **vytisknout celkové výsledky** na bluetooth tiskárně, která se musí nejdříve v nastatení spárovat, aby se ikona tisku (účtenky) zobrazila. Aktuálně je možné vytisknout pouze výsledky všech tratí. Občas je to **hooodně dlouhý** papírek, tak pozor.
-
-<!-- TODO: Přidat foto -->

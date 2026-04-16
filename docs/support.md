@@ -26,10 +26,6 @@ Create a new [issue](https://github.com/orienteerfeed/ofeed/issues) with a descr
 
 Our [Discord server](https://discord.gg/QMvnurgKzU) has a dedicated `help` channel where you can create a new post with a detailed description. Add any related files or images if possible. The OFeed team or other community members can help you resolve the issue.
 
-{/\* ### Email
-
-Send an email to <a href="mailto:support@orienteerfeed.com">support@orienteerfeed.com</a> for support. \*/}
-
 ## FAQ
 
 ### 1. I can't see the button shown in the documentation. What should I do?
