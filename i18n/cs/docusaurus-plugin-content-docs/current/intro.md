@@ -113,3 +113,7 @@ Podpora `OFeedu` pomáhá:
 
 **Každá** forma podpory má smysl – ať už přispěješ kódem, nápadem, testováním nebo finančně.
 Díky, že pomáháš `OFeed` posouvat dál ❤️.
+
+## TL;DR
+
+`OFeed` je **bezplatný open-source** cloudový hub primárně pro **orientační běh**, který udržuje data o závodech synchronizovaná mezi pořádacím softwarem, O Checklistem a dalšími aplikacemi — v reálném čase. Propoj jednou, data si poradí sama.

@@ -113,3 +113,7 @@ Supporting `OFeedu` helps:
 
 **Any** form of support is meaningful – whether you contribute code, ideas, testing, or financially.
 Thank you for helping `OFeed` move forward ❤️.
+
+## TL;DR
+
+`OFeed` is a **free, open-source** cloud hub that keeps your orienteering event data in sync between your organising software, O Checklist, and other apps — in real time. Connect once, stop copy-pasting.
