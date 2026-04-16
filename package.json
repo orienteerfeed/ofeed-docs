@@ -25,6 +25,7 @@
   "dependencies": {
     "@cmfcmf/docusaurus-search-local": "^2.0.1",
     "@docusaurus/core": "3.10.0",
+    "@docusaurus/faster": "^3.10.0",
     "@docusaurus/plugin-content-docs": "^3.10.0",
     "@docusaurus/plugin-pwa": "^3.10.0",
     "@docusaurus/preset-classic": "3.10.0",
@@ -63,5 +64,12 @@
   "engines": {
     "node": ">=20.0",
     "pnpm": ">=10"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@swc/core",
+      "core-js",
+      "core-js-pure"
+    ]
   }
 }

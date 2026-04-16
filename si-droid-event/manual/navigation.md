@@ -81,4 +81,4 @@ Konečné výsledky je možné uložit jak v klasických formátech – jednoduc
 
 Nově přibyla možnost **vytisknout celkové výsledky** na bluetooth tiskárně, která se musí nejdříve v nastatení spárovat, aby se ikona tisku (účtenky) zobrazila. Aktuálně je možné vytisknout pouze výsledky všech tratí. Občas je to **hooodně dlouhý** papírek, tak pozor.
 
-<!-- TODO: Přidat foto -->
+{/_ TODO: Přidat foto _/}

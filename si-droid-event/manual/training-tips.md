@@ -35,4 +35,4 @@ Dalším šikovným detailem je _přidávání pořadového čísla vyčtení_ k
 
 Je šikovné udělat celé soustředění jako jeden závod. Není poté potřeba opakovaně řešit přiřazování čísel čipů a na konci soustředění se dá udělat pro zajímavost export kombinovaných výsledků s celkovými časy na měřených trénincích a pořadím.
 
-<!-- TODO: Obrázek -->
+{/_ TODO: Obrázek _/}
