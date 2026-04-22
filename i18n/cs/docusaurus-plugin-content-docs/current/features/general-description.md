@@ -72,7 +72,7 @@ Akce se nemusí zobrazovat v seznamu v [OFeed](https://orienteerfeed.com/)u ani 
 
 ### Odkaz na akci
 
-Lze využít pro propagaci závodu, např. na webovkách. Tlačítko `Sdílet` usnadňuje sdílení QR kódu se startéry, např. přes chatovací aplikace. Tlačítko `Tisk` generuje dokument, který lze vytisknout a předat startérům.
+Lze využít pro propagaci závodu, např. na webovkách. Tlačítko `Sdílet` usnadňuje sdílení QR kódu na např. přes chatovací aplikace nebo sociálních sítích. Tlačítko `Tisk` generuje dokument, který lze vytisknout a umístit v centru závodu.
 
 ### Nebezpečná zóna
 

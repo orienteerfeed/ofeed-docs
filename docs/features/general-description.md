@@ -72,7 +72,7 @@ You can keep your event invisible in both the [OFeed](https://orienteerfeed.com/
 
 ### Event Link
 
-Can be used for event promotion, e.g. on the website. `Share` button enables sharing QR code with the start crew, e.g. via chat apps. `Print` button generates document that can be printed and provided to the start crew.
+It can be used to promote the race, for example on websites. The `Share` button makes it easy to share a QR code via chat applications or on social media. The `Print` button generates a document that can be printed and placed at the event center.
 
 ### Danger Zone
 
