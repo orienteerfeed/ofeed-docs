@@ -7,8 +7,6 @@ import type * as Preset from "@docusaurus/preset-classic";
 const config: Config = {
   title: "OFeed documentation",
   tagline: "Handle all orienteering event data in one place",
-  favicon:
-    "img/ico/2025-04-24_orienteerfeed_favicon_light_transparent_32x32.png",
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -260,6 +258,8 @@ const config: Config = {
       }),
     },
   ],
+  clientModules: ["./src/clientModules/faviconSwitcher.ts"],
+
   markdown: {
     mermaid: true,
   },
