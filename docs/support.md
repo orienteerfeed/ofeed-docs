@@ -11,6 +11,7 @@ title: "Support"
 - Would you like to help us with translations?
 - Have you found an error or unclear translation?
 - Do you need help learning how to use OFeed?
+- Do you want to consult on solutions for your event organization to make it modern?
 
 We would greatly appreciate any feedback.
 
@@ -24,7 +25,7 @@ Create a new [issue](https://github.com/orienteerfeed/ofeed/issues) with a descr
 
 ### Discord
 
-Our [Discord server](https://discord.gg/QMvnurgKzU) has a dedicated `help` channel where you can create a new post with a detailed description. Add any related files or images if possible. The OFeed team or other community members can help you resolve the issue.
+Our [Discord server](https://discord.gg/QMvnurgKzU) has a dedicated `help` channel where you can create a new post with a detailed description. Add any related files or images if possible. The `OFeed` team or other community members can help you resolve the issue.
 
 ## FAQ
 

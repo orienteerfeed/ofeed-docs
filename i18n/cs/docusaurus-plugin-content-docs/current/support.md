@@ -11,6 +11,7 @@ title: "Podpora"
 - Chceš nám pomoc s překladem?
 - Máme chybu v překladu?
 - Potřebuješ poradit jak OFeed optimálně využívat?
+- Chceš konzultovat řešení u tvého pořádání, aby byla akce moderní?
 
 Budeme moc rádi za jakoukoliv zpětnou vazbu.
 
@@ -24,7 +25,7 @@ Založ novou [issue](https://github.com/orienteerfeed/ofeed/issues) s popisem pr
 
 ### Discord
 
-Na našem [Discord serveru](https://discord.gg/QMvnurgKzU) máme kanál `help` kam můžeš vše hlásit. Přilož prosím související soubory nebo obrázky pokud máš. Buď my nebo někdo z komunity ti může následně snadno poradit situaci vyřešit.
+Na našem [Discord serveru](https://discord.gg/QMvnurgKzU) máme kanál `help` kam můžeš vše hlásit. Přilož prosím související soubory nebo obrázky pokud máš. Buď my nebo kdokoliv z komunity ti může následně snadno poradit situaci vyřešit.
 
 ## Nejčastější dotazy
 
