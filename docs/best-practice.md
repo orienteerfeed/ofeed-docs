@@ -35,13 +35,13 @@ The most important **Settings** by sections:
 
 For more details click [👉](/features/general-description)
 
-## MyResultBoard (MRB)
+## OFeed Board (OFB)
 
 <table class="two-col-table">
 <tr>
 <td>
 
-<img src="/img/logos/mrb.png" alt="MRB logo" width="300" />
+<img src="/img/logos/ofb.png" alt="OFB logo" width="300" />
 
 Based on the number of screens and their size adjust number of columns and scroll speed. We like `Continues scroll` the most.
 
@@ -51,12 +51,12 @@ For a clearer view of the results after the first competitors have finished, you
 
 ### Documentation
 
-For more details click [👉](/features/visualize-data#2-mrb)
+For more details click [👉](/features/visualize-data#2-ofb)
 
 </td>
 <td>
 
-![MRB Settings](/img/tutorials/client/best_practice_mrb.png)
+![OFB Settings](/img/tutorials/client/best_practice_ofb.png)
 
 </td>
 </tr>

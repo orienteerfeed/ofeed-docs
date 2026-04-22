@@ -29,7 +29,7 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
-.mrb-pink {
+.ofb-pink {
   color: white;
   font-weight: bold;
   padding: 5px;
@@ -37,7 +37,7 @@
   background-color: rgba(184, 51, 106);
 }
 
-.mrb-blue {
+.ofb-blue {
   color: white;
   font-weight: bold;
   padding: 5px;
@@ -45,7 +45,7 @@
   background-color: rgba(0, 169, 165);
 }
 
-.mrb-grey {
+.ofb-grey {
   color: white;
   font-weight: bold;
   padding: 5px;

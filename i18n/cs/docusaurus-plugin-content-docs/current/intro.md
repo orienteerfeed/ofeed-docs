@@ -9,7 +9,7 @@ slug: /
 
 Moderní platforma podporující IOF XML pro správu všech dat o závodě na jednom místě. Vyvíjena jako open-source a hostována na adrese [orienteerfeed.com](https://orienteerfeed.com).
 
-Součástí platformy je i [vizualizační aplikace](/features/visualize-data#2-mrb) pro snadnou a moderní vizualizaci startovek/výsledků.
+Součástí platformy je i [vizualizační aplikace](/features/visualize-data#2-ofb) pro snadnou a moderní vizualizaci startovek/výsledků.
 
 ## Hlavní přínosy použítí
 

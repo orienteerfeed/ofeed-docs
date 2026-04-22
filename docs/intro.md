@@ -9,7 +9,7 @@ slug: /
 
 A modern IOF-XML–oriented platform for managing all orienteering event data in one place. Developed as an open-source project and hosted at [orienteerfeed.com](https://orienteerfeed.com).
 
-The platform also has a [specialized app](/features/visualize-data#2-mrb) for modern and interactive start list/results visualization.
+The platform also has a [specialized app](/features/visualize-data#2-ofb) for modern and interactive start list/results visualization.
 
 ## Elevator pitch
 

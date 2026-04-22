@@ -68,7 +68,7 @@ Nejprve je třeba vygenerovat heslo k akci, aby sis mohl zobrazit podrobnosti o 
 
 ### Viditelnost
 
-Akce se nemusí zobrazovat v seznamu v [OFeed](https://orienteerfeed.com/)u ani v [MRB](https://api.orienteerfeed.com/mrb/). Ideální volba pro **testování** nebo **soukromé** akce. Je zachována **plná** funkčnost, ačkoliv akce není v seznamech vidět.
+Akce se nemusí zobrazovat v seznamu v [OFeed](https://orienteerfeed.com/)u ani v [OFB](https://board.orienteerfeed.com). Ideální volba pro **testování** nebo **soukromé** akce. Je zachována **plná** funkčnost, ačkoliv akce není v seznamech vidět.
 
 ### Odkaz na akci
 

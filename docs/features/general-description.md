@@ -68,7 +68,7 @@ First, you need to generate an event password so you can view the app settings.
 
 ### Visibility
 
-You can keep your event invisible in both the [OFeed](https://orienteerfeed.com/) and [MRB](https://api.orienteerfeed.com/mrb/) event lists. Optimal choice for **testing** purposes or **private** events. Everything is working **normally** even though the event is not visible in the lists.
+You can keep your event invisible in both the [OFeed](https://orienteerfeed.com/) and [OFB](https://board.orienteerfeed.com) event lists. Optimal choice for **testing** purposes or **private** events. Everything is working **normally** even though the event is not visible in the lists.
 
 ### Event Link
 

@@ -35,13 +35,13 @@ Nejdůležitější **nastavení** podle sekcí:
 
 Podrobnější informace [👉](/features/general-description)
 
-## MyResultBoard (MRB)
+## OFeed Board (OFB)
 
 <table class="two-col-table">
 <tr>
 <td>
 
-<img src="/img/logos/mrb.png" alt="MRB logo" width="300" />
+<img src="/img/logos/ofb.png" alt="OFB logo" width="300" />
 
 Dle počtu a velikosti obrazovek je ideální upravit množství zobrazovaných sloupců a rychlost posouvání. Doporučujeme `Continues scroll`.
 
@@ -51,12 +51,12 @@ Pro přehlednější zobrazení výsledků po doběhnutí prvních závodníků 
 
 ### Dokumentace
 
-Podrobnější informace [👉](/features/visualize-data#2-mrb)
+Podrobnější informace [👉](/features/visualize-data#2-ofb)
 
 </td>
 <td>
 
-![MRB Settings](/img/tutorials/client/best_practice_mrb.png)
+![OFB Settings](/img/tutorials/client/best_practice_ofb.png)
 
 </td>
 </tr>
