@@ -24,7 +24,7 @@ Počet získaných bodů do rankingu se počítá průběžně.
 
 ## 2. OFB
 
-Mnoh závody ověřená webová aplikace `OFeed Board` (OFB) určená k zobrazování startovek a výsledků v jednom nastavení. Hlavičky názvů kategorií jsou obarveny:
+Mnoha závody ověřená webová aplikace `OFeed Board` (OFB) určená k zobrazování startovek a výsledků v jednom nastavení. Hlavičky názvů kategorií jsou obarveny:
 
 - <span class="ofb-blue">Muži</span>
 - <span class="ofb-pink">Ženy</span>
@@ -34,7 +34,7 @@ Pokud zapneš zobrazení Emoji v tabulce (výchozí nastavení), tak se může u
 
 - 🙈 - diskvalifikován
 - 🏃 - běží
-- 🥺 - nevystartoval
+- 🚷 - nevystartoval
 - 🏴 - diskvalifikace pořadatelem
 - 🦄 - běží mimo soutěž
 - 🛏️ - ještě nevystartoval

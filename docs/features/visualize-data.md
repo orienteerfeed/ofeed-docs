@@ -34,7 +34,7 @@ If you enable emoji display in the table (default option), you will see:
 
 - 🙈 - disqualified
 - 🏃 - running
-- 🥺 - did not start
+- 🚷 - did not start
 - 🏴 - disqualified by the organiser
 - 🦄 - not competing
 - 🛏️ - not started yet
