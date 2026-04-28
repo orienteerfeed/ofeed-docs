@@ -65,6 +65,7 @@ A list of apps integrated with `OFeed`.
 | ✅ | QuickEvent | >= 3.0 | [link](/integrations/quickevent) |
 | ✅ | SI-Droid Event | all | [link](/integrations/joja) |
 | ✅ | O-Pal | all | [link](/integrations/joja) |
+| ✅ | O List | all | [link](/integrations/olist) |
 | ❌ | MeOS | -- | [link](/integrations/meos) |
 
 Data from the platform can be easily integrated into your app through dedicated API endpoints in both directions. List of already supported apps is [👉](/category/integrations).

@@ -63,8 +63,9 @@ Seznam Integrovaných aplikací s `OFeedem`.
 |--|--|--|--|
 | ✅ | O Checklist | >= 5.0 | [odkaz](/integrations/ochecklist) |
 | ✅ | QuickEvent | >= 3.0 | [odkaz](/integrations/quickevent) |
-| ✅ | SI-Droid Event | all | [odkaz](/integrations/joja) |
-| ✅ | O-Pal | all | [odkaz](/integrations/joja) |
+| ✅ | SI-Droid Event | všechny | [odkaz](/integrations/joja) |
+| ✅ | O-Pal | všechny | [odkaz](/integrations/joja) |
+| ✅ | O List | všechny | [link](/integrations/olist
 | ❌ | MeOS | -- | [odkaz](/integrations/meos) |
 
 Nahraná data jsou snadno přístupná dalším aplikacím pomocí připraveného aplikačního rozhraní (API). Seznam již propojených aplikací najdeš [👉](/category/integrations).
