@@ -8,8 +8,12 @@ Vytvoření účtu a užívání je **bezplatné**. Přes tlačítko `Přihlási
 
 ![Sign in](/img/tutorials/client/create-an-account-signin.png)
 
-Vyplň formulář
+Vyplň formulář a potvrď.
 
 ![Create an account](/img/tutorials/client/create-an-account-form.png)
 
-a po potvrzení ti do emailu dorazí potvrzování email o úspěšně registraci. Pak se stačí přihlásit a můžeš rovnou založit svůj první [nový závod](/tutorials/create-a-new-event).
+:::warning[Upozornění]
+Aktuálně se neposílá potvrzovací email.
+:::
+
+Pak se stačí přihlásit a můžeš rovnou založit svůj první [nový závod](/tutorials/create-a-new-event).

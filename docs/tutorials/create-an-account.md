@@ -8,8 +8,12 @@ Create a new user and access all available features for `free`. Simply use the `
 
 ![Sign in](/img/tutorials/client/create-an-account-signin.png)
 
-Fill in the form
+Fill in the form and confirm.
 
 ![Create an account](/img/tutorials/client/create-an-account-form.png)
 
-Check your mailbox for a confirmation message. After that, you can log in and [Create a new event](/tutorials/create-a-new-event) as desired.
+:::warning
+Currently, no confirmation email is being sent.
+:::
+
+After that, you can log in and [Create a new event](/tutorials/create-a-new-event) as desired.
