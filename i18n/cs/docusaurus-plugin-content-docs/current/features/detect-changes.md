@@ -8,7 +8,7 @@ Jde o stěžejní funkci platformy. Změny v nahrávaných datech jsou deteková
 
 ## Zobrazení změn
 
-Reportovací tabulka s filty umožňuje prohlížení a sledování změn v realném čase. Jde využít jako zdroj pro ruční zapracování změn do pořádacího software.
+Reportovací tabulka s filtry umožňuje prohlížení a sledování změn v reálném čase. Jde využít jako zdroj pro ruční zapracování změn do pořádacího software.
 
 Klikni na tlačítko `Report` pro zobrazení tabulky se změnami.
 ![Report open](/img/tutorials/client/report_open.png)

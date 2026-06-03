@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # Analýza mezičasů
 
-V datailu akce přepni na záložku `Mezičasy` a podrobně analyzuj kategorii, která tě zajímá.
+V detailu akce přepni na záložku `Mezičasy` a podrobně analyzuj kategorii, která tě zajímá.
 
 ## Tabulka
 

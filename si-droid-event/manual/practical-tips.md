@@ -68,7 +68,7 @@ V libovolném webovém prohlížeči zkopírujeme adresu, do které doplníme zj
 
 <img src="/img/si-droid-manual/41_generovani_adresa.png" alt="Generování URL" width="260" />
 
-Po stisknutí entru dojde k automatickému spuštění stahování textového suboru, který byl vygenerovaný. Soubor se pojmenuje **CardFileCZ\_**&lt;ORIS ID>**.csv** – ke jménu je připojeno id závodu pro přehlednost. Poté stačí stažený soubor přenést do paměti zařízení a v nastavení aplikace soubor přiřadit.
+Po stisknutí entru dojde k automatickému spuštění stahování textového souboru, který byl vygenerovaný. Soubor se pojmenuje **CardFileCZ\_**&lt;ORIS ID>**.csv** – ke jménu je připojeno id závodu pro přehlednost. Poté stačí stažený soubor přenést do paměti zařízení a v nastavení aplikace soubor přiřadit.
 
 Kompletně odpadá ruční příprava souboru a o to šlo. Stažení můžete udělat rovnou v pořádacím zařízení a odpadá tak i přenos souboru z PC.
 

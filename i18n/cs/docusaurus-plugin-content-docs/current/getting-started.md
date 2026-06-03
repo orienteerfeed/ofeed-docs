@@ -28,4 +28,4 @@ Použij `OFeed` _Service_, koukni na [návod](/integrations/quickevent).
 
 ## Nevíš si rady
 
-Zeptej se komunity co platfomu používá. Způsobů jak se s námi spojit je víc, koukni [sem](/support).
+Zeptej se komunity co platformu používá. Způsobů jak se s námi spojit je víc, koukni [sem](/support).

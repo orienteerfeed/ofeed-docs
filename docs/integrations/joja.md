@@ -44,4 +44,4 @@ A mobile app published as an open-source [project](https://github.com/orienteerf
 
 ### How to setup?
 
-Totorial available [👉](/tutorials/connect-si-droid-connector).
+Tutorial available [👉](/tutorials/connect-si-droid-connector).
