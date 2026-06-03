@@ -25,10 +25,10 @@ Seznam akcí na úvodní stránce má tři režimy:
 
 Zobrazené akce je možné omezit:
 
-- `Všechny` - ukáže všechny akce
-- `Dnes` - aktuálně konané akce
+- `Přehled` - přehled vybraných akcí
 - `Plánované` - akce co se právě připravují
 - `Nedávné` - uspořádané akce od dneška 30 dní zpět
+- `Všechny` - ukáže všechny akce
 
 ## Nastavení akce
 
@@ -36,10 +36,10 @@ Podrobný popis jednotlivých sekcí v nastavení akce.
 
 ### Parametry závodu
 
-- `Štafety` - vyber pokud pořádáš týmový závod (2 a více úseků)
+- `Disciplína` - vyber o jaký typ akce jde
 - `Setinová přesnost`
 - `Ranking` - vyber pro výpočet rankinkových bodů v průběhu závodu
-- `Zveřejněno` - ovlivňuje zobrazení závodu v seznamu akcí na domovské stránce
+- `Zveřejněno` - ovlivňuje zobrazení závodu v seznamu akcí na domovské stránce. Lze také nastavit přeúpínačem v hlavičce nastavení.
 
 ### Zveřejnění a termíny
 
@@ -48,6 +48,10 @@ Slouží k nastavení:
 - kdy se mají zveřejnit mezičasy
 - kdy je možné se přihlašovat
 - označení výsledků na finální
+
+### Import z externího IS
+
+Propojení akce s externím informačním systémem (např. Oris, Eventor) při vytváření nové akce předvyplní formulář.
 
 ### Heslo závodu
 
@@ -62,17 +66,14 @@ Slouží k nastavení:
 Nejprve je třeba vygenerovat heslo k akci, aby sis mohl zobrazit podrobnosti o nastavení aplikací.
 :::
 
-- `O Checklist` - zobrazený QR kód lze jednoduše využít pro napojení `O Checklistu`. Naskenuj kód a potvrď otevření načteného odkazu. Nebo můžeš odkaz přímo otevřít pomocí talčítka s ikonou aplikace.
+- `O Checklist` - zobrazený QR kód lze jednoduše využít pro napojení `O Checklistu`. Naskenuj kód a potvrď otevření načteného odkazu. Nebo můžeš odkaz přímo otevřít pomocí tlačítka s ikonou aplikace.
 - `QuickEvent` - přihlašovací údaje pro nastavení služby
-- `SI-Droid Connector` - zobrazený QR kód lze jednoduše využít pro napojení `SI-Droid Connector`. Naskenuj kód a potvrď otevření načteného odkazu. Nebo můžeš odkaz přímo otevřít pomocí talčítka s ikonou aplikace.
-
-### Viditelnost
-
-Akce se nemusí zobrazovat v seznamu v [OFeed](https://orienteerfeed.com/)u ani v [OFB](https://board.orienteerfeed.com). Ideální volba pro **testování** nebo **soukromé** akce. Je zachována **plná** funkčnost, ačkoliv akce není v seznamech vidět.
+- `SI-Droid Connector` - zobrazený QR kód lze jednoduše využít pro napojení `SI-Droid Connector`. Naskenuj kód a potvrď otevření načteného odkazu. Nebo můžeš odkaz přímo otevřít pomocí tlačítka s ikonou aplikace.
+- `MeOS` - detaily pro napojení přes MOP. Je potřeba nejprve vytvořit vazbu a tám vygenerovat competition ID.
 
 ### Odkaz na akci
 
-Lze využít pro propagaci závodu, např. na webovkách. Tlačítko `Sdílet` usnadňuje sdílení QR kódu na např. přes chatovací aplikace nebo sociálních sítích. Tlačítko `Tisk` generuje dokument, který lze vytisknout a umístit v centru závodu.
+Lze využít pro propagaci závodu, např. na sociálních sítích. Ideální je vyvořit nejdříve tzv. **slug**, ady sdílené url vypadalo pěkně.
 
 ### Nebezpečná zóna
 

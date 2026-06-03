@@ -25,10 +25,10 @@ The list of events on the home page has three modes:
 
 You can filter the displayed events:
 
-- `All` - Shows all events
-- `Today` - Current events
+- `Overview` - Events overview
 - `Upcoming` - Events that are still in the planning stages
 - `Recent` - Events held over the past 30 days
+- `All` - Shows all events
 
 ## Event Settings
 
@@ -36,10 +36,10 @@ Detailed description of each section in the Event Settings.
 
 ### Event Information
 
-- `Relay` - check if your event is team based (2 and more legs)
+- `Discipline` - select the type of event
 - `Hundredth precision`
 - `Ranking` - calculates Czech ranking points in real time
-- `Published` - visible/invisible in the list of events on the homepage
+- `Published` - visible/invisible in the list of events on the homepage. You can also configure this using the toggle switch in the settings header.
 
 ### Publishing and schedule
 
@@ -48,6 +48,10 @@ Used to set:
 - when split times should be published
 - when registration is open
 - whether results are final
+
+### Import from external IS
+
+Link the event to an external information system (e.g., Oris, Eventor) and pre-fill the form when creating a new event.
 
 ### Event Password
 
@@ -63,16 +67,13 @@ First, you need to generate an event password so you can view the app settings.
 :::
 
 - `O Checklist` - shows QR code that can be used for simple `O Checklist` connection. Scan the the code and confirm opening provided link. Or you can open the link by clicking the button with the app icon.
-- `QuickEvent` - Credentials for the Service setup
+- `QuickEvent` - credentials for the Service setup
 - `SI-Droid Connector` - shows QR code that can be used for simple `SI-Droid Connector` connection. Scan the the code and confirm opening provided link. Or you can open the link by clicking the button with the app icon.
-
-### Visibility
-
-You can keep your event invisible in both the [OFeed](https://orienteerfeed.com/) and [OFB](https://board.orienteerfeed.com) event lists. Optimal choice for **testing** purposes or **private** events. Everything is working **normally** even though the event is not visible in the lists.
+- `MeOS` - details for connecting via MOP. You must first create a connection and generate a competition ID there.
 
 ### Event Link
 
-It can be used to promote the race, for example on websites. The `Share` button makes it easy to share a QR code via chat applications or on social media. The `Print` button generates a document that can be printed and placed at the event center.
+This can be used to promote the race, for example on social media. It’s best to create a **slug** first so that the shared URL looks nice.
 
 ### Danger Zone
 
