@@ -58,4 +58,4 @@ Platforma je **zdarma** a vždy bude. Potřebujeme pouze pokrýt **náklady** na
 
 ## Propagace OFeedu
 
-Pomož propagovat OFeed stažením oficiálního loga a jeho umístěním do materiálů k akci – například na mapy, do pokynů nebo do aplikací napojených na OFeed.
+Pomož propagovat OFeed stažením oficiálního [loga](/download/ofeed-logos.zip) a jeho umístěním do materiálů k akci – například na mapy, do pokynů nebo do aplikací napojených na OFeed.
