@@ -22,7 +22,7 @@ Both `OFeed` and `OFeed Docs` can be translated into your language. The already 
 
 ### OFeed
 
-We are using [Weblate](https://hosted.weblate.org/projects/ofeed/), thanks to Michal Čihař.
+We are using [Weblate](https://hosted.weblate.org/projects/ofeed/), thanks to Michal Čihař. Get involved [here](https://hosted.weblate.org/engage/ofeed/).
 
 Available components for translation:
 

@@ -22,7 +22,7 @@ Pokud narazíš na nepřesnost nebo ti v dokumentaci něco není jasné, budeme 
 
 ### OFeed
 
-K překladům používáme [Weblate](https://hosted.weblate.org/projects/ofeed/), děkujeme autorovi Michalu Čihařovi.
+K překladům používáme [Weblate](https://hosted.weblate.org/projects/ofeed/), děkujeme autorovi Michalu Čihařovi. Zapoj se [zde](https://hosted.weblate.org/engage/ofeed/).
 
 Dostupné komponenty k přeložení:
 
