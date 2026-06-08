@@ -12,8 +12,7 @@ Vyplň formulář a potvrď.
 
 ![Create an account](/img/tutorials/client/create-an-account-form.png)
 
-:::warning[Upozornění]
-Aktuálně se neposílá potvrzovací email.
-:::
+Následně ti zkontroluj svoji emailovou schránku a potvrď zadaný email.
+![Confirmation email](/img/tutorials/client/create-an-account-confirmation-email.png)
 
 Pak se stačí přihlásit a můžeš rovnou založit svůj první [nový závod](/tutorials/create-a-new-event).
