@@ -72,10 +72,19 @@ For more details click [👉](/features/visualize-data#2-ofb)
 
 <img src="/img/logos/o_checklist.png" alt="O Checklist logo" width="150" />
 
+:::warning
+Check the mobile signal strength at the start area.
+:::
+
 Recommended `Settings` setup:
 
 - `Time adjustment`
   - Individual start (e.g. +3 min prestart)
+
+  :::warning
+  Check the time on your device to make sure it matches the race time.
+  :::
+
 - `Start window`
   - 1 min
   - Automatic DNS

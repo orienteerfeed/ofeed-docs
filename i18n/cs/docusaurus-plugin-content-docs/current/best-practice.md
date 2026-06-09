@@ -72,10 +72,19 @@ Podrobnější informace [👉](/features/visualize-data#2-ofb)
 
 <img src="/img/logos/o_checklist.png" alt="O Checklist logo" width="150" />
 
+:::warning[Upozornění]
+Ověř kvalitu mobilního signálu v místě startu.
+:::
+
 Doporučené `Nastavení` pro závod:
 
 - `Úprava času`
   - pro intervalový start nejčastěji +3 min
+
+  :::warning[Upozornění]
+  Ověř si čas v použivaném zařízení, že sedí s časem závodu.
+  :::
+
 - `Startovní interval`
   - 1 min
   - Automatické DNS
