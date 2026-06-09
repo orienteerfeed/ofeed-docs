@@ -46,7 +46,11 @@ Pokud chceš přispět a není ti jasné jak na to, koukni na stránku jak nás 
 
 ## Finanční podpora
 
-Platforma je **zdarma** a vždy bude. Potřebujeme pouze pokrýt **náklady** na webhosting nezbytné pro provoz služby. Pokud Ti služba **ušetřila** práci nebo **zvýšila** úroveň Tvojí akce a chceš nás finančně podpořit, můžeš nám koupit symbolickou kávičku [👉](https://buymeacoffee.com/ofeed). Bude moc vděční za jakoukoliv částku. Díky :heart:.
+Platforma je **zdarma** a vždy bude. Potřebujeme pouze pokrýt **náklady** na webhosting nezbytné pro provoz služby. Pokud Ti služba **ušetřila** práci nebo **zvýšila** úroveň Tvojí akce a chceš nás finančně podpořit, můžeš nám koupit symbolickou kávičku [👉](https://buymeacoffee.com/ofeed). Můžeš využít také [Revolut](https://revolut.me/martinbf8) nebo platbu QR kódem. Bude moc vděční za jakoukoliv částku. Díky :heart:.
+
+<div style={{ textAlign: 'center' }}>
+  <img src="/img/support/financial_support.png" alt="QR code payment" width="300" />
+</div>
 
 <div style={{ textAlign: 'center', marginTop: '1.5rem' }}>
   <iframe
