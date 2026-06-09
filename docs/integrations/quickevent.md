@@ -13,17 +13,22 @@ sidebar_position: 2
 ![QE service](/img/tutorials/quickevent/upload-data-qe-service.png)
 
 - Display `Services`
-- Open Service - `settings` icon
+- Open Service - `settings` icon. Opening the settings for the first time shows `Getting started` dialog with the links how to start using `OFeed`.
+
+![Getting Started](/img/tutorials/quickevent/service_getting_started.png)
+
 - Fill in the credentials by pasting copied link, click `Paste setup link`
   1. Copy in `OFeed`
 
-  ![Copy Credentials](/img/tutorials/quickevent/ofeed_qe_credentials.png)
-  2. Paste in `QuickEvent`
+  ![Copy Credentials](/img/tutorials/quickevent/ofeed_qe_credentials.png) 2. Paste in `QuickEvent`
 
   ![Paste Credentials](/img/tutorials/quickevent/service_paste_setup_link.png)
 
 - Test connection by clicking `Test connection` button - name of the event is displayed if everything is ok
-- Click <span class="red-qe-service-dot">OFF</span> to enable processing of changes from `O Checklist`, if you use it -> it will change to <span class="green-qe-service-dot">ON</span>
+- Click the toggle button to enable processing of changes from `O Checklist` if you use it
+
+![Process changes](/img/tutorials/quickevent/service_process_changes.png)
+
 - Start the service - `play` icon, the <span class="red-qe-service-dot">red</span> dot goes <span class="green-qe-service-dot">green</span>
 
 ![QE Service Off](/img/tutorials/client/qe_ofeed_service_off.png)
@@ -54,17 +59,14 @@ Use `Run flags` for `DNS` instead of the off-race checkbox, which removes the co
 ## How does the service work
 
 - Uploads starlist on startup
-- Every `xx` sec uploads results
+- Every `xx` sec uploads startlist, results and processes changes (when enabled)
 - Reacts on database events
   - competitor edited
   - competitor added
   - competitor deleted
   - competitor read-out
-
-## Known limitations
-
-- Direct table edits in the `Runs` are **not** handled at this moment.
-- Relay xml can not pass iof xml validation -> uncheck checkbox `Run IOF XML validation`
+- Sends just changed data
+- Validates credentials in regular interval
 
 ## QuickEvent Tutorial
 
