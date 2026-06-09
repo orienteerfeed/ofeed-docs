@@ -66,7 +66,7 @@ Use `Run flags` for `DNS` instead of the off-race checkbox, which removes the co
   - competitor deleted
   - competitor read-out
 - Sends just changed data
-- Fills column `Corridor` with the change time from `O Checklistu`
+- Fills column `Corridor` with the change time from `O Checklist`
 - Validates credentials in regular interval
 
 ## QuickEvent Tutorial
