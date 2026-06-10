@@ -26,9 +26,13 @@ Czech ranking points are calculated on the fly.
 
 An application proven in many races called `OFeed Board` (OFB) displays the start list and results in a single interface. The class headers are color-coded:
 
-- <span class="ofb-blue">Men</span>
-- <span class="ofb-pink">Women</span>
+- <span class="ofb-blue">Men</span> (class name starts with **D** or **W**)
+- <span class="ofb-pink">Women</span> (class name starts with **H** or **M**)
 - <span class="ofb-grey">Other</span> (e.g., `T`, `Open`)
+
+:::info
+The header color can be manually adjusted if needed.
+:::
 
 If you enable emoji display in the table (default option), you will see:
 
@@ -53,7 +57,11 @@ The recommended browsers are Google Chrome and Firefox. Other browsers may encou
 ### Setup
 
 Click the `Settings` button in the upper right corner to access advanced options. You can adjust which classes are displayed, the number of columns used (based on your screen size and orientation), the order of the classes, scrolling style, and table content.
-![OFB setup](/img/tutorials/ofb/visualize-data-ofb-settings.png)
+
+![OFB setup 1](/img/tutorials/ofb/ofb_setup_01.png)
+![OFB setup 2](/img/tutorials/ofb/ofb_setup_02.png)
+
+You can use _drag-and-drop_ or _arrow buttons_ to reorder the classes. You can also adjust the number of _pinned leaders_ — a useful option for following the top of the field
 
 #### Offline Mode
 

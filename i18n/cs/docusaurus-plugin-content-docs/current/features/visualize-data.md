@@ -26,9 +26,13 @@ Počet získaných bodů do rankingu se počítá průběžně.
 
 Mnoha závody ověřená webová aplikace `OFeed Board` (OFB) určená k zobrazování startovek a výsledků v jednom nastavení. Hlavičky názvů kategorií jsou obarveny:
 
-- <span class="ofb-blue">Muži</span>
-- <span class="ofb-pink">Ženy</span>
+- <span class="ofb-blue">Muži</span> (název kategorie začíná na **H** nebo **M**)
+- <span class="ofb-pink">Ženy</span> (název kategorie začíná na **D** nebo **W**)
 - <span class="ofb-grey">Ostatní</span> (např. `T`, `Z2`)
+
+:::info
+Barvu hlavičky je možné případně ručně upravit.
+:::
 
 Pokud zapneš zobrazení Emoji v tabulce (výchozí nastavení), tak se může ukazovat:
 
@@ -53,7 +57,11 @@ Doporučenými prohlížeči pro správné zobrazení jsou Google Chrome a Firef
 ### Nastavení
 
 Pomocí tlačítka `Settings` v pravém horním rohu jde otevřít okno s detailním nastavením zobrazení. Lze vybrat jaké kategorie se mají ukazovat, v kolika sloupcích mají být (záleží na využitém hardwaru), pořadí kategorií, způsob posouvání či zobrazovaný obsah. Nejlepší vše vyzkoušet a vybrat vyhovující nastavení.
-![OFB setup](/img/tutorials/ofb/visualize-data-ofb-settings.png)
+
+![OFB setup 1](/img/tutorials/ofb/ofb_setup_01.png)
+![OFB setup 2](/img/tutorials/ofb/ofb_setup_02.png)
+
+Pro změnu pořadí kategorií můžete použít _drag-and-drop_ nebo _šipky_. Šikovná je možnost upravit počet _připnutých vedoucích_ závodníků.
 
 #### Offline režim
 
