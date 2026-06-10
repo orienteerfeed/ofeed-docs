@@ -19,5 +19,13 @@ Je možné nahrávat startovky a výsledky pomocí `MeOS Online Protocolu XML 2.
 4. Nastav dle screenshotu (hodnoty ze záložky `MeOS` v kartě `Nastavení aplikací`)
    ![Service setup](/img/tutorials/meos/meos_service_setup.png)
 
+   :::tip
+   Nezapomeň zaškrtnout checkbox `Send all punches after card readout`, který pošle do `OFeedu` mezičasy a umožní jejich analýzu.
+   :::
+
 5. Ulož nastavení a službu spusť
    ![Service running](/img/tutorials/meos/meos_service_running.png)
+
+:::tip
+Pokud používáš MeOS Online Protocol a máš stabilní připojení k internetu, můžeš zkusit nastavit interval exportu na 0 (nechat prázdné). MeOS pak bude závod aktualizovat okamžitě, jakmile detekuje změnu dat.
+:::
